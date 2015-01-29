@@ -1,0 +1,26 @@
+"hw2_temp/providedtests.ml" 10 243 247 "hw2_temp/providedtests.ml" 10 243 261
+type(
+  Assert.suite
+)
+ident(
+  def provided_tests "hw2_temp/providedtests.ml" 14 368 369 "hw2_temp/providedtests.ml" 1 0 -1
+)
+"hw2_temp/providedtests.ml" 11 274 282 "hw2_temp/providedtests.ml" 11 274 357
+type(
+  string
+)
+"hw2_temp/providedtests.ml" 11 274 359 "hw2_temp/providedtests.ml" 12 361 364
+type(
+  (string * Assert.assertion) list
+)
+"hw2_temp/providedtests.ml" 11 274 276 "hw2_temp/providedtests.ml" 12 361 365
+type(
+  Assert.assertion Assert.test
+)
+"hw2_temp/providedtests.ml" 10 243 272 "hw2_temp/providedtests.ml" 14 368 369
+type(
+  Assert.suite
+)
+type(
+  Assert.suite
+)

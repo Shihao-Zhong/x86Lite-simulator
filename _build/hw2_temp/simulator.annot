@@ -1,0 +1,2655 @@
+"hw2_temp/simulator.ml" 12 275 279 "hw2_temp/simulator.ml" 12 275 286
+type(
+  int64
+)
+ident(
+  def mem_bot "hw2_temp/simulator.ml" 13 335 335 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 12 275 289 "hw2_temp/simulator.ml" 12 275 298
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 13 335 339 "hw2_temp/simulator.ml" 13 335 346
+type(
+  int64
+)
+ident(
+  def mem_top "hw2_temp/simulator.ml" 14 407 407 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 13 335 349 "hw2_temp/simulator.ml" 13 335 358
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 14 407 411 "hw2_temp/simulator.ml" 14 407 419
+type(
+  int
+)
+ident(
+  def mem_size "hw2_temp/simulator.ml" 15 463 463 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 14 407 422 "hw2_temp/simulator.ml" 14 407 434
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 14 407 436 "hw2_temp/simulator.ml" 14 407 445
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.sub
+)
+"hw2_temp/simulator.ml" 14 407 446 "hw2_temp/simulator.ml" 14 407 453
+type(
+  int64
+)
+ident(
+  int_ref mem_top "hw2_temp/simulator.ml" 13 335 339 "hw2_temp/simulator.ml" 13 335 346
+)
+"hw2_temp/simulator.ml" 14 407 454 "hw2_temp/simulator.ml" 14 407 461
+type(
+  int64
+)
+ident(
+  int_ref mem_bot "hw2_temp/simulator.ml" 12 275 279 "hw2_temp/simulator.ml" 12 275 286
+)
+"hw2_temp/simulator.ml" 14 407 435 "hw2_temp/simulator.ml" 14 407 462
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 14 407 422 "hw2_temp/simulator.ml" 14 407 462
+type(
+  int
+)
+"hw2_temp/simulator.ml" 15 463 467 "hw2_temp/simulator.ml" 15 463 472
+type(
+  int
+)
+ident(
+  def nregs "hw2_temp/simulator.ml" 16 516 516 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 15 463 475 "hw2_temp/simulator.ml" 15 463 477
+type(
+  int
+)
+"hw2_temp/simulator.ml" 16 516 520 "hw2_temp/simulator.ml" 16 516 528
+type(
+  int64
+)
+ident(
+  def ins_size "hw2_temp/simulator.ml" 17 588 588 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 16 516 531 "hw2_temp/simulator.ml" 16 516 533
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 17 588 592 "hw2_temp/simulator.ml" 17 588 601
+type(
+  int64
+)
+ident(
+  def exit_addr "hw2_temp/simulator.ml" 21 799 799 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 17 588 604 "hw2_temp/simulator.ml" 17 588 612
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+type(
+  X86.reg -> int
+)
+ident(
+  def rind "hw2_temp/simulator.ml" 86 2960 2960 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 77 2645 2649 "hw2_temp/simulator.ml" 77 2645 2652
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 77 2645 2656 "hw2_temp/simulator.ml" 77 2645 2658
+type(
+  int
+)
+"hw2_temp/simulator.ml" 78 2659 2663 "hw2_temp/simulator.ml" 78 2659 2666
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 78 2659 2670 "hw2_temp/simulator.ml" 78 2659 2671
+type(
+  int
+)
+"hw2_temp/simulator.ml" 78 2659 2675 "hw2_temp/simulator.ml" 78 2659 2678
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 78 2659 2682 "hw2_temp/simulator.ml" 78 2659 2683
+type(
+  int
+)
+"hw2_temp/simulator.ml" 78 2659 2687 "hw2_temp/simulator.ml" 78 2659 2690
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 78 2659 2694 "hw2_temp/simulator.ml" 78 2659 2695
+type(
+  int
+)
+"hw2_temp/simulator.ml" 78 2659 2699 "hw2_temp/simulator.ml" 78 2659 2702
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 78 2659 2706 "hw2_temp/simulator.ml" 78 2659 2707
+type(
+  int
+)
+"hw2_temp/simulator.ml" 79 2708 2712 "hw2_temp/simulator.ml" 79 2708 2715
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 79 2708 2719 "hw2_temp/simulator.ml" 79 2708 2720
+type(
+  int
+)
+"hw2_temp/simulator.ml" 79 2708 2724 "hw2_temp/simulator.ml" 79 2708 2727
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 79 2708 2731 "hw2_temp/simulator.ml" 79 2708 2732
+type(
+  int
+)
+"hw2_temp/simulator.ml" 79 2708 2736 "hw2_temp/simulator.ml" 79 2708 2739
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 79 2708 2743 "hw2_temp/simulator.ml" 79 2708 2744
+type(
+  int
+)
+"hw2_temp/simulator.ml" 79 2708 2748 "hw2_temp/simulator.ml" 79 2708 2751
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 79 2708 2755 "hw2_temp/simulator.ml" 79 2708 2756
+type(
+  int
+)
+"hw2_temp/simulator.ml" 80 2757 2761 "hw2_temp/simulator.ml" 80 2757 2764
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 80 2757 2768 "hw2_temp/simulator.ml" 80 2757 2769
+type(
+  int
+)
+"hw2_temp/simulator.ml" 80 2757 2773 "hw2_temp/simulator.ml" 80 2757 2776
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 80 2757 2780 "hw2_temp/simulator.ml" 80 2757 2781
+type(
+  int
+)
+"hw2_temp/simulator.ml" 80 2757 2785 "hw2_temp/simulator.ml" 80 2757 2788
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 80 2757 2792 "hw2_temp/simulator.ml" 80 2757 2794
+type(
+  int
+)
+"hw2_temp/simulator.ml" 80 2757 2797 "hw2_temp/simulator.ml" 80 2757 2800
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 80 2757 2804 "hw2_temp/simulator.ml" 80 2757 2806
+type(
+  int
+)
+"hw2_temp/simulator.ml" 81 2807 2811 "hw2_temp/simulator.ml" 81 2807 2814
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 81 2807 2818 "hw2_temp/simulator.ml" 81 2807 2820
+type(
+  int
+)
+"hw2_temp/simulator.ml" 81 2807 2823 "hw2_temp/simulator.ml" 81 2807 2826
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 81 2807 2830 "hw2_temp/simulator.ml" 81 2807 2832
+type(
+  int
+)
+"hw2_temp/simulator.ml" 81 2807 2835 "hw2_temp/simulator.ml" 81 2807 2838
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 81 2807 2842 "hw2_temp/simulator.ml" 81 2807 2844
+type(
+  int
+)
+"hw2_temp/simulator.ml" 81 2807 2847 "hw2_temp/simulator.ml" 81 2807 2850
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 81 2807 2854 "hw2_temp/simulator.ml" 81 2807 2856
+type(
+  int
+)
+"hw2_temp/simulator.ml" 76 2612 2636 "hw2_temp/simulator.ml" 81 2807 2856
+type(
+  X86.reg -> int
+)
+type(
+  X86.reg -> int
+)
+"hw2_temp/simulator.ml" 86 2960 2964 "hw2_temp/simulator.ml" 86 2960 2979
+type(
+  int64 -> sbyte list
+)
+ident(
+  def sbytes_of_int64 "hw2_temp/simulator.ml" 93 3216 3216 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 86 2960 2981 "hw2_temp/simulator.ml" 86 2960 2982
+type(
+  int64
+)
+ident(
+  def i "hw2_temp/simulator.ml" 86 2960 2990 "hw2_temp/simulator.ml" 90 3123 3164
+)
+"hw2_temp/simulator.ml" 89 3045 3047 "hw2_temp/simulator.ml" 89 3045 3055
+type(
+  (int -> sbyte) -> int list -> sbyte list
+)
+ident(
+  ext_ref List.map
+)
+"hw2_temp/simulator.ml" 89 3045 3061 "hw2_temp/simulator.ml" 89 3045 3062
+type(
+  int
+)
+ident(
+  def n "hw2_temp/simulator.ml" 89 3045 3066 "hw2_temp/simulator.ml" 89 3045 3121
+)
+"hw2_temp/simulator.ml" 89 3045 3072 "hw2_temp/simulator.ml" 89 3045 3083
+type(
+  int64 -> int -> int64
+)
+ident(
+  ext_ref Int64.shift_right
+)
+"hw2_temp/simulator.ml" 89 3045 3084 "hw2_temp/simulator.ml" 89 3045 3085
+type(
+  int64
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 86 2960 2981 "hw2_temp/simulator.ml" 86 2960 2982
+)
+"hw2_temp/simulator.ml" 89 3045 3086 "hw2_temp/simulator.ml" 89 3045 3087
+type(
+  int
+)
+ident(
+  int_ref n "hw2_temp/simulator.ml" 89 3045 3061 "hw2_temp/simulator.ml" 89 3045 3062
+)
+"hw2_temp/simulator.ml" 89 3045 3072 "hw2_temp/simulator.ml" 89 3045 3087
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 89 3045 3088 "hw2_temp/simulator.ml" 89 3045 3090
+type(
+  int64 -> (int64 -> int64) -> int64
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"hw2_temp/simulator.ml" 89 3045 3091 "hw2_temp/simulator.ml" 89 3045 3097
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.logand
+)
+"hw2_temp/simulator.ml" 89 3045 3098 "hw2_temp/simulator.ml" 89 3045 3103
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 89 3045 3091 "hw2_temp/simulator.ml" 89 3045 3103
+type(
+  int64 -> int64
+)
+"hw2_temp/simulator.ml" 89 3045 3072 "hw2_temp/simulator.ml" 89 3045 3103
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 89 3045 3104 "hw2_temp/simulator.ml" 89 3045 3106
+type(
+  int64 -> (int64 -> int) -> int
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"hw2_temp/simulator.ml" 89 3045 3107 "hw2_temp/simulator.ml" 89 3045 3113
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 89 3045 3072 "hw2_temp/simulator.ml" 89 3045 3113
+type(
+  int
+)
+"hw2_temp/simulator.ml" 89 3045 3114 "hw2_temp/simulator.ml" 89 3045 3116
+type(
+  int -> (int -> char) -> char
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"hw2_temp/simulator.ml" 89 3045 3117 "hw2_temp/simulator.ml" 89 3045 3120
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"hw2_temp/simulator.ml" 89 3045 3071 "hw2_temp/simulator.ml" 89 3045 3121
+type(
+  char
+)
+"hw2_temp/simulator.ml" 89 3045 3066 "hw2_temp/simulator.ml" 89 3045 3121
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 89 3045 3056 "hw2_temp/simulator.ml" 89 3045 3122
+type(
+  int -> sbyte
+)
+"hw2_temp/simulator.ml" 90 3123 3135 "hw2_temp/simulator.ml" 90 3123 3136
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3138 "hw2_temp/simulator.ml" 90 3123 3139
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3141 "hw2_temp/simulator.ml" 90 3123 3143
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3145 "hw2_temp/simulator.ml" 90 3123 3147
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3149 "hw2_temp/simulator.ml" 90 3123 3151
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3153 "hw2_temp/simulator.ml" 90 3123 3155
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3157 "hw2_temp/simulator.ml" 90 3123 3159
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3161 "hw2_temp/simulator.ml" 90 3123 3163
+type(
+  int
+)
+"hw2_temp/simulator.ml" 90 3123 3134 "hw2_temp/simulator.ml" 90 3123 3164
+type(
+  int list
+)
+"hw2_temp/simulator.ml" 89 3045 3047 "hw2_temp/simulator.ml" 90 3123 3164
+type(
+  sbyte list
+)
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 93 3216 3220 "hw2_temp/simulator.ml" 93 3216 3235
+type(
+  sbyte list -> int64
+)
+ident(
+  def int64_of_sbytes "hw2_temp/simulator.ml" 103 3486 3486 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 93 3216 3237 "hw2_temp/simulator.ml" 93 3216 3239
+type(
+  sbyte list
+)
+ident(
+  def bs "hw2_temp/simulator.ml" 93 3216 3252 "hw2_temp/simulator.ml" 100 3408 3433
+)
+"hw2_temp/simulator.ml" 96 3301 3307 "hw2_temp/simulator.ml" 96 3301 3308
+type(
+  sbyte -> int64 -> int64
+)
+ident(
+  def f "hw2_temp/simulator.ml" 100 3408 3410 "hw2_temp/simulator.ml" 100 3408 3433
+)
+"hw2_temp/simulator.ml" 96 3301 3309 "hw2_temp/simulator.ml" 96 3301 3310
+type(
+  sbyte
+)
+ident(
+  def b "hw2_temp/simulator.ml" 96 3301 3311 "hw2_temp/simulator.ml" 98 3389 3402
+)
+"hw2_temp/simulator.ml" 96 3301 3311 "hw2_temp/simulator.ml" 96 3301 3312
+type(
+  int64
+)
+ident(
+  def i "hw2_temp/simulator.ml" 96 3301 3315 "hw2_temp/simulator.ml" 98 3389 3402
+)
+"hw2_temp/simulator.ml" 96 3301 3321 "hw2_temp/simulator.ml" 96 3301 3322
+type(
+  sbyte
+)
+ident(
+  int_ref b "hw2_temp/simulator.ml" 96 3301 3309 "hw2_temp/simulator.ml" 96 3301 3310
+)
+"hw2_temp/simulator.ml" 97 3328 3339 "hw2_temp/simulator.ml" 97 3328 3340
+type(
+  char
+)
+ident(
+  def c "hw2_temp/simulator.ml" 97 3328 3344 "hw2_temp/simulator.ml" 97 3328 3388
+)
+"hw2_temp/simulator.ml" 97 3328 3334 "hw2_temp/simulator.ml" 97 3328 3340
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 97 3328 3344 "hw2_temp/simulator.ml" 97 3328 3349
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.logor
+)
+"hw2_temp/simulator.ml" 97 3328 3351 "hw2_temp/simulator.ml" 97 3328 3361
+type(
+  int64 -> int -> int64
+)
+ident(
+  ext_ref Int64.shift_left
+)
+"hw2_temp/simulator.ml" 97 3328 3362 "hw2_temp/simulator.ml" 97 3328 3363
+type(
+  int64
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 96 3301 3311 "hw2_temp/simulator.ml" 96 3301 3312
+)
+"hw2_temp/simulator.ml" 97 3328 3364 "hw2_temp/simulator.ml" 97 3328 3365
+type(
+  int
+)
+"hw2_temp/simulator.ml" 97 3328 3350 "hw2_temp/simulator.ml" 97 3328 3366
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 97 3328 3368 "hw2_temp/simulator.ml" 97 3328 3369
+type(
+  char
+)
+ident(
+  int_ref c "hw2_temp/simulator.ml" 97 3328 3339 "hw2_temp/simulator.ml" 97 3328 3340
+)
+"hw2_temp/simulator.ml" 97 3328 3370 "hw2_temp/simulator.ml" 97 3328 3372
+type(
+  char -> (char -> int) -> int
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"hw2_temp/simulator.ml" 97 3328 3373 "hw2_temp/simulator.ml" 97 3328 3377
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"hw2_temp/simulator.ml" 97 3328 3368 "hw2_temp/simulator.ml" 97 3328 3377
+type(
+  int
+)
+"hw2_temp/simulator.ml" 97 3328 3378 "hw2_temp/simulator.ml" 97 3328 3380
+type(
+  int -> (int -> int64) -> int64
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"hw2_temp/simulator.ml" 97 3328 3381 "hw2_temp/simulator.ml" 97 3328 3387
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"hw2_temp/simulator.ml" 97 3328 3367 "hw2_temp/simulator.ml" 97 3328 3388
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 97 3328 3344 "hw2_temp/simulator.ml" 97 3328 3388
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 98 3389 3395 "hw2_temp/simulator.ml" 98 3389 3396
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 98 3389 3400 "hw2_temp/simulator.ml" 98 3389 3402
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 96 3301 3315 "hw2_temp/simulator.ml" 98 3389 3402
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 100 3408 3410 "hw2_temp/simulator.ml" 100 3408 3425
+type(
+  (sbyte -> int64 -> int64) -> sbyte list -> int64 -> int64
+)
+ident(
+  ext_ref List.fold_right
+)
+"hw2_temp/simulator.ml" 100 3408 3426 "hw2_temp/simulator.ml" 100 3408 3427
+type(
+  sbyte -> int64 -> int64
+)
+ident(
+  int_ref f "hw2_temp/simulator.ml" 96 3301 3307 "hw2_temp/simulator.ml" 96 3301 3308
+)
+"hw2_temp/simulator.ml" 100 3408 3428 "hw2_temp/simulator.ml" 100 3408 3430
+type(
+  sbyte list
+)
+ident(
+  int_ref bs "hw2_temp/simulator.ml" 93 3216 3237 "hw2_temp/simulator.ml" 93 3216 3239
+)
+"hw2_temp/simulator.ml" 100 3408 3431 "hw2_temp/simulator.ml" 100 3408 3433
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 100 3408 3410 "hw2_temp/simulator.ml" 100 3408 3433
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 96 3301 3303 "hw2_temp/simulator.ml" 100 3408 3433
+type(
+  int64
+)
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 103 3486 3490 "hw2_temp/simulator.ml" 103 3486 3506
+type(
+  string -> sbyte list
+)
+ident(
+  def sbytes_of_string "hw2_temp/simulator.ml" 111 3723 3723 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 103 3486 3508 "hw2_temp/simulator.ml" 103 3486 3509
+type(
+  string
+)
+ident(
+  def s "hw2_temp/simulator.ml" 103 3486 3518 "hw2_temp/simulator.ml" 108 3637 3680
+)
+"hw2_temp/simulator.ml" 104 3533 3543 "hw2_temp/simulator.ml" 104 3533 3547
+type(
+  sbyte list -> int -> sbyte list
+)
+ident(
+  def loop "hw2_temp/simulator.ml" 104 3533 3535 "hw2_temp/simulator.ml" 108 3637 3680
+)
+"hw2_temp/simulator.ml" 104 3533 3548 "hw2_temp/simulator.ml" 104 3533 3551
+type(
+  sbyte list
+)
+ident(
+  def acc "hw2_temp/simulator.ml" 104 3533 3554 "hw2_temp/simulator.ml" 106 3589 3631
+)
+"hw2_temp/simulator.ml" 105 3563 3569 "hw2_temp/simulator.ml" 105 3563 3570
+type(
+  int
+)
+ident(
+  def i "hw2_temp/simulator.ml" 105 3563 3571 "hw2_temp/simulator.ml" 105 3563 3588
+)
+"hw2_temp/simulator.ml" 105 3563 3576 "hw2_temp/simulator.ml" 105 3563 3577
+type(
+  int
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 105 3563 3569 "hw2_temp/simulator.ml" 105 3563 3570
+)
+"hw2_temp/simulator.ml" 105 3563 3578 "hw2_temp/simulator.ml" 105 3563 3579
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"hw2_temp/simulator.ml" 105 3563 3580 "hw2_temp/simulator.ml" 105 3563 3581
+type(
+  int
+)
+"hw2_temp/simulator.ml" 105 3563 3576 "hw2_temp/simulator.ml" 105 3563 3581
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 105 3563 3585 "hw2_temp/simulator.ml" 105 3563 3588
+type(
+  sbyte list
+)
+ident(
+  int_ref acc "hw2_temp/simulator.ml" 104 3533 3548 "hw2_temp/simulator.ml" 104 3533 3551
+)
+"hw2_temp/simulator.ml" 106 3589 3595 "hw2_temp/simulator.ml" 106 3589 3596
+type(
+  int
+)
+ident(
+  def i "hw2_temp/simulator.ml" 106 3589 3600 "hw2_temp/simulator.ml" 106 3589 3631
+)
+"hw2_temp/simulator.ml" 106 3589 3600 "hw2_temp/simulator.ml" 106 3589 3604
+type(
+  sbyte list -> int -> sbyte list
+)
+ident(
+  int_ref loop "hw2_temp/simulator.ml" 104 3533 3543 "hw2_temp/simulator.ml" 104 3533 3547
+)
+"hw2_temp/simulator.ml" 106 3589 3611 "hw2_temp/simulator.ml" 106 3589 3612
+type(
+  string
+)
+ident(
+  int_ref s "hw2_temp/simulator.ml" 103 3486 3508 "hw2_temp/simulator.ml" 103 3486 3509
+)
+"hw2_temp/simulator.ml" 106 3589 3614 "hw2_temp/simulator.ml" 106 3589 3615
+type(
+  int
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 106 3589 3595 "hw2_temp/simulator.ml" 106 3589 3596
+)
+"hw2_temp/simulator.ml" 106 3589 3611 "hw2_temp/simulator.ml" 106 3589 3616
+type(
+  char
+)
+"hw2_temp/simulator.ml" 106 3589 3606 "hw2_temp/simulator.ml" 106 3589 3616
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 106 3589 3618 "hw2_temp/simulator.ml" 106 3589 3621
+type(
+  sbyte list
+)
+ident(
+  int_ref acc "hw2_temp/simulator.ml" 104 3533 3548 "hw2_temp/simulator.ml" 104 3533 3551
+)
+"hw2_temp/simulator.ml" 106 3589 3605 "hw2_temp/simulator.ml" 106 3589 3622
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 106 3589 3624 "hw2_temp/simulator.ml" 106 3589 3628
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"hw2_temp/simulator.ml" 106 3589 3629 "hw2_temp/simulator.ml" 106 3589 3630
+type(
+  int
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 106 3589 3595 "hw2_temp/simulator.ml" 106 3589 3596
+)
+"hw2_temp/simulator.ml" 106 3589 3623 "hw2_temp/simulator.ml" 106 3589 3631
+type(
+  int
+)
+"hw2_temp/simulator.ml" 106 3589 3600 "hw2_temp/simulator.ml" 106 3589 3631
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 104 3533 3554 "hw2_temp/simulator.ml" 106 3589 3631
+type(
+  int -> sbyte list
+)
+"hw2_temp/simulator.ml" 108 3637 3639 "hw2_temp/simulator.ml" 108 3637 3643
+type(
+  sbyte list -> int -> sbyte list
+)
+ident(
+  int_ref loop "hw2_temp/simulator.ml" 104 3533 3543 "hw2_temp/simulator.ml" 104 3533 3547
+)
+"hw2_temp/simulator.ml" 108 3637 3650 "hw2_temp/simulator.ml" 108 3637 3656
+type(
+  char
+)
+"hw2_temp/simulator.ml" 108 3637 3645 "hw2_temp/simulator.ml" 108 3637 3656
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 108 3637 3644 "hw2_temp/simulator.ml" 108 3637 3657
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 108 3637 3639 "hw2_temp/simulator.ml" 108 3637 3657
+type(
+  int -> sbyte list
+)
+"hw2_temp/simulator.ml" 108 3637 3658 "hw2_temp/simulator.ml" 108 3637 3660
+type(
+  (int -> sbyte list) -> int -> sbyte list
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"hw2_temp/simulator.ml" 108 3637 3661 "hw2_temp/simulator.ml" 108 3637 3674
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"hw2_temp/simulator.ml" 108 3637 3675 "hw2_temp/simulator.ml" 108 3637 3676
+type(
+  string
+)
+ident(
+  int_ref s "hw2_temp/simulator.ml" 103 3486 3508 "hw2_temp/simulator.ml" 103 3486 3509
+)
+"hw2_temp/simulator.ml" 108 3637 3661 "hw2_temp/simulator.ml" 108 3637 3676
+type(
+  int
+)
+"hw2_temp/simulator.ml" 108 3637 3677 "hw2_temp/simulator.ml" 108 3637 3678
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"hw2_temp/simulator.ml" 108 3637 3679 "hw2_temp/simulator.ml" 108 3637 3680
+type(
+  int
+)
+"hw2_temp/simulator.ml" 108 3637 3661 "hw2_temp/simulator.ml" 108 3637 3680
+type(
+  int
+)
+"hw2_temp/simulator.ml" 108 3637 3639 "hw2_temp/simulator.ml" 108 3637 3680
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 104 3533 3535 "hw2_temp/simulator.ml" 108 3637 3680
+type(
+  sbyte list
+)
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 111 3723 3727 "hw2_temp/simulator.ml" 111 3723 3740
+type(
+  X86.ins -> sbyte list
+)
+ident(
+  def sbytes_of_ins "hw2_temp/simulator.ml" 121 4045 4045 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 111 3723 3742 "hw2_temp/simulator.ml" 111 3723 3744
+type(
+  X86.opcode
+)
+ident(
+  def op "hw2_temp/simulator.ml" 111 3723 3756 "hw2_temp/simulator.ml" 118 3955 4002
+)
+"hw2_temp/simulator.ml" 111 3723 3746 "hw2_temp/simulator.ml" 111 3723 3750
+type(
+  X86.operand list
+)
+ident(
+  def args "hw2_temp/simulator.ml" 111 3723 3756 "hw2_temp/simulator.ml" 118 3955 4002
+)
+"hw2_temp/simulator.ml" 111 3723 3742 "hw2_temp/simulator.ml" 111 3723 3750
+type(
+  X86.ins
+)
+"hw2_temp/simulator.ml" 112 3771 3777 "hw2_temp/simulator.ml" 112 3771 3782
+type(
+  X86.operand -> unit
+)
+ident(
+  def check "hw2_temp/simulator.ml" 117 3931 3933 "hw2_temp/simulator.ml" 118 3955 4002
+)
+"hw2_temp/simulator.ml" 113 3794 3809 "hw2_temp/simulator.ml" 113 3794 3810
+type(
+  X86.lbl
+)
+"hw2_temp/simulator.ml" 113 3794 3804 "hw2_temp/simulator.ml" 113 3794 3811
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 113 3794 3800 "hw2_temp/simulator.ml" 113 3794 3811
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 113 3794 3824 "hw2_temp/simulator.ml" 113 3794 3825
+type(
+  X86.lbl
+)
+"hw2_temp/simulator.ml" 113 3794 3819 "hw2_temp/simulator.ml" 113 3794 3826
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 113 3794 3814 "hw2_temp/simulator.ml" 113 3794 3826
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 113 3794 3800 "hw2_temp/simulator.ml" 113 3794 3826
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 113 3794 3839 "hw2_temp/simulator.ml" 113 3794 3840
+type(
+  X86.lbl
+)
+"hw2_temp/simulator.ml" 113 3794 3835 "hw2_temp/simulator.ml" 113 3794 3840
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 113 3794 3842 "hw2_temp/simulator.ml" 113 3794 3843
+type(
+  X86.reg
+)
+"hw2_temp/simulator.ml" 113 3794 3834 "hw2_temp/simulator.ml" 113 3794 3844
+type(
+  X86.imm * X86.reg
+)
+"hw2_temp/simulator.ml" 113 3794 3829 "hw2_temp/simulator.ml" 113 3794 3844
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 113 3794 3800 "hw2_temp/simulator.ml" 113 3794 3844
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 114 3849 3855 "hw2_temp/simulator.ml" 114 3849 3866
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"hw2_temp/simulator.ml" 114 3849 3867 "hw2_temp/simulator.ml" 114 3849 3911
+type(
+  string
+)
+"hw2_temp/simulator.ml" 114 3849 3855 "hw2_temp/simulator.ml" 114 3849 3911
+type(
+  unit
+)
+"hw2_temp/simulator.ml" 115 3912 3918 "hw2_temp/simulator.ml" 115 3912 3919
+type(
+  X86.operand
+)
+ident(
+  def o "hw2_temp/simulator.ml" 115 3912 3923 "hw2_temp/simulator.ml" 115 3912 3925
+)
+"hw2_temp/simulator.ml" 115 3912 3923 "hw2_temp/simulator.ml" 115 3912 3925
+type(
+  unit
+)
+"hw2_temp/simulator.ml" 112 3771 3785 "hw2_temp/simulator.ml" 115 3912 3925
+type(
+  X86.operand -> unit
+)
+"hw2_temp/simulator.ml" 117 3931 3933 "hw2_temp/simulator.ml" 117 3931 3942
+type(
+  (X86.operand -> unit) -> X86.operand list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"hw2_temp/simulator.ml" 117 3931 3943 "hw2_temp/simulator.ml" 117 3931 3948
+type(
+  X86.operand -> unit
+)
+ident(
+  int_ref check "hw2_temp/simulator.ml" 112 3771 3777 "hw2_temp/simulator.ml" 112 3771 3782
+)
+"hw2_temp/simulator.ml" 117 3931 3949 "hw2_temp/simulator.ml" 117 3931 3953
+type(
+  X86.operand list
+)
+ident(
+  int_ref args "hw2_temp/simulator.ml" 111 3723 3746 "hw2_temp/simulator.ml" 111 3723 3750
+)
+"hw2_temp/simulator.ml" 117 3931 3933 "hw2_temp/simulator.ml" 117 3931 3953
+type(
+  unit
+)
+"hw2_temp/simulator.ml" 118 3955 3965 "hw2_temp/simulator.ml" 118 3955 3967
+type(
+  X86.opcode
+)
+ident(
+  int_ref op "hw2_temp/simulator.ml" 111 3723 3742 "hw2_temp/simulator.ml" 111 3723 3744
+)
+"hw2_temp/simulator.ml" 118 3955 3969 "hw2_temp/simulator.ml" 118 3955 3973
+type(
+  X86.operand list
+)
+ident(
+  int_ref args "hw2_temp/simulator.ml" 111 3723 3746 "hw2_temp/simulator.ml" 111 3723 3750
+)
+"hw2_temp/simulator.ml" 118 3955 3964 "hw2_temp/simulator.ml" 118 3955 3974
+type(
+  X86.ins
+)
+"hw2_temp/simulator.ml" 118 3955 3958 "hw2_temp/simulator.ml" 118 3955 3974
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 118 3955 3976 "hw2_temp/simulator.ml" 118 3955 3983
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 118 3955 3985 "hw2_temp/simulator.ml" 118 3955 3992
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 118 3955 3994 "hw2_temp/simulator.ml" 118 3955 4001
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 118 3955 3957 "hw2_temp/simulator.ml" 118 3955 4002
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 117 3931 3933 "hw2_temp/simulator.ml" 118 3955 4002
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 112 3771 3773 "hw2_temp/simulator.ml" 118 3955 4002
+type(
+  sbyte list
+)
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 121 4045 4049 "hw2_temp/simulator.ml" 121 4045 4063
+type(
+  X86.data -> sbyte list
+)
+ident(
+  def sbytes_of_data "hw2_temp/simulator.ml" 129 4338 4338 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 122 4096 4110 "hw2_temp/simulator.ml" 122 4096 4111
+type(
+  X86.quad
+)
+ident(
+  def i "hw2_temp/simulator.ml" 122 4096 4116 "hw2_temp/simulator.ml" 122 4096 4133
+)
+"hw2_temp/simulator.ml" 122 4096 4105 "hw2_temp/simulator.ml" 122 4096 4112
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 122 4096 4100 "hw2_temp/simulator.ml" 122 4096 4112
+type(
+  X86.data
+)
+"hw2_temp/simulator.ml" 122 4096 4116 "hw2_temp/simulator.ml" 122 4096 4131
+type(
+  X86.quad -> sbyte list
+)
+ident(
+  int_ref sbytes_of_int64 "hw2_temp/simulator.ml" 86 2960 2964 "hw2_temp/simulator.ml" 86 2960 2979
+)
+"hw2_temp/simulator.ml" 122 4096 4132 "hw2_temp/simulator.ml" 122 4096 4133
+type(
+  X86.quad
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 122 4096 4110 "hw2_temp/simulator.ml" 122 4096 4111
+)
+"hw2_temp/simulator.ml" 122 4096 4116 "hw2_temp/simulator.ml" 122 4096 4133
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 123 4134 4144 "hw2_temp/simulator.ml" 123 4134 4145
+type(
+  string
+)
+ident(
+  def s "hw2_temp/simulator.ml" 123 4134 4149 "hw2_temp/simulator.ml" 123 4134 4167
+)
+"hw2_temp/simulator.ml" 123 4134 4138 "hw2_temp/simulator.ml" 123 4134 4145
+type(
+  X86.data
+)
+"hw2_temp/simulator.ml" 123 4134 4149 "hw2_temp/simulator.ml" 123 4134 4165
+type(
+  string -> sbyte list
+)
+ident(
+  int_ref sbytes_of_string "hw2_temp/simulator.ml" 103 3486 3490 "hw2_temp/simulator.ml" 103 3486 3506
+)
+"hw2_temp/simulator.ml" 123 4134 4166 "hw2_temp/simulator.ml" 123 4134 4167
+type(
+  string
+)
+ident(
+  int_ref s "hw2_temp/simulator.ml" 123 4134 4144 "hw2_temp/simulator.ml" 123 4134 4145
+)
+"hw2_temp/simulator.ml" 123 4134 4149 "hw2_temp/simulator.ml" 123 4134 4167
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 124 4168 4182 "hw2_temp/simulator.ml" 124 4168 4183
+type(
+  X86.lbl
+)
+"hw2_temp/simulator.ml" 124 4168 4177 "hw2_temp/simulator.ml" 124 4168 4184
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 124 4168 4172 "hw2_temp/simulator.ml" 124 4168 4184
+type(
+  X86.data
+)
+"hw2_temp/simulator.ml" 124 4168 4188 "hw2_temp/simulator.ml" 124 4168 4199
+type(
+  string -> sbyte list
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"hw2_temp/simulator.ml" 124 4168 4200 "hw2_temp/simulator.ml" 124 4168 4245
+type(
+  string
+)
+"hw2_temp/simulator.ml" 124 4168 4188 "hw2_temp/simulator.ml" 124 4168 4245
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 121 4045 4087 "hw2_temp/simulator.ml" 124 4168 4245
+type(
+  X86.data -> sbyte list
+)
+type(
+  X86.data -> sbyte list
+)
+"hw2_temp/simulator.ml" 129 4338 4342 "hw2_temp/simulator.ml" 129 4338 4357
+type(
+  bool ref
+)
+ident(
+  def debug_simulator "hw2_temp/simulator.ml" 132 4437 4437 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 129 4338 4360 "hw2_temp/simulator.ml" 129 4338 4363
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"hw2_temp/simulator.ml" 129 4338 4364 "hw2_temp/simulator.ml" 129 4338 4369
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 129 4338 4360 "hw2_temp/simulator.ml" 129 4338 4369
+type(
+  bool ref
+)
+"hw2_temp/simulator.ml" 132 4437 4441 "hw2_temp/simulator.ml" 132 4437 4451
+type(
+  flags -> X86.cnd -> bool
+)
+ident(
+  def interp_cnd "hw2_temp/simulator.ml" 145 4760 4760 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 132 4437 4453 "hw2_temp/simulator.ml" 132 4437 4455
+type(
+  bool
+)
+ident(
+  def fo "hw2_temp/simulator.ml" 132 4437 4465 "hw2_temp/simulator.ml" 140 4629 4633
+)
+"hw2_temp/simulator.ml" 132 4437 4457 "hw2_temp/simulator.ml" 132 4437 4459
+type(
+  bool
+)
+ident(
+  def fs "hw2_temp/simulator.ml" 132 4437 4465 "hw2_temp/simulator.ml" 140 4629 4633
+)
+"hw2_temp/simulator.ml" 132 4437 4461 "hw2_temp/simulator.ml" 132 4437 4463
+type(
+  bool
+)
+ident(
+  def fz "hw2_temp/simulator.ml" 132 4437 4465 "hw2_temp/simulator.ml" 140 4629 4633
+)
+"hw2_temp/simulator.ml" 132 4437 4452 "hw2_temp/simulator.ml" 132 4437 4464
+type(
+  flags
+)
+"hw2_temp/simulator.ml" 132 4437 4485 "hw2_temp/simulator.ml" 132 4437 4486
+type(
+  X86.cnd
+)
+ident(
+  def x "hw2_temp/simulator.ml" 133 4490 4491 "hw2_temp/simulator.ml" 140 4629 4633
+)
+"hw2_temp/simulator.ml" 133 4490 4503 "hw2_temp/simulator.ml" 133 4490 4504
+type(
+  X86.cnd
+)
+ident(
+  int_ref x "hw2_temp/simulator.ml" 132 4437 4485 "hw2_temp/simulator.ml" 132 4437 4486
+)
+"hw2_temp/simulator.ml" 134 4510 4513 "hw2_temp/simulator.ml" 134 4510 4515
+type(
+  X86.cnd
+)
+"hw2_temp/simulator.ml" 134 4510 4519 "hw2_temp/simulator.ml" 134 4510 4521
+type(
+  bool
+)
+ident(
+  int_ref fz "hw2_temp/simulator.ml" 132 4437 4461 "hw2_temp/simulator.ml" 132 4437 4463
+)
+"hw2_temp/simulator.ml" 135 4522 4525 "hw2_temp/simulator.ml" 135 4522 4528
+type(
+  X86.cnd
+)
+"hw2_temp/simulator.ml" 135 4522 4532 "hw2_temp/simulator.ml" 135 4522 4535
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"hw2_temp/simulator.ml" 135 4522 4536 "hw2_temp/simulator.ml" 135 4522 4538
+type(
+  bool
+)
+ident(
+  int_ref fz "hw2_temp/simulator.ml" 132 4437 4461 "hw2_temp/simulator.ml" 132 4437 4463
+)
+"hw2_temp/simulator.ml" 135 4522 4532 "hw2_temp/simulator.ml" 135 4522 4538
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 136 4539 4542 "hw2_temp/simulator.ml" 136 4539 4544
+type(
+  X86.cnd
+)
+"hw2_temp/simulator.ml" 136 4539 4548 "hw2_temp/simulator.ml" 136 4539 4550
+type(
+  bool
+)
+ident(
+  int_ref fs "hw2_temp/simulator.ml" 132 4437 4457 "hw2_temp/simulator.ml" 132 4437 4459
+)
+"hw2_temp/simulator.ml" 136 4539 4551 "hw2_temp/simulator.ml" 136 4539 4553
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"hw2_temp/simulator.ml" 136 4539 4554 "hw2_temp/simulator.ml" 136 4539 4556
+type(
+  bool
+)
+ident(
+  int_ref fo "hw2_temp/simulator.ml" 132 4437 4453 "hw2_temp/simulator.ml" 132 4437 4455
+)
+"hw2_temp/simulator.ml" 136 4539 4548 "hw2_temp/simulator.ml" 136 4539 4556
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 137 4557 4560 "hw2_temp/simulator.ml" 137 4557 4562
+type(
+  X86.cnd
+)
+"hw2_temp/simulator.ml" 137 4557 4567 "hw2_temp/simulator.ml" 137 4557 4569
+type(
+  bool
+)
+ident(
+  int_ref fs "hw2_temp/simulator.ml" 132 4437 4457 "hw2_temp/simulator.ml" 132 4437 4459
+)
+"hw2_temp/simulator.ml" 137 4557 4570 "hw2_temp/simulator.ml" 137 4557 4572
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"hw2_temp/simulator.ml" 137 4557 4573 "hw2_temp/simulator.ml" 137 4557 4575
+type(
+  bool
+)
+ident(
+  int_ref fo "hw2_temp/simulator.ml" 132 4437 4453 "hw2_temp/simulator.ml" 132 4437 4455
+)
+"hw2_temp/simulator.ml" 137 4557 4566 "hw2_temp/simulator.ml" 137 4557 4576
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 137 4557 4577 "hw2_temp/simulator.ml" 137 4557 4579
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"hw2_temp/simulator.ml" 137 4557 4580 "hw2_temp/simulator.ml" 137 4557 4582
+type(
+  bool
+)
+ident(
+  int_ref fz "hw2_temp/simulator.ml" 132 4437 4461 "hw2_temp/simulator.ml" 132 4437 4463
+)
+"hw2_temp/simulator.ml" 137 4557 4566 "hw2_temp/simulator.ml" 137 4557 4582
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 138 4583 4586 "hw2_temp/simulator.ml" 138 4583 4588
+type(
+  X86.cnd
+)
+"hw2_temp/simulator.ml" 138 4583 4593 "hw2_temp/simulator.ml" 138 4583 4595
+type(
+  bool
+)
+ident(
+  int_ref fs "hw2_temp/simulator.ml" 132 4437 4457 "hw2_temp/simulator.ml" 132 4437 4459
+)
+"hw2_temp/simulator.ml" 138 4583 4596 "hw2_temp/simulator.ml" 138 4583 4597
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"hw2_temp/simulator.ml" 138 4583 4598 "hw2_temp/simulator.ml" 138 4583 4600
+type(
+  bool
+)
+ident(
+  int_ref fo "hw2_temp/simulator.ml" 132 4437 4453 "hw2_temp/simulator.ml" 132 4437 4455
+)
+"hw2_temp/simulator.ml" 138 4583 4592 "hw2_temp/simulator.ml" 138 4583 4601
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 138 4583 4602 "hw2_temp/simulator.ml" 138 4583 4604
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"hw2_temp/simulator.ml" 138 4583 4605 "hw2_temp/simulator.ml" 138 4583 4608
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"hw2_temp/simulator.ml" 138 4583 4609 "hw2_temp/simulator.ml" 138 4583 4611
+type(
+  bool
+)
+ident(
+  int_ref fz "hw2_temp/simulator.ml" 132 4437 4461 "hw2_temp/simulator.ml" 132 4437 4463
+)
+"hw2_temp/simulator.ml" 138 4583 4605 "hw2_temp/simulator.ml" 138 4583 4611
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 138 4583 4592 "hw2_temp/simulator.ml" 138 4583 4611
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 139 4612 4615 "hw2_temp/simulator.ml" 139 4612 4617
+type(
+  X86.cnd
+)
+"hw2_temp/simulator.ml" 139 4612 4621 "hw2_temp/simulator.ml" 139 4612 4623
+type(
+  bool
+)
+ident(
+  int_ref fs "hw2_temp/simulator.ml" 132 4437 4457 "hw2_temp/simulator.ml" 132 4437 4459
+)
+"hw2_temp/simulator.ml" 139 4612 4624 "hw2_temp/simulator.ml" 139 4612 4625
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"hw2_temp/simulator.ml" 139 4612 4626 "hw2_temp/simulator.ml" 139 4612 4628
+type(
+  bool
+)
+ident(
+  int_ref fo "hw2_temp/simulator.ml" 132 4437 4453 "hw2_temp/simulator.ml" 132 4437 4455
+)
+"hw2_temp/simulator.ml" 139 4612 4621 "hw2_temp/simulator.ml" 139 4612 4628
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 133 4490 4491 "hw2_temp/simulator.ml" 140 4629 4633
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 132 4437 4481 "hw2_temp/simulator.ml" 140 4629 4633
+type(
+  X86.cnd -> bool
+)
+type(
+  X86.cnd -> bool
+)
+"hw2_temp/simulator.ml" 145 4760 4764 "hw2_temp/simulator.ml" 145 4760 4772
+type(
+  X86.quad -> int option
+)
+ident(
+  def map_addr "hw2_temp/simulator.ml" 165 5356 5356 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 145 4760 4774 "hw2_temp/simulator.ml" 145 4760 4778
+type(
+  X86.quad
+)
+ident(
+  def addr "hw2_temp/simulator.ml" 145 4760 4785 "hw2_temp/simulator.ml" 148 4901 4954
+)
+"hw2_temp/simulator.ml" 146 4800 4806 "hw2_temp/simulator.ml" 146 4800 4819
+type(
+  Int64.t -> Int64.t -> int
+)
+ident(
+  ext_ref Int64.compare
+)
+"hw2_temp/simulator.ml" 146 4800 4820 "hw2_temp/simulator.ml" 146 4800 4824
+type(
+  X86.quad
+)
+ident(
+  int_ref addr "hw2_temp/simulator.ml" 145 4760 4774 "hw2_temp/simulator.ml" 145 4760 4778
+)
+"hw2_temp/simulator.ml" 146 4800 4825 "hw2_temp/simulator.ml" 146 4800 4832
+type(
+  Int64.t
+)
+ident(
+  int_ref mem_top "hw2_temp/simulator.ml" 13 335 339 "hw2_temp/simulator.ml" 13 335 346
+)
+"hw2_temp/simulator.ml" 146 4800 4805 "hw2_temp/simulator.ml" 146 4800 4833
+type(
+  int
+)
+"hw2_temp/simulator.ml" 146 4800 4834 "hw2_temp/simulator.ml" 146 4800 4835
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"hw2_temp/simulator.ml" 146 4800 4836 "hw2_temp/simulator.ml" 146 4800 4837
+type(
+  int
+)
+"hw2_temp/simulator.ml" 146 4800 4805 "hw2_temp/simulator.ml" 146 4800 4837
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 146 4800 4843 "hw2_temp/simulator.ml" 146 4800 4847
+type(
+  int option
+)
+"hw2_temp/simulator.ml" 147 4848 4859 "hw2_temp/simulator.ml" 147 4848 4872
+type(
+  Int64.t -> Int64.t -> int
+)
+ident(
+  ext_ref Int64.compare
+)
+"hw2_temp/simulator.ml" 147 4848 4873 "hw2_temp/simulator.ml" 147 4848 4877
+type(
+  X86.quad
+)
+ident(
+  int_ref addr "hw2_temp/simulator.ml" 145 4760 4774 "hw2_temp/simulator.ml" 145 4760 4778
+)
+"hw2_temp/simulator.ml" 147 4848 4878 "hw2_temp/simulator.ml" 147 4848 4885
+type(
+  Int64.t
+)
+ident(
+  int_ref mem_bot "hw2_temp/simulator.ml" 12 275 279 "hw2_temp/simulator.ml" 12 275 286
+)
+"hw2_temp/simulator.ml" 147 4848 4858 "hw2_temp/simulator.ml" 147 4848 4886
+type(
+  int
+)
+"hw2_temp/simulator.ml" 147 4848 4887 "hw2_temp/simulator.ml" 147 4848 4888
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"hw2_temp/simulator.ml" 147 4848 4889 "hw2_temp/simulator.ml" 147 4848 4890
+type(
+  int
+)
+"hw2_temp/simulator.ml" 147 4848 4858 "hw2_temp/simulator.ml" 147 4848 4890
+type(
+  bool
+)
+"hw2_temp/simulator.ml" 147 4848 4896 "hw2_temp/simulator.ml" 147 4848 4900
+type(
+  int option
+)
+"hw2_temp/simulator.ml" 148 4901 4914 "hw2_temp/simulator.ml" 148 4901 4926
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 148 4901 4928 "hw2_temp/simulator.ml" 148 4901 4937
+type(
+  X86.quad -> int64 -> int64
+)
+ident(
+  ext_ref Int64.sub
+)
+"hw2_temp/simulator.ml" 148 4901 4938 "hw2_temp/simulator.ml" 148 4901 4942
+type(
+  X86.quad
+)
+ident(
+  int_ref addr "hw2_temp/simulator.ml" 145 4760 4774 "hw2_temp/simulator.ml" 145 4760 4778
+)
+"hw2_temp/simulator.ml" 148 4901 4943 "hw2_temp/simulator.ml" 148 4901 4952
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 148 4901 4927 "hw2_temp/simulator.ml" 148 4901 4953
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 148 4901 4913 "hw2_temp/simulator.ml" 148 4901 4954
+type(
+  int
+)
+"hw2_temp/simulator.ml" 148 4901 4908 "hw2_temp/simulator.ml" 148 4901 4954
+type(
+  int option
+)
+"hw2_temp/simulator.ml" 147 4848 4855 "hw2_temp/simulator.ml" 148 4901 4954
+type(
+  int option
+)
+"hw2_temp/simulator.ml" 146 4800 4802 "hw2_temp/simulator.ml" 148 4901 4954
+type(
+  int option
+)
+type(
+  int option
+)
+"hw2_temp/simulator.ml" 165 5356 5360 "hw2_temp/simulator.ml" 165 5356 5374
+type(
+  X86.operand list -> int -> mach -> int64
+)
+ident(
+  def decode_faceval "hw2_temp/simulator.ml" 193 6073 6073 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 165 5356 5376 "hw2_temp/simulator.ml" 165 5356 5378
+type(
+  X86.operand list
+)
+ident(
+  def ol "hw2_temp/simulator.ml" 165 5356 5393 "hw2_temp/simulator.ml" 185 5910 5914
+)
+"hw2_temp/simulator.ml" 165 5356 5394 "hw2_temp/simulator.ml" 165 5356 5397
+type(
+  int
+)
+ident(
+  def ind "hw2_temp/simulator.ml" 165 5356 5403 "hw2_temp/simulator.ml" 185 5910 5914
+)
+"hw2_temp/simulator.ml" 165 5356 5404 "hw2_temp/simulator.ml" 165 5356 5405
+type(
+  mach
+)
+ident(
+  def m "hw2_temp/simulator.ml" 165 5356 5412 "hw2_temp/simulator.ml" 185 5910 5914
+)
+"hw2_temp/simulator.ml" 166 5423 5428 "hw2_temp/simulator.ml" 166 5423 5435
+type(
+  X86.operand
+)
+ident(
+  def operand "hw2_temp/simulator.ml" 167 5459 5460 "hw2_temp/simulator.ml" 185 5910 5914
+)
+"hw2_temp/simulator.ml" 166 5423 5439 "hw2_temp/simulator.ml" 166 5423 5447
+type(
+  X86.operand list -> int -> X86.operand
+)
+ident(
+  ext_ref List.nth
+)
+"hw2_temp/simulator.ml" 166 5423 5448 "hw2_temp/simulator.ml" 166 5423 5450
+type(
+  X86.operand list
+)
+ident(
+  int_ref ol "hw2_temp/simulator.ml" 165 5356 5376 "hw2_temp/simulator.ml" 165 5356 5378
+)
+"hw2_temp/simulator.ml" 166 5423 5451 "hw2_temp/simulator.ml" 166 5423 5454
+type(
+  int
+)
+ident(
+  int_ref ind "hw2_temp/simulator.ml" 165 5356 5394 "hw2_temp/simulator.ml" 165 5356 5397
+)
+"hw2_temp/simulator.ml" 166 5423 5438 "hw2_temp/simulator.ml" 166 5423 5455
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 167 5459 5472 "hw2_temp/simulator.ml" 167 5459 5479
+type(
+  X86.operand
+)
+ident(
+  int_ref operand "hw2_temp/simulator.ml" 166 5423 5428 "hw2_temp/simulator.ml" 166 5423 5435
+)
+"hw2_temp/simulator.ml" 168 5485 5492 "hw2_temp/simulator.ml" 168 5485 5493
+type(
+  X86.imm
+)
+ident(
+  def i "hw2_temp/simulator.ml" 169 5498 5500 "hw2_temp/simulator.ml" 172 5576 5582
+)
+"hw2_temp/simulator.ml" 168 5485 5488 "hw2_temp/simulator.ml" 168 5485 5493
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 169 5498 5512 "hw2_temp/simulator.ml" 169 5498 5513
+type(
+  X86.imm
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 168 5485 5492 "hw2_temp/simulator.ml" 168 5485 5493
+)
+"hw2_temp/simulator.ml" 170 5519 5527 "hw2_temp/simulator.ml" 170 5519 5528
+type(
+  X86.quad
+)
+ident(
+  def l "hw2_temp/simulator.ml" 170 5519 5532 "hw2_temp/simulator.ml" 170 5519 5533
+)
+"hw2_temp/simulator.ml" 170 5519 5523 "hw2_temp/simulator.ml" 170 5519 5528
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 170 5519 5532 "hw2_temp/simulator.ml" 170 5519 5533
+type(
+  X86.quad
+)
+ident(
+  int_ref l "hw2_temp/simulator.ml" 170 5519 5527 "hw2_temp/simulator.ml" 170 5519 5528
+)
+"hw2_temp/simulator.ml" 171 5534 5542 "hw2_temp/simulator.ml" 171 5534 5543
+type(
+  X86.lbl
+)
+ident(
+  def l "hw2_temp/simulator.ml" 171 5534 5547 "hw2_temp/simulator.ml" 171 5534 5575
+)
+"hw2_temp/simulator.ml" 171 5534 5538 "hw2_temp/simulator.ml" 171 5534 5543
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 171 5534 5547 "hw2_temp/simulator.ml" 171 5534 5555
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"hw2_temp/simulator.ml" 171 5534 5556 "hw2_temp/simulator.ml" 171 5534 5575
+type(
+  string
+)
+"hw2_temp/simulator.ml" 171 5534 5547 "hw2_temp/simulator.ml" 171 5534 5575
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 169 5498 5500 "hw2_temp/simulator.ml" 172 5576 5582
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 173 5592 5599 "hw2_temp/simulator.ml" 173 5592 5600
+type(
+  X86.reg
+)
+ident(
+  def r "hw2_temp/simulator.ml" 173 5592 5604 "hw2_temp/simulator.ml" 173 5592 5619
+)
+"hw2_temp/simulator.ml" 173 5592 5595 "hw2_temp/simulator.ml" 173 5592 5600
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 173 5592 5604 "hw2_temp/simulator.ml" 173 5592 5605
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 165 5356 5404 "hw2_temp/simulator.ml" 165 5356 5405
+)
+"hw2_temp/simulator.ml" 173 5592 5604 "hw2_temp/simulator.ml" 173 5592 5610
+type(
+  regs
+)
+"hw2_temp/simulator.ml" 173 5592 5612 "hw2_temp/simulator.ml" 173 5592 5616
+type(
+  X86.reg -> int
+)
+ident(
+  int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+)
+"hw2_temp/simulator.ml" 173 5592 5617 "hw2_temp/simulator.ml" 173 5592 5618
+type(
+  X86.reg
+)
+ident(
+  int_ref r "hw2_temp/simulator.ml" 173 5592 5599 "hw2_temp/simulator.ml" 173 5592 5600
+)
+"hw2_temp/simulator.ml" 173 5592 5612 "hw2_temp/simulator.ml" 173 5592 5618
+type(
+  int
+)
+"hw2_temp/simulator.ml" 173 5592 5604 "hw2_temp/simulator.ml" 173 5592 5619
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 174 5630 5638 "hw2_temp/simulator.ml" 174 5630 5640
+type(
+  X86.imm
+)
+ident(
+  def i1 "hw2_temp/simulator.ml" 175 5645 5647 "hw2_temp/simulator.ml" 178 5730 5735
+)
+"hw2_temp/simulator.ml" 174 5630 5633 "hw2_temp/simulator.ml" 174 5630 5640
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 175 5645 5659 "hw2_temp/simulator.ml" 175 5645 5661
+type(
+  X86.imm
+)
+ident(
+  int_ref i1 "hw2_temp/simulator.ml" 174 5630 5638 "hw2_temp/simulator.ml" 174 5630 5640
+)
+"hw2_temp/simulator.ml" 176 5673 5681 "hw2_temp/simulator.ml" 176 5673 5682
+type(
+  X86.quad
+)
+ident(
+  def l "hw2_temp/simulator.ml" 176 5673 5686 "hw2_temp/simulator.ml" 176 5673 5687
+)
+"hw2_temp/simulator.ml" 176 5673 5677 "hw2_temp/simulator.ml" 176 5673 5682
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 176 5673 5686 "hw2_temp/simulator.ml" 176 5673 5687
+type(
+  X86.quad
+)
+ident(
+  int_ref l "hw2_temp/simulator.ml" 176 5673 5681 "hw2_temp/simulator.ml" 176 5673 5682
+)
+"hw2_temp/simulator.ml" 177 5688 5696 "hw2_temp/simulator.ml" 177 5688 5697
+type(
+  X86.lbl
+)
+ident(
+  def l "hw2_temp/simulator.ml" 177 5688 5701 "hw2_temp/simulator.ml" 177 5688 5729
+)
+"hw2_temp/simulator.ml" 177 5688 5692 "hw2_temp/simulator.ml" 177 5688 5697
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 177 5688 5701 "hw2_temp/simulator.ml" 177 5688 5709
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"hw2_temp/simulator.ml" 177 5688 5710 "hw2_temp/simulator.ml" 177 5688 5729
+type(
+  string
+)
+"hw2_temp/simulator.ml" 177 5688 5701 "hw2_temp/simulator.ml" 177 5688 5729
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 175 5645 5647 "hw2_temp/simulator.ml" 178 5730 5735
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 179 5736 5744 "hw2_temp/simulator.ml" 179 5736 5746
+type(
+  X86.reg
+)
+ident(
+  def i2 "hw2_temp/simulator.ml" 179 5736 5750 "hw2_temp/simulator.ml" 179 5736 5766
+)
+"hw2_temp/simulator.ml" 179 5736 5739 "hw2_temp/simulator.ml" 179 5736 5746
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 179 5736 5750 "hw2_temp/simulator.ml" 179 5736 5751
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 165 5356 5404 "hw2_temp/simulator.ml" 165 5356 5405
+)
+"hw2_temp/simulator.ml" 179 5736 5750 "hw2_temp/simulator.ml" 179 5736 5756
+type(
+  regs
+)
+"hw2_temp/simulator.ml" 179 5736 5758 "hw2_temp/simulator.ml" 179 5736 5762
+type(
+  X86.reg -> int
+)
+ident(
+  int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+)
+"hw2_temp/simulator.ml" 179 5736 5763 "hw2_temp/simulator.ml" 179 5736 5765
+type(
+  X86.reg
+)
+ident(
+  int_ref i2 "hw2_temp/simulator.ml" 179 5736 5744 "hw2_temp/simulator.ml" 179 5736 5746
+)
+"hw2_temp/simulator.ml" 179 5736 5758 "hw2_temp/simulator.ml" 179 5736 5765
+type(
+  int
+)
+"hw2_temp/simulator.ml" 179 5736 5750 "hw2_temp/simulator.ml" 179 5736 5766
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 180 5779 5788 "hw2_temp/simulator.ml" 180 5779 5789
+type(
+  X86.imm
+)
+ident(
+  def i "hw2_temp/simulator.ml" 181 5798 5800 "hw2_temp/simulator.ml" 184 5904 5909
+)
+"hw2_temp/simulator.ml" 180 5779 5791 "hw2_temp/simulator.ml" 180 5779 5792
+type(
+  X86.reg
+)
+ident(
+  def r "hw2_temp/simulator.ml" 181 5798 5800 "hw2_temp/simulator.ml" 184 5904 5909
+)
+"hw2_temp/simulator.ml" 180 5779 5787 "hw2_temp/simulator.ml" 180 5779 5793
+type(
+  X86.imm * X86.reg
+)
+"hw2_temp/simulator.ml" 180 5779 5782 "hw2_temp/simulator.ml" 180 5779 5793
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 181 5798 5812 "hw2_temp/simulator.ml" 181 5798 5813
+type(
+  X86.imm
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 180 5779 5788 "hw2_temp/simulator.ml" 180 5779 5789
+)
+"hw2_temp/simulator.ml" 182 5819 5827 "hw2_temp/simulator.ml" 182 5819 5828
+type(
+  X86.quad
+)
+ident(
+  def l "hw2_temp/simulator.ml" 182 5819 5832 "hw2_temp/simulator.ml" 182 5819 5861
+)
+"hw2_temp/simulator.ml" 182 5819 5823 "hw2_temp/simulator.ml" 182 5819 5828
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 182 5819 5833 "hw2_temp/simulator.ml" 182 5819 5842
+type(
+  int64 -> X86.quad -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"hw2_temp/simulator.ml" 182 5819 5843 "hw2_temp/simulator.ml" 182 5819 5844
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 165 5356 5404 "hw2_temp/simulator.ml" 165 5356 5405
+)
+"hw2_temp/simulator.ml" 182 5819 5843 "hw2_temp/simulator.ml" 182 5819 5849
+type(
+  regs
+)
+"hw2_temp/simulator.ml" 182 5819 5851 "hw2_temp/simulator.ml" 182 5819 5855
+type(
+  X86.reg -> int
+)
+ident(
+  int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+)
+"hw2_temp/simulator.ml" 182 5819 5856 "hw2_temp/simulator.ml" 182 5819 5857
+type(
+  X86.reg
+)
+ident(
+  int_ref r "hw2_temp/simulator.ml" 180 5779 5791 "hw2_temp/simulator.ml" 180 5779 5792
+)
+"hw2_temp/simulator.ml" 182 5819 5851 "hw2_temp/simulator.ml" 182 5819 5857
+type(
+  int
+)
+"hw2_temp/simulator.ml" 182 5819 5843 "hw2_temp/simulator.ml" 182 5819 5858
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 182 5819 5859 "hw2_temp/simulator.ml" 182 5819 5860
+type(
+  X86.quad
+)
+ident(
+  int_ref l "hw2_temp/simulator.ml" 182 5819 5827 "hw2_temp/simulator.ml" 182 5819 5828
+)
+"hw2_temp/simulator.ml" 182 5819 5832 "hw2_temp/simulator.ml" 182 5819 5861
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 183 5862 5870 "hw2_temp/simulator.ml" 183 5862 5871
+type(
+  X86.lbl
+)
+ident(
+  def l "hw2_temp/simulator.ml" 183 5862 5875 "hw2_temp/simulator.ml" 183 5862 5903
+)
+"hw2_temp/simulator.ml" 183 5862 5866 "hw2_temp/simulator.ml" 183 5862 5871
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 183 5862 5875 "hw2_temp/simulator.ml" 183 5862 5883
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"hw2_temp/simulator.ml" 183 5862 5884 "hw2_temp/simulator.ml" 183 5862 5903
+type(
+  string
+)
+"hw2_temp/simulator.ml" 183 5862 5875 "hw2_temp/simulator.ml" 183 5862 5903
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 181 5798 5800 "hw2_temp/simulator.ml" 184 5904 5909
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 167 5459 5460 "hw2_temp/simulator.ml" 185 5910 5914
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 166 5423 5424 "hw2_temp/simulator.ml" 185 5910 5914
+type(
+  int64
+)
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 193 6073 6077 "hw2_temp/simulator.ml" 193 6073 6087
+type(
+  X86.operand list -> int -> mach -> int64
+)
+ident(
+  def decode_val "hw2_temp/simulator.ml" 218 6754 6754 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 193 6073 6089 "hw2_temp/simulator.ml" 193 6073 6091
+type(
+  X86.operand list
+)
+ident(
+  def ol "hw2_temp/simulator.ml" 193 6073 6106 "hw2_temp/simulator.ml" 215 6746 6750
+)
+"hw2_temp/simulator.ml" 193 6073 6107 "hw2_temp/simulator.ml" 193 6073 6110
+type(
+  int
+)
+ident(
+  def ind "hw2_temp/simulator.ml" 193 6073 6116 "hw2_temp/simulator.ml" 215 6746 6750
+)
+"hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+type(
+  mach
+)
+ident(
+  def m "hw2_temp/simulator.ml" 193 6073 6125 "hw2_temp/simulator.ml" 215 6746 6750
+)
+"hw2_temp/simulator.ml" 195 6138 6143 "hw2_temp/simulator.ml" 195 6138 6150
+type(
+  X86.operand
+)
+ident(
+  def operand "hw2_temp/simulator.ml" 196 6174 6175 "hw2_temp/simulator.ml" 215 6746 6750
+)
+"hw2_temp/simulator.ml" 195 6138 6154 "hw2_temp/simulator.ml" 195 6138 6162
+type(
+  X86.operand list -> int -> X86.operand
+)
+ident(
+  ext_ref List.nth
+)
+"hw2_temp/simulator.ml" 195 6138 6163 "hw2_temp/simulator.ml" 195 6138 6165
+type(
+  X86.operand list
+)
+ident(
+  int_ref ol "hw2_temp/simulator.ml" 193 6073 6089 "hw2_temp/simulator.ml" 193 6073 6091
+)
+"hw2_temp/simulator.ml" 195 6138 6166 "hw2_temp/simulator.ml" 195 6138 6169
+type(
+  int
+)
+ident(
+  int_ref ind "hw2_temp/simulator.ml" 193 6073 6107 "hw2_temp/simulator.ml" 193 6073 6110
+)
+"hw2_temp/simulator.ml" 195 6138 6153 "hw2_temp/simulator.ml" 195 6138 6170
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 196 6174 6187 "hw2_temp/simulator.ml" 196 6174 6194
+type(
+  X86.operand
+)
+ident(
+  int_ref operand "hw2_temp/simulator.ml" 195 6138 6143 "hw2_temp/simulator.ml" 195 6138 6150
+)
+"hw2_temp/simulator.ml" 197 6200 6207 "hw2_temp/simulator.ml" 197 6200 6208
+type(
+  X86.imm
+)
+ident(
+  def i "hw2_temp/simulator.ml" 198 6213 6215 "hw2_temp/simulator.ml" 201 6291 6297
+)
+"hw2_temp/simulator.ml" 197 6200 6203 "hw2_temp/simulator.ml" 197 6200 6208
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 198 6213 6227 "hw2_temp/simulator.ml" 198 6213 6228
+type(
+  X86.imm
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 197 6200 6207 "hw2_temp/simulator.ml" 197 6200 6208
+)
+"hw2_temp/simulator.ml" 199 6234 6242 "hw2_temp/simulator.ml" 199 6234 6243
+type(
+  X86.quad
+)
+ident(
+  def l "hw2_temp/simulator.ml" 199 6234 6247 "hw2_temp/simulator.ml" 199 6234 6248
+)
+"hw2_temp/simulator.ml" 199 6234 6238 "hw2_temp/simulator.ml" 199 6234 6243
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 199 6234 6247 "hw2_temp/simulator.ml" 199 6234 6248
+type(
+  X86.quad
+)
+ident(
+  int_ref l "hw2_temp/simulator.ml" 199 6234 6242 "hw2_temp/simulator.ml" 199 6234 6243
+)
+"hw2_temp/simulator.ml" 200 6249 6257 "hw2_temp/simulator.ml" 200 6249 6258
+type(
+  X86.lbl
+)
+ident(
+  def l "hw2_temp/simulator.ml" 200 6249 6262 "hw2_temp/simulator.ml" 200 6249 6290
+)
+"hw2_temp/simulator.ml" 200 6249 6253 "hw2_temp/simulator.ml" 200 6249 6258
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 200 6249 6262 "hw2_temp/simulator.ml" 200 6249 6270
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"hw2_temp/simulator.ml" 200 6249 6271 "hw2_temp/simulator.ml" 200 6249 6290
+type(
+  string
+)
+"hw2_temp/simulator.ml" 200 6249 6262 "hw2_temp/simulator.ml" 200 6249 6290
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 198 6213 6215 "hw2_temp/simulator.ml" 201 6291 6297
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 202 6307 6314 "hw2_temp/simulator.ml" 202 6307 6315
+type(
+  X86.reg
+)
+ident(
+  def r "hw2_temp/simulator.ml" 202 6307 6319 "hw2_temp/simulator.ml" 202 6307 6334
+)
+"hw2_temp/simulator.ml" 202 6307 6310 "hw2_temp/simulator.ml" 202 6307 6315
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 202 6307 6319 "hw2_temp/simulator.ml" 202 6307 6320
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+)
+"hw2_temp/simulator.ml" 202 6307 6319 "hw2_temp/simulator.ml" 202 6307 6325
+type(
+  regs
+)
+"hw2_temp/simulator.ml" 202 6307 6327 "hw2_temp/simulator.ml" 202 6307 6331
+type(
+  X86.reg -> int
+)
+ident(
+  int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+)
+"hw2_temp/simulator.ml" 202 6307 6332 "hw2_temp/simulator.ml" 202 6307 6333
+type(
+  X86.reg
+)
+ident(
+  int_ref r "hw2_temp/simulator.ml" 202 6307 6314 "hw2_temp/simulator.ml" 202 6307 6315
+)
+"hw2_temp/simulator.ml" 202 6307 6327 "hw2_temp/simulator.ml" 202 6307 6333
+type(
+  int
+)
+"hw2_temp/simulator.ml" 202 6307 6319 "hw2_temp/simulator.ml" 202 6307 6334
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 203 6345 6353 "hw2_temp/simulator.ml" 203 6345 6355
+type(
+  X86.imm
+)
+ident(
+  def i1 "hw2_temp/simulator.ml" 204 6360 6362 "hw2_temp/simulator.ml" 207 6484 6489
+)
+"hw2_temp/simulator.ml" 203 6345 6348 "hw2_temp/simulator.ml" 203 6345 6355
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 204 6360 6374 "hw2_temp/simulator.ml" 204 6360 6376
+type(
+  X86.imm
+)
+ident(
+  int_ref i1 "hw2_temp/simulator.ml" 203 6345 6353 "hw2_temp/simulator.ml" 203 6345 6355
+)
+"hw2_temp/simulator.ml" 205 6388 6396 "hw2_temp/simulator.ml" 205 6388 6397
+type(
+  X86.quad
+)
+ident(
+  def l "hw2_temp/simulator.ml" 205 6388 6401 "hw2_temp/simulator.ml" 205 6388 6441
+)
+"hw2_temp/simulator.ml" 205 6388 6392 "hw2_temp/simulator.ml" 205 6388 6397
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 205 6388 6401 "hw2_temp/simulator.ml" 205 6388 6416
+type(
+  sbyte list -> int64
+)
+ident(
+  int_ref int64_of_sbytes "hw2_temp/simulator.ml" 93 3216 3220 "hw2_temp/simulator.ml" 93 3216 3235
+)
+"hw2_temp/simulator.ml" 205 6388 6418 "hw2_temp/simulator.ml" 205 6388 6419
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+)
+"hw2_temp/simulator.ml" 205 6388 6418 "hw2_temp/simulator.ml" 205 6388 6423
+type(
+  mem
+)
+"hw2_temp/simulator.ml" 205 6388 6425 "hw2_temp/simulator.ml" 205 6388 6437
+type(
+  X86.quad -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 205 6388 6438 "hw2_temp/simulator.ml" 205 6388 6439
+type(
+  X86.quad
+)
+ident(
+  int_ref l "hw2_temp/simulator.ml" 205 6388 6396 "hw2_temp/simulator.ml" 205 6388 6397
+)
+"hw2_temp/simulator.ml" 205 6388 6425 "hw2_temp/simulator.ml" 205 6388 6439
+type(
+  int
+)
+"hw2_temp/simulator.ml" 205 6388 6418 "hw2_temp/simulator.ml" 205 6388 6440
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 205 6388 6417 "hw2_temp/simulator.ml" 205 6388 6441
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 205 6388 6401 "hw2_temp/simulator.ml" 205 6388 6441
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 206 6442 6450 "hw2_temp/simulator.ml" 206 6442 6451
+type(
+  X86.lbl
+)
+ident(
+  def l "hw2_temp/simulator.ml" 206 6442 6455 "hw2_temp/simulator.ml" 206 6442 6483
+)
+"hw2_temp/simulator.ml" 206 6442 6446 "hw2_temp/simulator.ml" 206 6442 6451
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 206 6442 6455 "hw2_temp/simulator.ml" 206 6442 6463
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"hw2_temp/simulator.ml" 206 6442 6464 "hw2_temp/simulator.ml" 206 6442 6483
+type(
+  string
+)
+"hw2_temp/simulator.ml" 206 6442 6455 "hw2_temp/simulator.ml" 206 6442 6483
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 204 6360 6362 "hw2_temp/simulator.ml" 207 6484 6489
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 208 6490 6498 "hw2_temp/simulator.ml" 208 6490 6500
+type(
+  X86.reg
+)
+ident(
+  def i2 "hw2_temp/simulator.ml" 208 6490 6504 "hw2_temp/simulator.ml" 208 6490 6559
+)
+"hw2_temp/simulator.ml" 208 6490 6493 "hw2_temp/simulator.ml" 208 6490 6500
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 208 6490 6504 "hw2_temp/simulator.ml" 208 6490 6519
+type(
+  sbyte list -> int64
+)
+ident(
+  int_ref int64_of_sbytes "hw2_temp/simulator.ml" 93 3216 3220 "hw2_temp/simulator.ml" 93 3216 3235
+)
+"hw2_temp/simulator.ml" 208 6490 6521 "hw2_temp/simulator.ml" 208 6490 6522
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+)
+"hw2_temp/simulator.ml" 208 6490 6521 "hw2_temp/simulator.ml" 208 6490 6526
+type(
+  mem
+)
+"hw2_temp/simulator.ml" 208 6490 6528 "hw2_temp/simulator.ml" 208 6490 6540
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 208 6490 6541 "hw2_temp/simulator.ml" 208 6490 6542
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+)
+"hw2_temp/simulator.ml" 208 6490 6541 "hw2_temp/simulator.ml" 208 6490 6547
+type(
+  regs
+)
+"hw2_temp/simulator.ml" 208 6490 6549 "hw2_temp/simulator.ml" 208 6490 6553
+type(
+  X86.reg -> int
+)
+ident(
+  int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+)
+"hw2_temp/simulator.ml" 208 6490 6554 "hw2_temp/simulator.ml" 208 6490 6556
+type(
+  X86.reg
+)
+ident(
+  int_ref i2 "hw2_temp/simulator.ml" 208 6490 6498 "hw2_temp/simulator.ml" 208 6490 6500
+)
+"hw2_temp/simulator.ml" 208 6490 6549 "hw2_temp/simulator.ml" 208 6490 6556
+type(
+  int
+)
+"hw2_temp/simulator.ml" 208 6490 6541 "hw2_temp/simulator.ml" 208 6490 6557
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 208 6490 6528 "hw2_temp/simulator.ml" 208 6490 6557
+type(
+  int
+)
+"hw2_temp/simulator.ml" 208 6490 6521 "hw2_temp/simulator.ml" 208 6490 6558
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 208 6490 6520 "hw2_temp/simulator.ml" 208 6490 6559
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 208 6490 6504 "hw2_temp/simulator.ml" 208 6490 6559
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 210 6576 6585 "hw2_temp/simulator.ml" 210 6576 6586
+type(
+  X86.imm
+)
+ident(
+  def i "hw2_temp/simulator.ml" 211 6595 6597 "hw2_temp/simulator.ml" 214 6740 6745
+)
+"hw2_temp/simulator.ml" 210 6576 6588 "hw2_temp/simulator.ml" 210 6576 6589
+type(
+  X86.reg
+)
+ident(
+  def r "hw2_temp/simulator.ml" 211 6595 6597 "hw2_temp/simulator.ml" 214 6740 6745
+)
+"hw2_temp/simulator.ml" 210 6576 6584 "hw2_temp/simulator.ml" 210 6576 6590
+type(
+  X86.imm * X86.reg
+)
+"hw2_temp/simulator.ml" 210 6576 6579 "hw2_temp/simulator.ml" 210 6576 6590
+type(
+  X86.operand
+)
+"hw2_temp/simulator.ml" 211 6595 6609 "hw2_temp/simulator.ml" 211 6595 6610
+type(
+  X86.imm
+)
+ident(
+  int_ref i "hw2_temp/simulator.ml" 210 6576 6585 "hw2_temp/simulator.ml" 210 6576 6586
+)
+"hw2_temp/simulator.ml" 212 6616 6624 "hw2_temp/simulator.ml" 212 6616 6625
+type(
+  X86.quad
+)
+ident(
+  def l "hw2_temp/simulator.ml" 212 6616 6629 "hw2_temp/simulator.ml" 212 6616 6697
+)
+"hw2_temp/simulator.ml" 212 6616 6620 "hw2_temp/simulator.ml" 212 6616 6625
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 212 6616 6629 "hw2_temp/simulator.ml" 212 6616 6644
+type(
+  sbyte list -> int64
+)
+ident(
+  int_ref int64_of_sbytes "hw2_temp/simulator.ml" 93 3216 3220 "hw2_temp/simulator.ml" 93 3216 3235
+)
+"hw2_temp/simulator.ml" 212 6616 6646 "hw2_temp/simulator.ml" 212 6616 6647
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+)
+"hw2_temp/simulator.ml" 212 6616 6646 "hw2_temp/simulator.ml" 212 6616 6651
+type(
+  mem
+)
+"hw2_temp/simulator.ml" 212 6616 6653 "hw2_temp/simulator.ml" 212 6616 6665
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 212 6616 6667 "hw2_temp/simulator.ml" 212 6616 6676
+type(
+  int64 -> X86.quad -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"hw2_temp/simulator.ml" 212 6616 6677 "hw2_temp/simulator.ml" 212 6616 6678
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 193 6073 6117 "hw2_temp/simulator.ml" 193 6073 6118
+)
+"hw2_temp/simulator.ml" 212 6616 6677 "hw2_temp/simulator.ml" 212 6616 6683
+type(
+  regs
+)
+"hw2_temp/simulator.ml" 212 6616 6685 "hw2_temp/simulator.ml" 212 6616 6689
+type(
+  X86.reg -> int
+)
+ident(
+  int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
+)
+"hw2_temp/simulator.ml" 212 6616 6690 "hw2_temp/simulator.ml" 212 6616 6691
+type(
+  X86.reg
+)
+ident(
+  int_ref r "hw2_temp/simulator.ml" 210 6576 6588 "hw2_temp/simulator.ml" 210 6576 6589
+)
+"hw2_temp/simulator.ml" 212 6616 6685 "hw2_temp/simulator.ml" 212 6616 6691
+type(
+  int
+)
+"hw2_temp/simulator.ml" 212 6616 6677 "hw2_temp/simulator.ml" 212 6616 6692
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 212 6616 6693 "hw2_temp/simulator.ml" 212 6616 6694
+type(
+  X86.quad
+)
+ident(
+  int_ref l "hw2_temp/simulator.ml" 212 6616 6624 "hw2_temp/simulator.ml" 212 6616 6625
+)
+"hw2_temp/simulator.ml" 212 6616 6666 "hw2_temp/simulator.ml" 212 6616 6695
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 212 6616 6653 "hw2_temp/simulator.ml" 212 6616 6695
+type(
+  int
+)
+"hw2_temp/simulator.ml" 212 6616 6646 "hw2_temp/simulator.ml" 212 6616 6696
+type(
+  sbyte
+)
+"hw2_temp/simulator.ml" 212 6616 6645 "hw2_temp/simulator.ml" 212 6616 6697
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 212 6616 6629 "hw2_temp/simulator.ml" 212 6616 6697
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 213 6698 6706 "hw2_temp/simulator.ml" 213 6698 6707
+type(
+  X86.lbl
+)
+ident(
+  def l "hw2_temp/simulator.ml" 213 6698 6711 "hw2_temp/simulator.ml" 213 6698 6739
+)
+"hw2_temp/simulator.ml" 213 6698 6702 "hw2_temp/simulator.ml" 213 6698 6707
+type(
+  X86.imm
+)
+"hw2_temp/simulator.ml" 213 6698 6711 "hw2_temp/simulator.ml" 213 6698 6719
+type(
+  string -> int64
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"hw2_temp/simulator.ml" 213 6698 6720 "hw2_temp/simulator.ml" 213 6698 6739
+type(
+  string
+)
+"hw2_temp/simulator.ml" 213 6698 6711 "hw2_temp/simulator.ml" 213 6698 6739
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 211 6595 6597 "hw2_temp/simulator.ml" 214 6740 6745
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 196 6174 6175 "hw2_temp/simulator.ml" 215 6746 6750
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 195 6138 6139 "hw2_temp/simulator.ml" 215 6746 6750
+type(
+  int64
+)
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 218 6754 6758 "hw2_temp/simulator.ml" 218 6754 6763
+type(
+  X86.opcode -> X86.operand list -> mach -> '_a
+)
+ident(
+  def arith "hw2_temp/simulator.ml" 232 7020 7020 "hw2_temp/simulator.ml" 1 0 -1
+)
+"hw2_temp/simulator.ml" 218 6754 6765 "hw2_temp/simulator.ml" 218 6754 6767
+type(
+  X86.opcode
+)
+ident(
+  def op "hw2_temp/simulator.ml" 218 6754 6775 "hw2_temp/simulator.ml" 227 7009 7013
+)
+"hw2_temp/simulator.ml" 218 6754 6776 "hw2_temp/simulator.ml" 218 6754 6778
+type(
+  X86.operand list
+)
+ident(
+  def ol "hw2_temp/simulator.ml" 218 6754 6793 "hw2_temp/simulator.ml" 227 7009 7013
+)
+"hw2_temp/simulator.ml" 218 6754 6794 "hw2_temp/simulator.ml" 218 6754 6795
+type(
+  mach
+)
+ident(
+  def m "hw2_temp/simulator.ml" 218 6754 6802 "hw2_temp/simulator.ml" 227 7009 7013
+)
+"hw2_temp/simulator.ml" 220 6813 6826 "hw2_temp/simulator.ml" 220 6813 6828
+type(
+  X86.opcode
+)
+ident(
+  int_ref op "hw2_temp/simulator.ml" 218 6754 6765 "hw2_temp/simulator.ml" 218 6754 6767
+)
+"hw2_temp/simulator.ml" 221 6834 6837 "hw2_temp/simulator.ml" 221 6834 6841
+type(
+  X86.opcode
+)
+ident(
+  def negq "hw2_temp/simulator.ml" 222 6845 6847 "hw2_temp/simulator.ml" 224 6967 6994
+)
+"hw2_temp/simulator.ml" 222 6845 6851 "hw2_temp/simulator.ml" 222 6845 6860
+type(
+  int
+)
+ident(
+  def dest_addr "hw2_temp/simulator.ml" 223 6903 6905 "hw2_temp/simulator.ml" 224 6967 6994
+)
+"hw2_temp/simulator.ml" 222 6845 6863 "hw2_temp/simulator.ml" 222 6845 6875
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"hw2_temp/simulator.ml" 222 6845 6877 "hw2_temp/simulator.ml" 222 6845 6891
+type(
+  X86.operand list -> int -> mach -> int64
+)
+ident(
+  int_ref decode_faceval "hw2_temp/simulator.ml" 165 5356 5360 "hw2_temp/simulator.ml" 165 5356 5374
+)
+"hw2_temp/simulator.ml" 222 6845 6892 "hw2_temp/simulator.ml" 222 6845 6894
+type(
+  X86.operand list
+)
+ident(
+  int_ref ol "hw2_temp/simulator.ml" 218 6754 6776 "hw2_temp/simulator.ml" 218 6754 6778
+)
+"hw2_temp/simulator.ml" 222 6845 6895 "hw2_temp/simulator.ml" 222 6845 6896
+type(
+  int
+)
+"hw2_temp/simulator.ml" 222 6845 6897 "hw2_temp/simulator.ml" 222 6845 6898
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 218 6754 6794 "hw2_temp/simulator.ml" 218 6754 6795
+)
+"hw2_temp/simulator.ml" 222 6845 6876 "hw2_temp/simulator.ml" 222 6845 6899
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 222 6845 6863 "hw2_temp/simulator.ml" 222 6845 6899
+type(
+  int
+)
+"hw2_temp/simulator.ml" 223 6903 6909 "hw2_temp/simulator.ml" 223 6903 6913
+type(
+  sbyte list
+)
+ident(
+  def data "hw2_temp/simulator.ml" 224 6967 6969 "hw2_temp/simulator.ml" 224 6967 6994
+)
+"hw2_temp/simulator.ml" 223 6903 6916 "hw2_temp/simulator.ml" 223 6903 6931
+type(
+  int64 -> sbyte list
+)
+ident(
+  int_ref sbytes_of_int64 "hw2_temp/simulator.ml" 86 2960 2964 "hw2_temp/simulator.ml" 86 2960 2979
+)
+"hw2_temp/simulator.ml" 223 6903 6933 "hw2_temp/simulator.ml" 223 6903 6942
+type(
+  int64 -> int64
+)
+ident(
+  ext_ref Int64.neg
+)
+"hw2_temp/simulator.ml" 223 6903 6944 "hw2_temp/simulator.ml" 223 6903 6954
+type(
+  X86.operand list -> int -> mach -> int64
+)
+ident(
+  int_ref decode_val "hw2_temp/simulator.ml" 193 6073 6077 "hw2_temp/simulator.ml" 193 6073 6087
+)
+"hw2_temp/simulator.ml" 223 6903 6955 "hw2_temp/simulator.ml" 223 6903 6957
+type(
+  X86.operand list
+)
+ident(
+  int_ref ol "hw2_temp/simulator.ml" 218 6754 6776 "hw2_temp/simulator.ml" 218 6754 6778
+)
+"hw2_temp/simulator.ml" 223 6903 6958 "hw2_temp/simulator.ml" 223 6903 6959
+type(
+  int
+)
+"hw2_temp/simulator.ml" 223 6903 6960 "hw2_temp/simulator.ml" 223 6903 6961
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 218 6754 6794 "hw2_temp/simulator.ml" 218 6754 6795
+)
+"hw2_temp/simulator.ml" 223 6903 6943 "hw2_temp/simulator.ml" 223 6903 6962
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 223 6903 6932 "hw2_temp/simulator.ml" 223 6903 6963
+type(
+  int64
+)
+"hw2_temp/simulator.ml" 223 6903 6916 "hw2_temp/simulator.ml" 223 6903 6963
+type(
+  sbyte list
+)
+"hw2_temp/simulator.ml" 224 6967 6969 "hw2_temp/simulator.ml" 224 6967 6970
+type(
+  mach
+)
+ident(
+  int_ref m "hw2_temp/simulator.ml" 218 6754 6794 "hw2_temp/simulator.ml" 218 6754 6795
+)
+"hw2_temp/simulator.ml" 224 6967 6969 "hw2_temp/simulator.ml" 224 6967 6974
+type(
+  mem
+)
+"hw2_temp/simulator.ml" 224 6967 6976 "hw2_temp/simulator.ml" 224 6967 6985
+type(
+  int
+)
+ident(
+  int_ref dest_addr "hw2_temp/simulator.ml" 222 6845 6851 "hw2_temp/simulator.ml" 222 6845 6860
+)
+"hw2_temp/simulator.ml" 224 6967 6990 "hw2_temp/simulator.ml" 224 6967 6994
+type(
+  sbyte list
+)
+ident(
+  int_ref data "hw2_temp/simulator.ml" 223 6903 6909 "hw2_temp/simulator.ml" 223 6903 6913
+)
+"hw2_temp/simulator.ml" 226 6998 7001 "hw2_temp/simulator.ml" 226 6998 7002
+type(
+  X86.opcode
+)
