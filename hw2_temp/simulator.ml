@@ -188,10 +188,10 @@ let store_data_helper (i : int64) (data : int64) (m : mach) : unit =
   let addr_opt = map_addr i in
   let addr =
     match addr_opt with | Some x -> x | None -> raise X86lite_segfault in
-  let end_opt = map_addr (Int64.add i (Int64.of_int 7)) in
+  let end_opt = map_addr (Int64.add i 7L) in
   let end_addr =
     match end_opt with | Some x -> x | None -> raise X86lite_segfault in
-  let sbl : sbyte list = sbytes_of_data (Quad (Lit data))
+  let sbl : sbyte list = sbytes_of_int64 data
   in
     (m.mem.(addr) <- List.nth sbl 0;
      m.mem.(addr + 1) <- List.nth sbl 1;
@@ -211,9 +211,7 @@ let store_data (ol : operand list) (ind : int) (m : mach) (data : int64) :
     | Ind1 _ | Ind2 _ | Ind3 _ ->
         let i = calculate_ind ol ind m in store_data_helper i data m
     | Imm i -> failwith "Can't use immediates as locations"
-  
-(* Decode_val simply returns the value of the operand or the value at the  *)
-(* address denoted by the operand. It only returns values, no addresses.   *)
+
 let get_data (l : int64) (m : mach) : int64 =
   let addr_opt = map_addr l in
   let addr =
@@ -227,7 +225,11 @@ let get_data (l : int64) (m : mach) : int64 =
         m.mem.(addr + 3); m.mem.(addr + 4); m.mem.(addr + 5);
         m.mem.(addr + 6); m.mem.(addr + 7) ]
   in ret
-  
+
+    
+(* Decode_val simply returns the value of the operand or the value at the  *)
+(* address denoted by the operand. It only returns values, no addresses.   *)
+      
 let decode_val (ol : operand list) (ind : int) (m : mach) : int64 =
   let operand = List.nth ol ind
   in
@@ -257,7 +259,7 @@ let store_byte (ol : operand list) (ind : int) (m : mach) (data : int64) :
         let addr_opt = map_addr i in
         let addr =
           (match addr_opt with | Some x -> x | None -> raise X86lite_segfault) in
-        let sbl : sbyte list = sbytes_of_data (Quad (Lit data))
+        let sbl : sbyte list = sbytes_of_int64 data
         in m.mem.(addr) <- List.nth sbl 0
     | Reg r ->
         m.regs.(rind r) <-
@@ -282,7 +284,7 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
       in
         (store_data ol 0 m data.Int64_overflow.value;
          set_condition_flags data m;
-         if dest = Int64.min_int then m.flags.fo <- true else ())
+         if dest = Int64.min_int then m.flags.fo <- true)
   | Addq ->
       let src = decode_val ol 0 m in
       let dest = decode_val ol 1 m in
@@ -325,19 +327,19 @@ let logic (op : opcode) (ol : operand list) (m : mach) : unit =
       let dest = decode_val ol 0 m in
       let res = Int64.lognot dest in store_data ol 0 m res
   | Andq ->
-      let dest = decode_val ol 0 m in
-      let src = decode_val ol 1 m in
+      let src = decode_val ol 0 m in
+      let dest = decode_val ol 1 m in
       let res = Int64.logand dest src
       in (store_data ol 1 m res; condition_flags res m; m.flags.fo <- false)
   | Orq ->
-      let dest = decode_val ol 0 m in
-      let src = decode_val ol 1 m in
+      let src = decode_val ol 0 m in
+      let dest = decode_val ol 1 m in
       let res = Int64.logor dest src
       in (store_data ol 1 m res; condition_flags res m; m.flags.fo <- false)
   | Xorq ->
-      let dest = decode_val ol 0 m in
-      let src = decode_val ol 1 m in
-      let res = Int64.logor dest src
+      let src = decode_val ol 0 m in
+      let dest = decode_val ol 1 m in
+      let res = Int64.logxor dest src
       in (store_data ol 1 m res; condition_flags res m; m.flags.fo <- false)
   | _ -> ()
   
@@ -350,7 +352,7 @@ let bitwise (op : opcode) (ol : operand list) (m : mach) : unit =
       in
         (store_data ol 1 m res;
          if amt = 0 then () else condition_flags res m;
-         if amt = 1 then m.flags.fo <- true else ())
+         if amt = 1 then m.flags.fo <- false else ())
   | Shlq ->
       let amt = Int64.to_int (decode_amt ol 0 m) in
       let dest = decode_val ol 1 m in
@@ -360,9 +362,8 @@ let bitwise (op : opcode) (ol : operand list) (m : mach) : unit =
          if amt = 0 then () else condition_flags res m;
          if
            (amt = 1) &&
-             (( != )
-                (Int64.logand (Int64.shift_right_logical dest 63) Int64.one)
-                (Int64.logand (Int64.shift_right_logical dest 62) Int64.one))
+             (Int64.shift_right_logical dest 63
+              <> (Int64.logand (Int64.shift_right_logical dest 62) 1L))
          then m.flags.fo <- true
          else ())
   | Shrq ->
@@ -376,7 +377,7 @@ let bitwise (op : opcode) (ol : operand list) (m : mach) : unit =
          then m.flags.fo <- (Int64.shift_right_logical dest 63) = Int64.one
          else ())
   | Set cc ->
-      if interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz; } cc
+      if interp_cnd {fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
       then store_byte ol 0 m Int64.one
       else store_byte ol 0 m Int64.zero
   | _ -> ()
@@ -384,15 +385,15 @@ let bitwise (op : opcode) (ol : operand list) (m : mach) : unit =
 let push (ol : operand list) (m : mach) : unit =
   let src = decode_val ol 0 m
   in
-    (m.regs.(rind Rsp) <- Int64.sub m.regs.(rind Rsp) (Int64.of_int 8);
+    (m.regs.(rind Rsp) <- Int64.sub m.regs.(rind Rsp) 8L;
      let opl = [ Ind2 Rsp ] in store_data opl 0 m src)
   
 let pop (ol : operand list) (m : mach) : unit =
-  let opl = [ Ind2 Rsp ] in
+  let opl = [Ind2 Rsp] in
   let value = decode_val opl 0 m
   in
-    (store_data ol 0 m value;
-     m.regs.(rind Rsp) <- Int64.add m.regs.(rind Rsp) (Int64.of_int 8))
+    store_data ol 0 m value;
+     m.regs.(rind Rsp) <- Int64.add m.regs.(rind Rsp) 8L
   
 let dmove (op : opcode) (ol : operand list) (m : mach) : unit =
   match op with
@@ -414,14 +415,14 @@ let flow (op : opcode) (ol : operand list) (m : mach) : unit =
   | Jmp -> let src = decode_val ol 0 m in m.regs.(rind Rip) <- src
   | Callq ->
       let src = decode_val ol 0 m in
-      let ripl = [ Reg Rip ] in (push ripl m; m.regs.(rind Rip) <- src)
-  | Retq -> let ripl = [ Reg Rip ] in pop ripl m
+      let ripl = [ Reg Rip ] in (push ripl m; m.regs.(rind Rip) <- src);
+      print_endline(Int64.to_string src)
+  | Retq -> let ripl = [Reg Rip] in pop ripl m
   | J cc ->
       let src = decode_val ol 0 m
       in
         if
-          interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz; }
-            cc
+          interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
         then m.regs.(rind Rip) <- src
         else ()
   | _ -> ()
@@ -448,7 +449,12 @@ let step (m : mach) : unit =
   let addr_opt = map_addr cur_insn in
   let addr =
     match addr_opt with | Some x -> x | None -> raise X86lite_segfault
-  in service m m.mem.(addr)
+  in service m m.mem.(addr);
+  let new_pc = map_addr m.regs.(rind Rip) in
+  begin match new_pc with 
+  | Some x -> () 
+  | None -> m.regs.(rind Rip) <- Int64.sub m.regs.(rind Rip) 4L
+  end
   
 (* Runs the machine until the rip register reaches a designated memory     *)
 (* address.                                                                *)

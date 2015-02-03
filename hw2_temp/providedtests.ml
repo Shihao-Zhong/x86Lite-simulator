@@ -183,7 +183,7 @@ let provided_tests : suite = [
         begin test_machine
             [InsB0 (Pushq, [~$411]); InsFrag;InsFrag;InsFrag;
              InsB0 (Retq, []);InsFrag;InsFrag;InsFrag;] end
-        (fun m -> m.regs.(rind Rip) = 411L)
+        (fun m -> m.regs.(rind Rip) = 411L);
      );
 
     ("JMP sets Rip", machine_test "Rip = 1864" 1
