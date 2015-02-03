@@ -189,9 +189,7 @@ let store_data_helper (i : int64) (data : int64) (m : mach) : unit =
   let addr_opt = map_addr i in
   let addr =
     match addr_opt with | Some x -> x | None -> raise X86lite_segfault in
-  let end_opt = map_addr (Int64.add i 7L) in
-  let end_addr =
-    match end_opt with | Some x -> x | None -> raise X86lite_segfault in
+
   let sbl : sbyte list = sbytes_of_int64 data
   in
     (m.mem.(addr) <- List.nth sbl 0;
@@ -217,9 +215,6 @@ let get_data (l : int64) (m : mach) : int64 =
   let addr_opt = map_addr l in
   let addr =
     match addr_opt with | Some x -> x | None -> raise X86lite_segfault in
-  let end_opt = map_addr (Int64.add l (Int64.of_int 7)) in
-  let end_addr =
-    match end_opt with | Some x -> x | None -> raise X86lite_segfault in
   let ret =
     int64_of_sbytes
       [ m.mem.(addr + 0); m.mem.(addr + 1); m.mem.(addr + 2);
