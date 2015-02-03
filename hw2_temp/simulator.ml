@@ -146,14 +146,15 @@ let debug_simulator = ref false
 (* Interpret a condition code with respect to the given flags. *)
 let interp_cnd { fo = fo; fs = fs; fz = fz } : cnd -> bool =
   fun x ->
-    match x with
+    begin match x with
     | Eq -> fz
     | Neq -> not fz
     | Lt -> fs <> fo
     | Le -> (fs <> fo) || fz
-    | Gt -> (fs = fo) && (not fz)
-    | Ge -> fs = fo
-  
+    | Gt -> not ((fs <> fo) || fz)
+    | Ge -> not (fs <> fo)
+    end
+    
 (* Maps an X86lite address into Some OCaml array index,
    or None if the address is not within the legal address space. *)
 let map_addr (addr : quad) : int option =
@@ -291,6 +292,13 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
          let res = Int64_overflow.add dest src in
            store_data ol 1 m res.Int64_overflow.value;
             set_condition_flags res m;
+  | Cmpq ->
+      let src = decode_val ol 0 m in
+      let dest = decode_val ol 1 m in
+      let res = Int64_overflow.sub dest src
+      in
+      set_condition_flags res m;
+      if src = Int64.min_int then m.flags.fo <- true
   | Subq ->
       let src = decode_val ol 0 m in
       let dest = decode_val ol 1 m in
@@ -298,7 +306,8 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
       in
         (store_data ol 1 m res.Int64_overflow.value;
          set_condition_flags res m;
-         if src = Int64.min_int then m.flags.fo <- true else ())
+         if src = Int64.min_int then m.flags.fo <- true);
+      print_endline (Int64.to_string dest)
   | Imulq ->
       let src = decode_val ol 0 m in
       let reg = decode_val ol 1 m in
@@ -318,7 +327,7 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
       in
         (store_data ol 0 m res.Int64_overflow.value;
          set_condition_flags res m;
-         if src = Int64.min_int then m.flags.fo <- true else ())
+         if src = Int64.min_int then m.flags.fo <- true)
   | _ -> ()
   
 let logic (op : opcode) (ol : operand list) (m : mach) : unit =
@@ -404,34 +413,26 @@ let dmove (op : opcode) (ol : operand list) (m : mach) : unit =
   | _ -> ()
   
 let flow (op : opcode) (ol : operand list) (m : mach) : unit =
-  match op with
-  | Cmpq ->
-      let src = decode_val ol 0 m in
-      let dest = decode_val ol 1 m in
-      let res = Int64_overflow.sub dest src
-      in
-        (set_condition_flags res m;
-         if src = Int64.min_int then m.flags.fo <- true else ());
-      m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
+  begin match op with
   | Jmp -> let src = decode_val ol 0 m in m.regs.(rind Rip) <- src
   | Callq ->
       let src = decode_val ol 0 m in
       let ripl = [ Reg Rip ] in
-      (push ripl m; m.regs.(rind Rip) <- src)
+      push ripl m; m.regs.(rind Rip) <- src
   | Retq -> let ripl = [Reg Rip] in pop ripl m
   | J cc ->
       let src = decode_val ol 0 m in
-        if
-          interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
-        then m.regs.(rind Rip) <- src
-        else m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
+      if interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
+      then (m.regs.(rind Rip) <- src)
+      else (m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L; m.regs.(rind Rip) <- src; print_endline("bye"))
   | _ -> ()
+  end
   
 let interpret (insn : ins) (m : mach) : unit =
   match insn with
   | (op, ol) ->
-      (match op with
-       | Negq | Addq | Subq | Imulq | Incq | Decq -> arith op ol m; 
+      begin match op with
+       | Cmpq | Negq | Addq | Subq | Imulq | Incq | Decq -> arith op ol m; 
         m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
        | Notq | Andq | Orq | Xorq -> logic op ol m;
         m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
@@ -439,8 +440,9 @@ let interpret (insn : ins) (m : mach) : unit =
         m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
        | Leaq | Movq | Pushq | Popq -> dmove op ol m;
         m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
-       | Cmpq | Jmp | J _ | Callq | Retq -> flow op ol m)
-  
+       | Jmp | J _ | Callq | Retq -> flow op ol m
+      end
+      
 let service (m : mach) (elem : sbyte) : unit =
   match elem with
   | InsB0 ins ->

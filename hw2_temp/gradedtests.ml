@@ -514,9 +514,10 @@ let manual_tests : suite = [
 ]
 
 let graded_tests : suite = 
-  (*easy_tests @
+  (*hard_tests*)
+  
+  easy_tests @
   medium_tests @
-  manual_tests
-   *)
-  hard_tests
+  manual_tests @ hard_tests
+  
  
