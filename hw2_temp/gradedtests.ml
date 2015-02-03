@@ -499,7 +499,7 @@ let other_team_tests =
 
 let hard_tests : suite = [
   GradedTest ("Factorial", 10, [
-    ("fact6", program_test (factorial_rec 6) 720L);
+    ("fact6", program_test (factorial_iter 6) 720L);
   ]);
   GradedTest ("Hard", 10, []);
 ] @ [other_team_tests]
@@ -518,6 +518,7 @@ let graded_tests : suite =
   
   easy_tests @
   medium_tests @
-  manual_tests @ hard_tests
+  manual_tests @
+	hard_tests
   
  

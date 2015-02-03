@@ -1,5 +1,5 @@
 .
-/usr/local/lib/ocaml
 hw2_temp
-hw2_temp/util
 hw2_temp/x86
+hw2_temp/util
+/usr/lib/ocaml
