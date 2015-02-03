@@ -66,61 +66,6 @@ let factorial_rec n = [ text "fac"
                                  ; Retq,  []
                                  ]
                       ]
-											
-											
-let gcd a b = [ text "main"
-                                  [ Movq,  [~$0; ~%Rax]
-                                  ; Movq,  [~$a; ~%Rdi]
-																	; Movq,  [~$b; ~%Rsi]
-																	; Cmpq,  [~$0; ~%Rdi]
-                                  ; J Lt,  [~$$"fix_Rdi"]
-																	; Cmpq,  [~$0; ~%Rsi]
-                                  ; J Lt,  [~$$"fix_Rsi"]
-                                  ]
-																	
-                           ; text "loop"
-                                  [ Cmpq,  [~$0; ~%Rdi]
-                                  ; J Eq,  [~$$"exit"]
-																	; Cmpq,  [~$0; ~%Rsi]
-                                  ; J Eq,  [~$$"exit"]
-																	; Cmpq,  [~%Rsi; ~%Rdi]
-                                  ; J Eq,  [~$$"done"]
-																	; J Lt,  [~$$"lesser"]
-																	; J Gt,  [~$$"greater"]
-																	]
-																	
-																	
-													; text "fix_Rdi"
-                                  [ Negq, [~%Rdi] 
-																	;	Jmp,   [~$$"loop"]
-                                  ]
-																	
-													; text "fix_Rsi"
-                                  [ Negq, [~%Rsi]
-																	;	Jmp,   [~$$"loop"]
-                                  ]				
-																							
-													; text "greater"
-                                  [ Subq, [~%Rsi; ~%Rdi] 
-																	;	Jmp,   [~$$"loop"]
-                                  ]
-																	
-													; text "lesser"
-                                  [ Subq, [~%Rdi; ~%Rsi]
-																	;	Jmp,   [~$$"loop"]
-                                  ]
-																	
-													 ; text "done"
-																		[ Movq,  [~%Rsi; ~%Rax]
-									                  ; Jmp, [~$$"exit"]
-																	  ]
-													
-                           ; text "exit"
-                                  [ Retq,  [] 
-                                  ]
-                           ]
-											
-
 
 (* Object Builders *)
 
@@ -210,13 +155,6 @@ let segfault_test addr () =
     | Some i -> failwith "Should have raised X86_segmentation_fault"
     | None -> ()
 
-let notfound_test (p:prog) () =
-  try ignore (assemble p);
-    failwith "Should have raised Not_found"
-  with 
-    | Not_found -> ()
-    | _ -> failwith "Should have raised Not_found"
-
 let undefinedsym_test (p:prog) () =
   try ignore (assemble p);
     failwith "Should have raised Undefined_sym"
@@ -268,21 +206,18 @@ let add = test_machine
 
 
 let functionality_tests = [
- (* ("mov_ri", machine_test "rax=42" 1 mov_ri
+  ("mov_ri", machine_test "rax=42" 1 mov_ri
     (fun m -> m.regs.(rind Rax) = 42L)
   );
-	*)
 
   ("add", machine_test "rax=rbx=*66528=1" 3 add
-    (fun m -> 
-					 m.regs.(rind Rax) = 1L
+    (fun m -> m.regs.(rind Rax) = 1L
            && m.regs.(rind Rbx) = 1L
            && int64_of_sbytes (sbyte_list m.mem (mem_size-8)) = 1L
     )
   );
 
 ]
-
 
 let mov_mr = test_machine
   [InsB0 (Movq, [~$42; ~%Rax]);InsFrag;InsFrag;InsFrag
@@ -558,8 +493,8 @@ let medium_tests : suite = [
 	
 	
   GradedTest("Functionality Tests", 5, functionality_tests);
- GradedTest("Instruction Tests", 10, instruction_tests); 
-  GradedTest("Condition Flag Set Tests", 5, condition_flag_set_tests); 
+  GradedTest("Instruction Tests", 10, instruction_tests);
+  GradedTest("Condition Flag Set Tests", 5, condition_flag_set_tests);
 ]
 
 let other_team_tests =
@@ -578,8 +513,6 @@ let hard_tests : suite = [
   GradedTest ("Hard", 10, []);
 ] @ [other_team_tests]
 
-
-
 let manual_tests : suite = [
   GradedTest ("PartIIITestCase (manual)", 15, [
   
@@ -590,7 +523,9 @@ let manual_tests : suite = [
 ]
 
 let graded_tests : suite = 
- easy_tests @
-   medium_tests @
-  hard_tests @ 
-  manual_tests 
+  (*easy_tests @
+  medium_tests @
+  manual_tests
+   *)
+  hard_tests
+ 
