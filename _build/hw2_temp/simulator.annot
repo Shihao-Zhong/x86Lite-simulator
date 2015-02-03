@@ -13640,493 +13640,493 @@ type(
   exec -> mach
 )
 ident(
-  def load "hw2_temp/simulator.ml" 673 22789 22831 "hw2_temp/simulator.ml" 1 0 -1
+  def load "hw2_temp/simulator.ml" 673 22788 22830 "hw2_temp/simulator.ml" 1 0 -1
 )
 "hw2_temp/simulator.ml" 644 21927 21937 "hw2_temp/simulator.ml" 644 21927 21942
 type(
   X86.quad
 )
 ident(
-  def entry "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22789 22831
+  def entry "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22788 22830
 )
 "hw2_temp/simulator.ml" 644 21927 21944 "hw2_temp/simulator.ml" 644 21927 21952
 type(
   X86.quad
 )
 ident(
-  def text_pos "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22789 22831
+  def text_pos "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22788 22830
 )
 "hw2_temp/simulator.ml" 644 21927 21954 "hw2_temp/simulator.ml" 644 21927 21962
 type(
   X86.quad
 )
 ident(
-  def data_pos "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22789 22831
+  def data_pos "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22788 22830
 )
 "hw2_temp/simulator.ml" 644 21927 21964 "hw2_temp/simulator.ml" 644 21927 21972
 type(
   sbyte list
 )
 ident(
-  def text_seg "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22789 22831
+  def text_seg "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22788 22830
 )
 "hw2_temp/simulator.ml" 644 21927 21974 "hw2_temp/simulator.ml" 644 21927 21982
 type(
   sbyte list
 )
 ident(
-  def data_seg "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22789 22831
+  def data_seg "hw2_temp/simulator.ml" 644 21927 21984 "hw2_temp/simulator.ml" 673 22788 22830
 )
 "hw2_temp/simulator.ml" 644 21927 21936 "hw2_temp/simulator.ml" 644 21927 21983
 type(
   exec
 )
-"hw2_temp/simulator.ml" 652 22221 22226 "hw2_temp/simulator.ml" 652 22221 22229
+"hw2_temp/simulator.ml" 652 22221 22225 "hw2_temp/simulator.ml" 652 22221 22228
 type(
   sbyte array
 )
 ident(
-  def tmp "hw2_temp/simulator.ml" 653 22261 22262 "hw2_temp/simulator.ml" 673 22789 22831
+  def tmp "hw2_temp/simulator.ml" 653 22260 22261 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 652 22221 22232 "hw2_temp/simulator.ml" 652 22221 22242
+"hw2_temp/simulator.ml" 652 22221 22231 "hw2_temp/simulator.ml" 652 22221 22241
 type(
   int -> sbyte -> sbyte array
 )
 ident(
   ext_ref Array.make
 )
-"hw2_temp/simulator.ml" 652 22221 22243 "hw2_temp/simulator.ml" 652 22221 22249
+"hw2_temp/simulator.ml" 652 22221 22242 "hw2_temp/simulator.ml" 652 22221 22248
 type(
   int
 )
-"hw2_temp/simulator.ml" 652 22221 22250 "hw2_temp/simulator.ml" 652 22221 22257
+"hw2_temp/simulator.ml" 652 22221 22249 "hw2_temp/simulator.ml" 652 22221 22256
 type(
   sbyte
 )
-"hw2_temp/simulator.ml" 652 22221 22232 "hw2_temp/simulator.ml" 652 22221 22257
+"hw2_temp/simulator.ml" 652 22221 22231 "hw2_temp/simulator.ml" 652 22221 22256
 type(
   sbyte array
 )
-"hw2_temp/simulator.ml" 653 22261 22266 "hw2_temp/simulator.ml" 653 22261 22270
+"hw2_temp/simulator.ml" 653 22260 22265 "hw2_temp/simulator.ml" 653 22260 22269
 type(
   sbyte array
 )
 ident(
-  def tmp0 "hw2_temp/simulator.ml" 654 22299 22300 "hw2_temp/simulator.ml" 673 22789 22831
+  def tmp0 "hw2_temp/simulator.ml" 654 22298 22299 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 653 22261 22273 "hw2_temp/simulator.ml" 653 22261 22286
+"hw2_temp/simulator.ml" 653 22260 22272 "hw2_temp/simulator.ml" 653 22260 22285
 type(
   sbyte list -> sbyte array
 )
 ident(
   ext_ref Array.of_list
 )
-"hw2_temp/simulator.ml" 653 22261 22287 "hw2_temp/simulator.ml" 653 22261 22295
+"hw2_temp/simulator.ml" 653 22260 22286 "hw2_temp/simulator.ml" 653 22260 22294
 type(
   sbyte list
 )
 ident(
   int_ref text_seg "hw2_temp/simulator.ml" 644 21927 21964 "hw2_temp/simulator.ml" 644 21927 21972
 )
-"hw2_temp/simulator.ml" 653 22261 22273 "hw2_temp/simulator.ml" 653 22261 22295
+"hw2_temp/simulator.ml" 653 22260 22272 "hw2_temp/simulator.ml" 653 22260 22294
 call(
   stack
 )
 type(
   sbyte array
 )
-"hw2_temp/simulator.ml" 654 22299 22304 "hw2_temp/simulator.ml" 654 22299 22308
+"hw2_temp/simulator.ml" 654 22298 22303 "hw2_temp/simulator.ml" 654 22298 22307
 type(
   sbyte array
 )
 ident(
-  def tmp1 "hw2_temp/simulator.ml" 655 22337 22338 "hw2_temp/simulator.ml" 673 22789 22831
+  def tmp1 "hw2_temp/simulator.ml" 655 22336 22337 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 654 22299 22311 "hw2_temp/simulator.ml" 654 22299 22324
+"hw2_temp/simulator.ml" 654 22298 22310 "hw2_temp/simulator.ml" 654 22298 22323
 type(
   sbyte list -> sbyte array
 )
 ident(
   ext_ref Array.of_list
 )
-"hw2_temp/simulator.ml" 654 22299 22325 "hw2_temp/simulator.ml" 654 22299 22333
+"hw2_temp/simulator.ml" 654 22298 22324 "hw2_temp/simulator.ml" 654 22298 22332
 type(
   sbyte list
 )
 ident(
   int_ref data_seg "hw2_temp/simulator.ml" 644 21927 21974 "hw2_temp/simulator.ml" 644 21927 21982
 )
-"hw2_temp/simulator.ml" 654 22299 22311 "hw2_temp/simulator.ml" 654 22299 22333
+"hw2_temp/simulator.ml" 654 22298 22310 "hw2_temp/simulator.ml" 654 22298 22332
 call(
   stack
 )
 type(
   sbyte array
 )
-"hw2_temp/simulator.ml" 655 22337 22342 "hw2_temp/simulator.ml" 655 22337 22346
+"hw2_temp/simulator.ml" 655 22336 22341 "hw2_temp/simulator.ml" 655 22336 22345
 type(
   sbyte array
 )
 ident(
-  def tmp2 "hw2_temp/simulator.ml" 658 22379 22380 "hw2_temp/simulator.ml" 673 22789 22831
+  def tmp2 "hw2_temp/simulator.ml" 658 22378 22379 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 655 22337 22349 "hw2_temp/simulator.ml" 655 22337 22361
+"hw2_temp/simulator.ml" 655 22336 22348 "hw2_temp/simulator.ml" 655 22336 22360
 type(
   sbyte array -> sbyte array -> sbyte array
 )
 ident(
   ext_ref Array.append
 )
-"hw2_temp/simulator.ml" 655 22337 22362 "hw2_temp/simulator.ml" 655 22337 22366
+"hw2_temp/simulator.ml" 655 22336 22361 "hw2_temp/simulator.ml" 655 22336 22365
 type(
   sbyte array
 )
 ident(
-  int_ref tmp0 "hw2_temp/simulator.ml" 653 22261 22266 "hw2_temp/simulator.ml" 653 22261 22270
+  int_ref tmp0 "hw2_temp/simulator.ml" 653 22260 22265 "hw2_temp/simulator.ml" 653 22260 22269
 )
-"hw2_temp/simulator.ml" 655 22337 22367 "hw2_temp/simulator.ml" 655 22337 22371
+"hw2_temp/simulator.ml" 655 22336 22366 "hw2_temp/simulator.ml" 655 22336 22370
 type(
   sbyte array
 )
 ident(
-  int_ref tmp1 "hw2_temp/simulator.ml" 654 22299 22304 "hw2_temp/simulator.ml" 654 22299 22308
+  int_ref tmp1 "hw2_temp/simulator.ml" 654 22298 22303 "hw2_temp/simulator.ml" 654 22298 22307
 )
-"hw2_temp/simulator.ml" 655 22337 22349 "hw2_temp/simulator.ml" 655 22337 22371
+"hw2_temp/simulator.ml" 655 22336 22348 "hw2_temp/simulator.ml" 655 22336 22370
 call(
   stack
 )
 type(
   sbyte array
 )
-"hw2_temp/simulator.ml" 658 22379 22380 "hw2_temp/simulator.ml" 658 22379 22390
+"hw2_temp/simulator.ml" 658 22378 22379 "hw2_temp/simulator.ml" 658 22378 22389
 type(
   sbyte array -> int -> sbyte array -> int -> int -> unit
 )
 ident(
   ext_ref Array.blit
 )
-"hw2_temp/simulator.ml" 658 22379 22391 "hw2_temp/simulator.ml" 658 22379 22395
+"hw2_temp/simulator.ml" 658 22378 22390 "hw2_temp/simulator.ml" 658 22378 22394
 type(
   sbyte array
 )
 ident(
-  int_ref tmp2 "hw2_temp/simulator.ml" 655 22337 22342 "hw2_temp/simulator.ml" 655 22337 22346
+  int_ref tmp2 "hw2_temp/simulator.ml" 655 22336 22341 "hw2_temp/simulator.ml" 655 22336 22345
 )
-"hw2_temp/simulator.ml" 658 22379 22396 "hw2_temp/simulator.ml" 658 22379 22397
+"hw2_temp/simulator.ml" 658 22378 22395 "hw2_temp/simulator.ml" 658 22378 22396
 type(
   int
 )
-"hw2_temp/simulator.ml" 658 22379 22398 "hw2_temp/simulator.ml" 658 22379 22401
+"hw2_temp/simulator.ml" 658 22378 22397 "hw2_temp/simulator.ml" 658 22378 22400
 type(
   sbyte array
 )
 ident(
-  int_ref tmp "hw2_temp/simulator.ml" 652 22221 22226 "hw2_temp/simulator.ml" 652 22221 22229
+  int_ref tmp "hw2_temp/simulator.ml" 652 22221 22225 "hw2_temp/simulator.ml" 652 22221 22228
 )
-"hw2_temp/simulator.ml" 658 22379 22402 "hw2_temp/simulator.ml" 658 22379 22403
+"hw2_temp/simulator.ml" 658 22378 22401 "hw2_temp/simulator.ml" 658 22378 22402
 type(
   int
 )
-"hw2_temp/simulator.ml" 658 22379 22405 "hw2_temp/simulator.ml" 658 22379 22417
+"hw2_temp/simulator.ml" 658 22378 22404 "hw2_temp/simulator.ml" 658 22378 22416
 type(
   sbyte array -> int
 )
 ident(
   ext_ref Array.length
 )
-"hw2_temp/simulator.ml" 658 22379 22418 "hw2_temp/simulator.ml" 658 22379 22422
+"hw2_temp/simulator.ml" 658 22378 22417 "hw2_temp/simulator.ml" 658 22378 22421
 type(
   sbyte array
 )
 ident(
-  int_ref tmp2 "hw2_temp/simulator.ml" 655 22337 22342 "hw2_temp/simulator.ml" 655 22337 22346
+  int_ref tmp2 "hw2_temp/simulator.ml" 655 22336 22341 "hw2_temp/simulator.ml" 655 22336 22345
 )
-"hw2_temp/simulator.ml" 658 22379 22404 "hw2_temp/simulator.ml" 658 22379 22423
+"hw2_temp/simulator.ml" 658 22378 22403 "hw2_temp/simulator.ml" 658 22378 22422
 type(
   int
 )
-"hw2_temp/simulator.ml" 658 22379 22380 "hw2_temp/simulator.ml" 658 22379 22423
+"hw2_temp/simulator.ml" 658 22378 22379 "hw2_temp/simulator.ml" 658 22378 22422
 call(
   stack
 )
 type(
   unit
 )
-"hw2_temp/simulator.ml" 659 22425 22430 "hw2_temp/simulator.ml" 659 22425 22434
+"hw2_temp/simulator.ml" 659 22424 22429 "hw2_temp/simulator.ml" 659 22424 22433
 type(
   sbyte array
 )
 ident(
-  def tmp4 "hw2_temp/simulator.ml" 661 22484 22485 "hw2_temp/simulator.ml" 673 22789 22831
+  def tmp4 "hw2_temp/simulator.ml" 661 22483 22484 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 659 22425 22437 "hw2_temp/simulator.ml" 659 22425 22450
+"hw2_temp/simulator.ml" 659 22424 22436 "hw2_temp/simulator.ml" 659 22424 22449
 type(
   sbyte list -> sbyte array
 )
 ident(
   ext_ref Array.of_list
 )
-"hw2_temp/simulator.ml" 659 22425 22452 "hw2_temp/simulator.ml" 659 22425 22467
+"hw2_temp/simulator.ml" 659 22424 22451 "hw2_temp/simulator.ml" 659 22424 22466
 type(
   int64 -> sbyte list
 )
 ident(
   int_ref sbytes_of_int64 "hw2_temp/simulator.ml" 86 2960 2964 "hw2_temp/simulator.ml" 86 2960 2979
 )
-"hw2_temp/simulator.ml" 659 22425 22468 "hw2_temp/simulator.ml" 659 22425 22477
+"hw2_temp/simulator.ml" 659 22424 22467 "hw2_temp/simulator.ml" 659 22424 22476
 type(
   int64
 )
 ident(
   int_ref exit_addr "hw2_temp/simulator.ml" 17 588 592 "hw2_temp/simulator.ml" 17 588 601
 )
-"hw2_temp/simulator.ml" 659 22425 22451 "hw2_temp/simulator.ml" 659 22425 22478
+"hw2_temp/simulator.ml" 659 22424 22450 "hw2_temp/simulator.ml" 659 22424 22477
 call(
   stack
 )
 type(
   sbyte list
 )
-"hw2_temp/simulator.ml" 659 22425 22437 "hw2_temp/simulator.ml" 659 22425 22478
+"hw2_temp/simulator.ml" 659 22424 22436 "hw2_temp/simulator.ml" 659 22424 22477
 call(
   stack
 )
 type(
   sbyte array
 )
-"hw2_temp/simulator.ml" 661 22484 22489 "hw2_temp/simulator.ml" 661 22484 22495
+"hw2_temp/simulator.ml" 661 22483 22488 "hw2_temp/simulator.ml" 661 22483 22494
 type(
   sbyte array
 )
 ident(
-  def memory "hw2_temp/simulator.ml" 665 22571 22572 "hw2_temp/simulator.ml" 673 22789 22831
+  def memory "hw2_temp/simulator.ml" 665 22570 22571 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 661 22484 22498 "hw2_temp/simulator.ml" 661 22484 22510
+"hw2_temp/simulator.ml" 661 22483 22497 "hw2_temp/simulator.ml" 661 22483 22509
 type(
   sbyte array -> sbyte array -> sbyte array
 )
 ident(
   ext_ref Array.append
 )
-"hw2_temp/simulator.ml" 661 22484 22511 "hw2_temp/simulator.ml" 661 22484 22514
+"hw2_temp/simulator.ml" 661 22483 22510 "hw2_temp/simulator.ml" 661 22483 22513
 type(
   sbyte array
 )
 ident(
-  int_ref tmp "hw2_temp/simulator.ml" 652 22221 22226 "hw2_temp/simulator.ml" 652 22221 22229
+  int_ref tmp "hw2_temp/simulator.ml" 652 22221 22225 "hw2_temp/simulator.ml" 652 22221 22228
 )
-"hw2_temp/simulator.ml" 661 22484 22515 "hw2_temp/simulator.ml" 661 22484 22519
+"hw2_temp/simulator.ml" 661 22483 22514 "hw2_temp/simulator.ml" 661 22483 22518
 type(
   sbyte array
 )
 ident(
-  int_ref tmp4 "hw2_temp/simulator.ml" 659 22425 22430 "hw2_temp/simulator.ml" 659 22425 22434
+  int_ref tmp4 "hw2_temp/simulator.ml" 659 22424 22429 "hw2_temp/simulator.ml" 659 22424 22433
 )
-"hw2_temp/simulator.ml" 661 22484 22498 "hw2_temp/simulator.ml" 661 22484 22519
+"hw2_temp/simulator.ml" 661 22483 22497 "hw2_temp/simulator.ml" 661 22483 22518
 call(
   stack
 )
 type(
   sbyte array
 )
-"hw2_temp/simulator.ml" 665 22571 22576 "hw2_temp/simulator.ml" 665 22571 22580
+"hw2_temp/simulator.ml" 665 22570 22575 "hw2_temp/simulator.ml" 665 22570 22579
 type(
   flags
 )
 ident(
-  def flgs "hw2_temp/simulator.ml" 669 22667 22668 "hw2_temp/simulator.ml" 673 22789 22831
+  def flgs "hw2_temp/simulator.ml" 669 22666 22667 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 665 22571 22588 "hw2_temp/simulator.ml" 665 22571 22593
+"hw2_temp/simulator.ml" 665 22570 22587 "hw2_temp/simulator.ml" 665 22570 22592
 type(
   bool
 )
-"hw2_temp/simulator.ml" 665 22571 22598 "hw2_temp/simulator.ml" 665 22571 22603
+"hw2_temp/simulator.ml" 665 22570 22597 "hw2_temp/simulator.ml" 665 22570 22602
 type(
   bool
 )
-"hw2_temp/simulator.ml" 665 22571 22608 "hw2_temp/simulator.ml" 665 22571 22613
+"hw2_temp/simulator.ml" 665 22570 22607 "hw2_temp/simulator.ml" 665 22570 22612
 type(
   bool
 )
-"hw2_temp/simulator.ml" 665 22571 22583 "hw2_temp/simulator.ml" 665 22571 22614
+"hw2_temp/simulator.ml" 665 22570 22582 "hw2_temp/simulator.ml" 665 22570 22613
 type(
   flags
 )
-"hw2_temp/simulator.ml" 669 22667 22672 "hw2_temp/simulator.ml" 669 22667 22681
+"hw2_temp/simulator.ml" 669 22666 22671 "hw2_temp/simulator.ml" 669 22666 22680
 type(
   X86.quad array
 )
 ident(
-  def registers "hw2_temp/simulator.ml" 670 22704 22705 "hw2_temp/simulator.ml" 673 22789 22831
+  def registers "hw2_temp/simulator.ml" 670 22703 22704 "hw2_temp/simulator.ml" 673 22788 22830
 )
-"hw2_temp/simulator.ml" 669 22667 22684 "hw2_temp/simulator.ml" 669 22667 22694
+"hw2_temp/simulator.ml" 669 22666 22683 "hw2_temp/simulator.ml" 669 22666 22693
 type(
   int -> X86.quad -> X86.quad array
 )
 ident(
   ext_ref Array.make
 )
-"hw2_temp/simulator.ml" 669 22667 22695 "hw2_temp/simulator.ml" 669 22667 22697
+"hw2_temp/simulator.ml" 669 22666 22694 "hw2_temp/simulator.ml" 669 22666 22696
 type(
   int
 )
-"hw2_temp/simulator.ml" 669 22667 22698 "hw2_temp/simulator.ml" 669 22667 22700
+"hw2_temp/simulator.ml" 669 22666 22697 "hw2_temp/simulator.ml" 669 22666 22699
 type(
   X86.quad
 )
-"hw2_temp/simulator.ml" 669 22667 22684 "hw2_temp/simulator.ml" 669 22667 22700
+"hw2_temp/simulator.ml" 669 22666 22683 "hw2_temp/simulator.ml" 669 22666 22699
 type(
   X86.quad array
 )
-"hw2_temp/simulator.ml" 670 22704 22705 "hw2_temp/simulator.ml" 670 22704 22714
+"hw2_temp/simulator.ml" 670 22703 22704 "hw2_temp/simulator.ml" 670 22703 22713
 type(
   X86.quad array -> int -> X86.quad -> unit
 )
 ident(
   ext_ref Array.set
 )
-"hw2_temp/simulator.ml" 670 22704 22715 "hw2_temp/simulator.ml" 670 22704 22724
+"hw2_temp/simulator.ml" 670 22703 22714 "hw2_temp/simulator.ml" 670 22703 22723
 type(
   X86.quad array
 )
 ident(
-  int_ref registers "hw2_temp/simulator.ml" 669 22667 22672 "hw2_temp/simulator.ml" 669 22667 22681
+  int_ref registers "hw2_temp/simulator.ml" 669 22666 22671 "hw2_temp/simulator.ml" 669 22666 22680
 )
-"hw2_temp/simulator.ml" 670 22704 22726 "hw2_temp/simulator.ml" 670 22704 22730
+"hw2_temp/simulator.ml" 670 22703 22725 "hw2_temp/simulator.ml" 670 22703 22729
 type(
   X86.reg -> int
 )
 ident(
   int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
 )
-"hw2_temp/simulator.ml" 670 22704 22731 "hw2_temp/simulator.ml" 670 22704 22734
+"hw2_temp/simulator.ml" 670 22703 22730 "hw2_temp/simulator.ml" 670 22703 22733
 type(
   X86.reg
 )
-"hw2_temp/simulator.ml" 670 22704 22725 "hw2_temp/simulator.ml" 670 22704 22735
+"hw2_temp/simulator.ml" 670 22703 22724 "hw2_temp/simulator.ml" 670 22703 22734
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/simulator.ml" 670 22704 22736 "hw2_temp/simulator.ml" 670 22704 22741
+"hw2_temp/simulator.ml" 670 22703 22735 "hw2_temp/simulator.ml" 670 22703 22740
 type(
   X86.quad
 )
 ident(
   int_ref entry "hw2_temp/simulator.ml" 644 21927 21937 "hw2_temp/simulator.ml" 644 21927 21942
 )
-"hw2_temp/simulator.ml" 670 22704 22705 "hw2_temp/simulator.ml" 670 22704 22741
+"hw2_temp/simulator.ml" 670 22703 22704 "hw2_temp/simulator.ml" 670 22703 22740
 type(
   unit
 )
-"hw2_temp/simulator.ml" 671 22744 22745 "hw2_temp/simulator.ml" 671 22744 22754
+"hw2_temp/simulator.ml" 671 22743 22744 "hw2_temp/simulator.ml" 671 22743 22753
 type(
   X86.quad array -> int -> X86.quad -> unit
 )
 ident(
   ext_ref Array.set
 )
-"hw2_temp/simulator.ml" 671 22744 22755 "hw2_temp/simulator.ml" 671 22744 22764
+"hw2_temp/simulator.ml" 671 22743 22754 "hw2_temp/simulator.ml" 671 22743 22763
 type(
   X86.quad array
 )
 ident(
-  int_ref registers "hw2_temp/simulator.ml" 669 22667 22672 "hw2_temp/simulator.ml" 669 22667 22681
+  int_ref registers "hw2_temp/simulator.ml" 669 22666 22671 "hw2_temp/simulator.ml" 669 22666 22680
 )
-"hw2_temp/simulator.ml" 671 22744 22766 "hw2_temp/simulator.ml" 671 22744 22770
+"hw2_temp/simulator.ml" 671 22743 22765 "hw2_temp/simulator.ml" 671 22743 22769
 type(
   X86.reg -> int
 )
 ident(
   int_ref rind "hw2_temp/simulator.ml" 76 2612 2616 "hw2_temp/simulator.ml" 76 2612 2620
 )
-"hw2_temp/simulator.ml" 671 22744 22771 "hw2_temp/simulator.ml" 671 22744 22774
+"hw2_temp/simulator.ml" 671 22743 22770 "hw2_temp/simulator.ml" 671 22743 22773
 type(
   X86.reg
 )
-"hw2_temp/simulator.ml" 671 22744 22765 "hw2_temp/simulator.ml" 671 22744 22775
+"hw2_temp/simulator.ml" 671 22743 22764 "hw2_temp/simulator.ml" 671 22743 22774
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/simulator.ml" 671 22744 22776 "hw2_temp/simulator.ml" 671 22744 22785
+"hw2_temp/simulator.ml" 671 22743 22775 "hw2_temp/simulator.ml" 671 22743 22784
 type(
   X86.quad
 )
-"hw2_temp/simulator.ml" 671 22744 22745 "hw2_temp/simulator.ml" 671 22744 22785
+"hw2_temp/simulator.ml" 671 22743 22744 "hw2_temp/simulator.ml" 671 22743 22784
 type(
   unit
 )
-"hw2_temp/simulator.ml" 673 22789 22797 "hw2_temp/simulator.ml" 673 22789 22801
+"hw2_temp/simulator.ml" 673 22788 22796 "hw2_temp/simulator.ml" 673 22788 22800
 type(
   flags
 )
 ident(
-  int_ref flgs "hw2_temp/simulator.ml" 665 22571 22576 "hw2_temp/simulator.ml" 665 22571 22580
+  int_ref flgs "hw2_temp/simulator.ml" 665 22570 22575 "hw2_temp/simulator.ml" 665 22570 22579
 )
-"hw2_temp/simulator.ml" 673 22789 22809 "hw2_temp/simulator.ml" 673 22789 22818
+"hw2_temp/simulator.ml" 673 22788 22808 "hw2_temp/simulator.ml" 673 22788 22817
 type(
   regs
 )
 ident(
-  int_ref registers "hw2_temp/simulator.ml" 669 22667 22672 "hw2_temp/simulator.ml" 669 22667 22681
+  int_ref registers "hw2_temp/simulator.ml" 669 22666 22671 "hw2_temp/simulator.ml" 669 22666 22680
 )
-"hw2_temp/simulator.ml" 673 22789 22824 "hw2_temp/simulator.ml" 673 22789 22830
+"hw2_temp/simulator.ml" 673 22788 22823 "hw2_temp/simulator.ml" 673 22788 22829
 type(
   mem
 )
 ident(
-  int_ref memory "hw2_temp/simulator.ml" 661 22484 22489 "hw2_temp/simulator.ml" 661 22484 22495
+  int_ref memory "hw2_temp/simulator.ml" 661 22483 22488 "hw2_temp/simulator.ml" 661 22483 22494
 )
-"hw2_temp/simulator.ml" 673 22789 22790 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 673 22788 22789 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 671 22744 22745 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 671 22743 22744 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 670 22704 22705 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 670 22703 22704 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 669 22667 22668 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 669 22666 22667 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 665 22571 22572 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 665 22570 22571 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 661 22484 22485 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 661 22483 22484 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 659 22425 22426 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 659 22424 22425 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 658 22379 22380 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 658 22378 22379 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 655 22337 22338 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 655 22336 22337 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 654 22299 22300 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 654 22298 22299 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 653 22261 22262 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 653 22260 22261 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )
-"hw2_temp/simulator.ml" 652 22221 22222 "hw2_temp/simulator.ml" 673 22789 22831
+"hw2_temp/simulator.ml" 652 22221 22221 "hw2_temp/simulator.ml" 673 22788 22830
 type(
   mach
 )

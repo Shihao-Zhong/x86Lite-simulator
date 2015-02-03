@@ -26,7 +26,7 @@ let gcd a b = [ text "main"
 																	; Cmpq,  [~%Rsi; ~%Rdi]
                                   ; J Eq,  [~$$"done"]
 																	; J Lt,  [~$$"lesser"]
-																	; J Gt,  [~$$"greater"]
+																	; J Gt,  [~$$"exit"]
 																	]
 																	
 																	
@@ -34,6 +34,11 @@ let gcd a b = [ text "main"
                                   [ Negq, [~%Rdi] 
 																	;	Jmp,   [~$$"loop"]
                                   ]
+																	
+												  ; data "baz" 
+                            [ Quad (Lit 99L)
+                            ; Asciz "Hello, world!"
+                            ]
 																	
 													; text "fix_Rsi"
                                   [ Negq, [~%Rsi]
@@ -173,10 +178,10 @@ let program_test (p:prog) (ans:int64) () =
   if (f m) then () else failwith ("expected " ^ s)
 
 let provided_tests : suite = [
- (* Test ("Student-Provided Big Test for Part III: Score recorded as PartIIITestCase", [
+ Test ("Student-Provided Big Test for Part III: Score recorded as PartIIITestCase", [
 		("gcd420,96", program_test (gcd 420 96) 12L);
   ]);
-	*)
+	
 	
 	Test ("Test cases from Sibner and Mumick",[
     ("retq sets Rip", machine_test "Rip = 411" 2

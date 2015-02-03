@@ -649,7 +649,7 @@ let load {entry; text_pos; data_pos; text_seg; data_seg} : mach =
 	(* The following commands create the above structure, 
 	   by making arrays for each segment and then apppending them *) 
 	
-	let tmp = Array.make 0xFFF8 InsFrag in
+let tmp = Array.make 0xFFF8 InsFrag in
 	let tmp0 = Array.of_list text_seg in
 	let tmp1 = Array.of_list data_seg in
 	let tmp2 = Array.append tmp0 tmp1 in
