@@ -307,7 +307,6 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
         (store_data ol 1 m res.Int64_overflow.value;
          set_condition_flags res m;
          if src = Int64.min_int then m.flags.fo <- true);
-     
   | Imulq ->
       let src = decode_val ol 0 m in
       let reg = decode_val ol 1 m in
@@ -423,8 +422,13 @@ let flow (op : opcode) (ol : operand list) (m : mach) : unit =
   | J cc ->
       let src = decode_val ol 0 m in
       if interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
+<<<<<<< HEAD
       then m.regs.(rind Rip) <- src
       else m.regs.(rind Rip) <- (Int64.add m.regs.(rind Rip) 4L) 
+=======
+      then (m.regs.(rind Rip) <- src)
+      else (m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L; m.regs.(rind Rip) <- src; print_endline("bye"))
+>>>>>>> 91cbafba3bf81b6b6a66777a586ca813188c5220
   | _ -> ()
   end
   
