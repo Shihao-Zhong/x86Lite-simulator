@@ -411,36 +411,40 @@ let flow (op : opcode) (ol : operand list) (m : mach) : unit =
       let res = Int64_overflow.sub dest src
       in
         (set_condition_flags res m;
-         if src = Int64.min_int then m.flags.fo <- true else ())
+         if src = Int64.min_int then m.flags.fo <- true else ());
+      m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
   | Jmp -> let src = decode_val ol 0 m in m.regs.(rind Rip) <- src
   | Callq ->
       let src = decode_val ol 0 m in
-      let ripl = [ Reg Rip ] in (push ripl m; m.regs.(rind Rip) <- src);
-      print_endline(Int64.to_string src)
+      let ripl = [ Reg Rip ] in
+      (push ripl m; m.regs.(rind Rip) <- src)
   | Retq -> let ripl = [Reg Rip] in pop ripl m
   | J cc ->
-      let src = decode_val ol 0 m
-      in
+      let src = decode_val ol 0 m in
         if
           interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
         then m.regs.(rind Rip) <- src
-        else ()
+        else m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
   | _ -> ()
   
 let interpret (insn : ins) (m : mach) : unit =
   match insn with
   | (op, ol) ->
       (match op with
-       | Negq | Addq | Subq | Imulq | Incq | Decq -> arith op ol m
-       | Notq | Andq | Orq | Xorq -> logic op ol m
-       | Shlq | Sarq | Shrq | Set _ -> bitwise op ol m
-       | Leaq | Movq | Pushq | Popq -> dmove op ol m
+       | Negq | Addq | Subq | Imulq | Incq | Decq -> arith op ol m; 
+        m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
+       | Notq | Andq | Orq | Xorq -> logic op ol m;
+        m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
+       | Shlq | Sarq | Shrq | Set _ -> bitwise op ol m;
+        m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
+       | Leaq | Movq | Pushq | Popq -> dmove op ol m;
+        m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L
        | Cmpq | Jmp | J _ | Callq | Retq -> flow op ol m)
   
 let service (m : mach) (elem : sbyte) : unit =
   match elem with
   | InsB0 ins ->
-      (interpret ins m; m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L)
+      interpret ins m
   | InsFrag -> m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) Int64.one
   | Byte b -> m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) Int64.one
   
@@ -448,13 +452,9 @@ let step (m : mach) : unit =
   let cur_insn = m.regs.(rind Rip) in
   let addr_opt = map_addr cur_insn in
   let addr =
-    match addr_opt with | Some x -> x | None -> raise X86lite_segfault
-  in service m m.mem.(addr);
-  let new_pc = map_addr m.regs.(rind Rip) in
-  begin match new_pc with 
-  | Some x -> () 
-  | None -> m.regs.(rind Rip) <- Int64.sub m.regs.(rind Rip) 4L
-  end
+    match addr_opt with | Some x -> x | None -> 
+      print_endline("step segfault"); raise X86lite_segfault
+  in service m m.mem.(addr)
   
 (* Runs the machine until the rip register reaches a designated memory     *)
 (* address.                                                                *)

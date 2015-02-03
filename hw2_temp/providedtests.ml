@@ -201,7 +201,7 @@ let provided_tests : suite = [
             [InsB0 (Callq, [~$1864]); InsFrag;InsFrag;InsFrag;] end
         (fun m -> 
           let sbytes = Array.to_list (Array.sub m.mem (Int64.to_int (Int64.sub m.regs.(rind Rsp) 0x400000L)) 8) in
-          (int64_of_sbytes sbytes) = (Int64.add mem_bot 4L)
+          (int64_of_sbytes sbytes) = (Int64.add mem_bot 0L)
         )
      );
      ("Callq sets Rip + 1 after more insns", machine_test "mem(Reg RSP) = mem_bot + 8" 3
@@ -211,7 +211,7 @@ let provided_tests : suite = [
             InsB0 (Callq, [~$1864]); InsFrag;InsFrag;InsFrag;] end
         (fun m -> 
           let sbytes = Array.to_list (Array.sub m.mem (Int64.to_int (Int64.sub m.regs.(rind Rsp) 0x400000L)) 8) in
-          (int64_of_sbytes sbytes) = (Int64.add mem_bot 12L)
+          (int64_of_sbytes sbytes) = (Int64.add mem_bot 8L)
         )
      );
 
