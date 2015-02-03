@@ -480,8 +480,6 @@ let medium_tests : suite = [
   GradedTest("Medium Assemble Tests", 5,[
     ("assemble1", assert_eqf (fun () -> (assemble helloworld).text_seg) helloworld_textseg );
     ("assemble2", undefinedsym_test [text "foo" [Retq,[]]]);
-		("assemble3", assert_eqf (fun () -> (load (assemble (factorial_rec 6))).flags){ fo=false; fs=false; fz=false} );
-		
     
   ]);
   GradedTest("Medium Load Tests", 5,[
@@ -490,8 +488,6 @@ let medium_tests : suite = [
           int64_of_sbytes (sbyte_list m.mem 0x0fff8)
     ) exit_addr);
   ]);
-	
-	
   GradedTest("Functionality Tests", 5, functionality_tests);
   GradedTest("Instruction Tests", 10, instruction_tests);
   GradedTest("Condition Flag Set Tests", 5, condition_flag_set_tests);
@@ -503,13 +499,8 @@ let other_team_tests =
 
 let hard_tests : suite = [
   GradedTest ("Factorial", 10, [
-    ("fact6", program_test (factorial_rec 6) 720L);
+    ("fact6", program_test (factorial_iter 6) 720L);
   ]);
-	
-	(* GradedTest ("GCD", 10, [
-    ("gcd", program_test (gcd 420 96) 12L);
-  ]);*)
-	
   GradedTest ("Hard", 10, []);
 ] @ [other_team_tests]
 
@@ -523,9 +514,9 @@ let manual_tests : suite = [
 ]
 
 let graded_tests : suite = 
-  (*easy_tests @
+  (*hard_tests*)
+  
+  easy_tests @
   medium_tests @
-  manual_tests
-   *)
-  hard_tests
- 
+  manual_tests @
+	hard_tests

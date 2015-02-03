@@ -8,6 +8,11 @@ open Asm
 (* You should also add additional test cases here to help you   *)
 (* debug your program.                                          *)
 
+(* We implemented the gcd program 
+   It can handle negative numbers, zeroes and positive numbers.
+	 It uses Euclid's algorithm for fast computation.
+ *)
+
 let gcd a b = [ text "main"
                                   [ Movq,  [~$0; ~%Rax]
                                   ; Movq,  [~$a; ~%Rdi]
@@ -26,21 +31,17 @@ let gcd a b = [ text "main"
 																	; Cmpq,  [~%Rsi; ~%Rdi]
                                   ; J Eq,  [~$$"done"]
 																	; J Lt,  [~$$"lesser"]
-																	; J Gt,  [~$$"exit"]
+																	; J Gt,  [~$$"greater"]
 																	]
-																	
-																	
+																															
 													; text "fix_Rdi"
                                   [ Negq, [~%Rdi] 
-																	;	Jmp,   [~$$"loop"]
+																	; Cmpq,  [~$0; ~%Rsi]
+                                  ; J Lt,  [~$$"fix_Rsi"]
                                   ]
-																	
-												  ; data "baz" 
-                            [ Quad (Lit 99L)
-                            ; Asciz "Hello, world!"
-                            ]
-																	
+																			
 													; text "fix_Rsi"
+													
                                   [ Negq, [~%Rsi]
 																	;	Jmp,   [~$$"loop"]
                                   ]				
@@ -64,6 +65,7 @@ let gcd a b = [ text "main"
                                   [ Retq,  [] 
                                   ]
 																]
+
 																
 let test_machine (bs: sbyte list): mach =
   let mem = (Array.make mem_size (Byte '\x00')) in
@@ -179,11 +181,11 @@ let program_test (p:prog) (ans:int64) () =
 
 let provided_tests : suite = [
  Test ("Student-Provided Big Test for Part III: Score recorded as PartIIITestCase", [
-		("gcd420,96", program_test (gcd 420 96) 12L);
+		("gcd420,96", program_test (gcd (124556234) (4222556)) 2L);
   ]);
 	
 	
-	Test ("Test cases from Sibner and Mumick",[
+	Test ("Test cases from Sibner/Mumick",[
     ("retq sets Rip", machine_test "Rip = 411" 2
         begin test_machine
             [InsB0 (Pushq, [~$411]); InsFrag;InsFrag;InsFrag;
