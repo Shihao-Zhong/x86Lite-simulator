@@ -277,11 +277,7 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
          let res = Int64_overflow.add dest src in
            store_data ol 1 m res.Int64_overflow.value;
             set_condition_flags res m;
-            print_endline (Int64.to_string res.Int64_overflow.value);
-            print_endline (string_of_bool m.flags.fo);
-            print_endline (string_of_bool m.flags.fs);
-            print_endline (string_of_bool m.flags.fz);
-            print_newline()
+            
   | Subq ->
       let src = decode_val ol 0 m in
       let dest = decode_val ol 1 m in

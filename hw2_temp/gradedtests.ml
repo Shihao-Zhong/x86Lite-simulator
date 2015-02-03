@@ -571,13 +571,9 @@ let hard_tests : suite = [
   GradedTest ("Factorial", 10, [
     ("fact6", program_test (factorial_rec 6) 720L);
   ]);
-	
-(*
-   GradedTest ("GCD", 10, [
+	(* GradedTest ("GCD", 10, [
     ("gcd", program_test (gcd 420 96) 12L);
-  ]);
-*)
-	
+  ]);*)
   GradedTest ("Hard", 10, []);
 ] @ [other_team_tests]
 
