@@ -4928,7 +4928,7 @@ type(
   Assert.suite
 )
 ident(
-  def provided_tests "hw2_temp/providedtests.ml" 323 11984 11985 "hw2_temp/providedtests.ml" 1 0 -1
+  def provided_tests "hw2_temp/providedtests.ml" 323 11985 11986 "hw2_temp/providedtests.ml" 1 0 -1
 )
 "hw2_temp/providedtests.ml" 183 6411 6418 "hw2_temp/providedtests.ml" 183 6411 6493
 type(
@@ -5938,14 +5938,14 @@ type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 220 7959 7969 "hw2_temp/providedtests.ml" 221 8074 8133
+  def m "hw2_temp/providedtests.ml" 220 7959 7969 "hw2_temp/providedtests.ml" 221 8074 8134
 )
 "hw2_temp/providedtests.ml" 220 7959 7973 "hw2_temp/providedtests.ml" 220 7959 7979
 type(
   Simulator.sbyte list
 )
 ident(
-  def sbytes "hw2_temp/providedtests.ml" 221 8074 8084 "hw2_temp/providedtests.ml" 221 8074 8133
+  def sbytes "hw2_temp/providedtests.ml" 221 8074 8084 "hw2_temp/providedtests.ml" 221 8074 8134
 )
 "hw2_temp/providedtests.ml" 220 7959 7982 "hw2_temp/providedtests.ml" 220 7959 7995
 type(
@@ -6091,54 +6091,54 @@ type(
 ident(
   ext_ref Simulator.mem_bot
 )
-"hw2_temp/providedtests.ml" 221 8074 8130 "hw2_temp/providedtests.ml" 221 8074 8132
+"hw2_temp/providedtests.ml" 221 8074 8130 "hw2_temp/providedtests.ml" 221 8074 8133
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 221 8074 8111 "hw2_temp/providedtests.ml" 221 8074 8133
+"hw2_temp/providedtests.ml" 221 8074 8111 "hw2_temp/providedtests.ml" 221 8074 8134
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 221 8074 8084 "hw2_temp/providedtests.ml" 221 8074 8133
+"hw2_temp/providedtests.ml" 221 8074 8084 "hw2_temp/providedtests.ml" 221 8074 8134
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 220 7959 7969 "hw2_temp/providedtests.ml" 221 8074 8133
+"hw2_temp/providedtests.ml" 220 7959 7969 "hw2_temp/providedtests.ml" 221 8074 8134
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 219 7940 7948 "hw2_temp/providedtests.ml" 222 8134 8143
+"hw2_temp/providedtests.ml" 219 7940 7948 "hw2_temp/providedtests.ml" 222 8135 8144
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 214 7639 7684 "hw2_temp/providedtests.ml" 222 8134 8143
+"hw2_temp/providedtests.ml" 214 7639 7684 "hw2_temp/providedtests.ml" 222 8135 8144
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 214 7639 7644 "hw2_temp/providedtests.ml" 223 8144 8150
+"hw2_temp/providedtests.ml" 214 7639 7644 "hw2_temp/providedtests.ml" 223 8145 8151
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 188 6569 6608 "hw2_temp/providedtests.ml" 225 8153 8157
+"hw2_temp/providedtests.ml" 188 6569 6608 "hw2_temp/providedtests.ml" 225 8154 8158
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/providedtests.ml" 188 6569 6570 "hw2_temp/providedtests.ml" 225 8153 8158
+"hw2_temp/providedtests.ml" 188 6569 6570 "hw2_temp/providedtests.ml" 225 8154 8159
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/providedtests.ml" 228 8163 8169 "hw2_temp/providedtests.ml" 228 8163 8192
+"hw2_temp/providedtests.ml" 228 8164 8170 "hw2_temp/providedtests.ml" 228 8164 8193
 type(
   string
 )
-"hw2_temp/providedtests.ml" 229 8196 8201 "hw2_temp/providedtests.ml" 229 8196 8208
+"hw2_temp/providedtests.ml" 229 8197 8202 "hw2_temp/providedtests.ml" 229 8197 8209
 type(
   string
 )
-"hw2_temp/providedtests.ml" 229 8196 8210 "hw2_temp/providedtests.ml" 229 8196 8222
+"hw2_temp/providedtests.ml" 229 8197 8211 "hw2_temp/providedtests.ml" 229 8197 8223
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6146,96 +6146,96 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 229 8196 8223 "hw2_temp/providedtests.ml" 229 8196 8278
+"hw2_temp/providedtests.ml" 229 8197 8224 "hw2_temp/providedtests.ml" 229 8197 8279
 type(
   string
 )
-"hw2_temp/providedtests.ml" 229 8196 8279 "hw2_temp/providedtests.ml" 229 8196 8280
+"hw2_temp/providedtests.ml" 229 8197 8280 "hw2_temp/providedtests.ml" 229 8197 8281
 type(
   int
 )
-"hw2_temp/providedtests.ml" 230 8281 8287 "hw2_temp/providedtests.ml" 230 8281 8292
+"hw2_temp/providedtests.ml" 230 8282 8288 "hw2_temp/providedtests.ml" 230 8282 8293
 type(
   Simulator.mach
 )
 ident(
   int_ref shulk "hw2_temp/providedtests.ml" 119 3907 3911 "hw2_temp/providedtests.ml" 119 3907 3916
 )
-"hw2_temp/providedtests.ml" 230 8281 8298 "hw2_temp/providedtests.ml" 230 8281 8299
+"hw2_temp/providedtests.ml" 230 8282 8299 "hw2_temp/providedtests.ml" 230 8282 8300
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 230 8281 8303 "hw2_temp/providedtests.ml" 230 8281 8342
+  def m "hw2_temp/providedtests.ml" 230 8282 8304 "hw2_temp/providedtests.ml" 230 8282 8343
 )
-"hw2_temp/providedtests.ml" 230 8281 8303 "hw2_temp/providedtests.ml" 230 8281 8304
+"hw2_temp/providedtests.ml" 230 8282 8304 "hw2_temp/providedtests.ml" 230 8282 8305
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 230 8281 8298 "hw2_temp/providedtests.ml" 230 8281 8299
+  int_ref m "hw2_temp/providedtests.ml" 230 8282 8299 "hw2_temp/providedtests.ml" 230 8282 8300
 )
-"hw2_temp/providedtests.ml" 230 8281 8303 "hw2_temp/providedtests.ml" 230 8281 8309
+"hw2_temp/providedtests.ml" 230 8282 8304 "hw2_temp/providedtests.ml" 230 8282 8310
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 230 8281 8311 "hw2_temp/providedtests.ml" 230 8281 8315
+"hw2_temp/providedtests.ml" 230 8282 8312 "hw2_temp/providedtests.ml" 230 8282 8316
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 230 8281 8316 "hw2_temp/providedtests.ml" 230 8281 8319
+"hw2_temp/providedtests.ml" 230 8282 8317 "hw2_temp/providedtests.ml" 230 8282 8320
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 230 8281 8311 "hw2_temp/providedtests.ml" 230 8281 8319
+"hw2_temp/providedtests.ml" 230 8282 8312 "hw2_temp/providedtests.ml" 230 8282 8320
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 230 8281 8303 "hw2_temp/providedtests.ml" 230 8281 8320
+"hw2_temp/providedtests.ml" 230 8282 8304 "hw2_temp/providedtests.ml" 230 8282 8321
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 230 8281 8321 "hw2_temp/providedtests.ml" 230 8281 8322
+"hw2_temp/providedtests.ml" 230 8282 8322 "hw2_temp/providedtests.ml" 230 8282 8323
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 230 8281 8323 "hw2_temp/providedtests.ml" 230 8281 8342
+"hw2_temp/providedtests.ml" 230 8282 8324 "hw2_temp/providedtests.ml" 230 8282 8343
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 230 8281 8303 "hw2_temp/providedtests.ml" 230 8281 8342
+"hw2_temp/providedtests.ml" 230 8282 8304 "hw2_temp/providedtests.ml" 230 8282 8343
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 230 8281 8293 "hw2_temp/providedtests.ml" 230 8281 8343
+"hw2_temp/providedtests.ml" 230 8282 8294 "hw2_temp/providedtests.ml" 230 8282 8344
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 229 8196 8210 "hw2_temp/providedtests.ml" 230 8281 8343
+"hw2_temp/providedtests.ml" 229 8197 8211 "hw2_temp/providedtests.ml" 230 8282 8344
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 229 8196 8200 "hw2_temp/providedtests.ml" 231 8344 8349
+"hw2_temp/providedtests.ml" 229 8197 8201 "hw2_temp/providedtests.ml" 231 8345 8350
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 232 8351 8356 "hw2_temp/providedtests.ml" 232 8351 8362
+"hw2_temp/providedtests.ml" 232 8352 8357 "hw2_temp/providedtests.ml" 232 8352 8363
 type(
   string
 )
-"hw2_temp/providedtests.ml" 232 8351 8364 "hw2_temp/providedtests.ml" 232 8351 8376
+"hw2_temp/providedtests.ml" 232 8352 8365 "hw2_temp/providedtests.ml" 232 8352 8377
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6243,96 +6243,96 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 232 8351 8377 "hw2_temp/providedtests.ml" 232 8351 8430
+"hw2_temp/providedtests.ml" 232 8352 8378 "hw2_temp/providedtests.ml" 232 8352 8431
 type(
   string
 )
-"hw2_temp/providedtests.ml" 232 8351 8431 "hw2_temp/providedtests.ml" 232 8351 8432
+"hw2_temp/providedtests.ml" 232 8352 8432 "hw2_temp/providedtests.ml" 232 8352 8433
 type(
   int
 )
-"hw2_temp/providedtests.ml" 233 8433 8439 "hw2_temp/providedtests.ml" 233 8433 8443
+"hw2_temp/providedtests.ml" 233 8434 8440 "hw2_temp/providedtests.ml" 233 8434 8444
 type(
   Simulator.mach
 )
 ident(
   int_ref zork "hw2_temp/providedtests.ml" 124 4086 4090 "hw2_temp/providedtests.ml" 124 4086 4094
 )
-"hw2_temp/providedtests.ml" 233 8433 8449 "hw2_temp/providedtests.ml" 233 8433 8450
+"hw2_temp/providedtests.ml" 233 8434 8450 "hw2_temp/providedtests.ml" 233 8434 8451
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 233 8433 8454 "hw2_temp/providedtests.ml" 233 8433 8493
+  def m "hw2_temp/providedtests.ml" 233 8434 8455 "hw2_temp/providedtests.ml" 233 8434 8494
 )
-"hw2_temp/providedtests.ml" 233 8433 8454 "hw2_temp/providedtests.ml" 233 8433 8455
+"hw2_temp/providedtests.ml" 233 8434 8455 "hw2_temp/providedtests.ml" 233 8434 8456
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 233 8433 8449 "hw2_temp/providedtests.ml" 233 8433 8450
+  int_ref m "hw2_temp/providedtests.ml" 233 8434 8450 "hw2_temp/providedtests.ml" 233 8434 8451
 )
-"hw2_temp/providedtests.ml" 233 8433 8454 "hw2_temp/providedtests.ml" 233 8433 8460
+"hw2_temp/providedtests.ml" 233 8434 8455 "hw2_temp/providedtests.ml" 233 8434 8461
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 233 8433 8462 "hw2_temp/providedtests.ml" 233 8433 8466
+"hw2_temp/providedtests.ml" 233 8434 8463 "hw2_temp/providedtests.ml" 233 8434 8467
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 233 8433 8467 "hw2_temp/providedtests.ml" 233 8433 8470
+"hw2_temp/providedtests.ml" 233 8434 8468 "hw2_temp/providedtests.ml" 233 8434 8471
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 233 8433 8462 "hw2_temp/providedtests.ml" 233 8433 8470
+"hw2_temp/providedtests.ml" 233 8434 8463 "hw2_temp/providedtests.ml" 233 8434 8471
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 233 8433 8454 "hw2_temp/providedtests.ml" 233 8433 8471
+"hw2_temp/providedtests.ml" 233 8434 8455 "hw2_temp/providedtests.ml" 233 8434 8472
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 233 8433 8472 "hw2_temp/providedtests.ml" 233 8433 8473
+"hw2_temp/providedtests.ml" 233 8434 8473 "hw2_temp/providedtests.ml" 233 8434 8474
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 233 8433 8474 "hw2_temp/providedtests.ml" 233 8433 8493
+"hw2_temp/providedtests.ml" 233 8434 8475 "hw2_temp/providedtests.ml" 233 8434 8494
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 233 8433 8454 "hw2_temp/providedtests.ml" 233 8433 8493
+"hw2_temp/providedtests.ml" 233 8434 8455 "hw2_temp/providedtests.ml" 233 8434 8494
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 233 8433 8444 "hw2_temp/providedtests.ml" 233 8433 8494
+"hw2_temp/providedtests.ml" 233 8434 8445 "hw2_temp/providedtests.ml" 233 8434 8495
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 232 8351 8364 "hw2_temp/providedtests.ml" 233 8433 8494
+"hw2_temp/providedtests.ml" 232 8352 8365 "hw2_temp/providedtests.ml" 233 8434 8495
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 232 8351 8355 "hw2_temp/providedtests.ml" 234 8495 8500
+"hw2_temp/providedtests.ml" 232 8352 8356 "hw2_temp/providedtests.ml" 234 8496 8501
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 235 8502 8507 "hw2_temp/providedtests.ml" 235 8502 8513
+"hw2_temp/providedtests.ml" 235 8503 8508 "hw2_temp/providedtests.ml" 235 8503 8514
 type(
   string
 )
-"hw2_temp/providedtests.ml" 235 8502 8515 "hw2_temp/providedtests.ml" 235 8502 8527
+"hw2_temp/providedtests.ml" 235 8503 8516 "hw2_temp/providedtests.ml" 235 8503 8528
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6340,108 +6340,108 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 235 8502 8528 "hw2_temp/providedtests.ml" 235 8502 8568
+"hw2_temp/providedtests.ml" 235 8503 8529 "hw2_temp/providedtests.ml" 235 8503 8569
 type(
   string
 )
-"hw2_temp/providedtests.ml" 235 8502 8569 "hw2_temp/providedtests.ml" 235 8502 8570
+"hw2_temp/providedtests.ml" 235 8503 8570 "hw2_temp/providedtests.ml" 235 8503 8571
 type(
   int
 )
-"hw2_temp/providedtests.ml" 236 8571 8577 "hw2_temp/providedtests.ml" 236 8571 8581
+"hw2_temp/providedtests.ml" 236 8572 8578 "hw2_temp/providedtests.ml" 236 8572 8582
 type(
   Simulator.mach
 )
 ident(
   int_ref addq "hw2_temp/providedtests.ml" 130 4340 4344 "hw2_temp/providedtests.ml" 130 4340 4348
 )
-"hw2_temp/providedtests.ml" 236 8571 8587 "hw2_temp/providedtests.ml" 236 8571 8588
+"hw2_temp/providedtests.ml" 236 8572 8588 "hw2_temp/providedtests.ml" 236 8572 8589
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 236 8571 8592 "hw2_temp/providedtests.ml" 236 8571 8631
+  def m "hw2_temp/providedtests.ml" 236 8572 8593 "hw2_temp/providedtests.ml" 236 8572 8632
 )
-"hw2_temp/providedtests.ml" 236 8571 8592 "hw2_temp/providedtests.ml" 236 8571 8593
+"hw2_temp/providedtests.ml" 236 8572 8593 "hw2_temp/providedtests.ml" 236 8572 8594
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 236 8571 8587 "hw2_temp/providedtests.ml" 236 8571 8588
+  int_ref m "hw2_temp/providedtests.ml" 236 8572 8588 "hw2_temp/providedtests.ml" 236 8572 8589
 )
-"hw2_temp/providedtests.ml" 236 8571 8592 "hw2_temp/providedtests.ml" 236 8571 8598
+"hw2_temp/providedtests.ml" 236 8572 8593 "hw2_temp/providedtests.ml" 236 8572 8599
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 236 8571 8600 "hw2_temp/providedtests.ml" 236 8571 8604
+"hw2_temp/providedtests.ml" 236 8572 8601 "hw2_temp/providedtests.ml" 236 8572 8605
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 236 8571 8605 "hw2_temp/providedtests.ml" 236 8571 8608
+"hw2_temp/providedtests.ml" 236 8572 8606 "hw2_temp/providedtests.ml" 236 8572 8609
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 236 8571 8600 "hw2_temp/providedtests.ml" 236 8571 8608
+"hw2_temp/providedtests.ml" 236 8572 8601 "hw2_temp/providedtests.ml" 236 8572 8609
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 236 8571 8592 "hw2_temp/providedtests.ml" 236 8571 8609
+"hw2_temp/providedtests.ml" 236 8572 8593 "hw2_temp/providedtests.ml" 236 8572 8610
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 236 8571 8610 "hw2_temp/providedtests.ml" 236 8571 8611
+"hw2_temp/providedtests.ml" 236 8572 8611 "hw2_temp/providedtests.ml" 236 8572 8612
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 236 8571 8612 "hw2_temp/providedtests.ml" 236 8571 8631
+"hw2_temp/providedtests.ml" 236 8572 8613 "hw2_temp/providedtests.ml" 236 8572 8632
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 236 8571 8592 "hw2_temp/providedtests.ml" 236 8571 8631
+"hw2_temp/providedtests.ml" 236 8572 8593 "hw2_temp/providedtests.ml" 236 8572 8632
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 236 8571 8582 "hw2_temp/providedtests.ml" 236 8571 8632
+"hw2_temp/providedtests.ml" 236 8572 8583 "hw2_temp/providedtests.ml" 236 8572 8633
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 235 8502 8515 "hw2_temp/providedtests.ml" 236 8571 8632
+"hw2_temp/providedtests.ml" 235 8503 8516 "hw2_temp/providedtests.ml" 236 8572 8633
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 235 8502 8506 "hw2_temp/providedtests.ml" 237 8633 8638
+"hw2_temp/providedtests.ml" 235 8503 8507 "hw2_temp/providedtests.ml" 237 8634 8639
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 228 8163 8194 "hw2_temp/providedtests.ml" 238 8639 8642
+"hw2_temp/providedtests.ml" 228 8164 8195 "hw2_temp/providedtests.ml" 238 8640 8643
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/providedtests.ml" 228 8163 8163 "hw2_temp/providedtests.ml" 238 8639 8643
+"hw2_temp/providedtests.ml" 228 8164 8164 "hw2_temp/providedtests.ml" 238 8640 8644
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/providedtests.ml" 240 8647 8653 "hw2_temp/providedtests.ml" 240 8647 8674
+"hw2_temp/providedtests.ml" 240 8648 8654 "hw2_temp/providedtests.ml" 240 8648 8675
 type(
   string
 )
-"hw2_temp/providedtests.ml" 241 8678 8683 "hw2_temp/providedtests.ml" 241 8678 8699
+"hw2_temp/providedtests.ml" 241 8679 8684 "hw2_temp/providedtests.ml" 241 8679 8700
 type(
   string
 )
-"hw2_temp/providedtests.ml" 241 8678 8701 "hw2_temp/providedtests.ml" 241 8678 8725
+"hw2_temp/providedtests.ml" 241 8679 8702 "hw2_temp/providedtests.ml" 241 8679 8726
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6449,96 +6449,96 @@ type(
 ident(
   ext_ref Gradedtests.machine_test
 )
-"hw2_temp/providedtests.ml" 241 8678 8726 "hw2_temp/providedtests.ml" 241 8678 8733
+"hw2_temp/providedtests.ml" 241 8679 8727 "hw2_temp/providedtests.ml" 241 8679 8734
 type(
   string
 )
-"hw2_temp/providedtests.ml" 241 8678 8734 "hw2_temp/providedtests.ml" 241 8678 8735
+"hw2_temp/providedtests.ml" 241 8679 8735 "hw2_temp/providedtests.ml" 241 8679 8736
 type(
   int
 )
-"hw2_temp/providedtests.ml" 241 8678 8736 "hw2_temp/providedtests.ml" 241 8678 8752
+"hw2_temp/providedtests.ml" 241 8679 8737 "hw2_temp/providedtests.ml" 241 8679 8753
 type(
   Simulator.mach
 )
 ident(
   int_ref add_imm_into_reg "hw2_temp/providedtests.ml" 154 5338 5342 "hw2_temp/providedtests.ml" 154 5338 5358
 )
-"hw2_temp/providedtests.ml" 242 8753 8764 "hw2_temp/providedtests.ml" 242 8753 8765
+"hw2_temp/providedtests.ml" 242 8754 8765 "hw2_temp/providedtests.ml" 242 8754 8766
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 242 8753 8769 "hw2_temp/providedtests.ml" 242 8753 8791
+  def m "hw2_temp/providedtests.ml" 242 8754 8770 "hw2_temp/providedtests.ml" 242 8754 8792
 )
-"hw2_temp/providedtests.ml" 242 8753 8769 "hw2_temp/providedtests.ml" 242 8753 8770
+"hw2_temp/providedtests.ml" 242 8754 8770 "hw2_temp/providedtests.ml" 242 8754 8771
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 242 8753 8764 "hw2_temp/providedtests.ml" 242 8753 8765
+  int_ref m "hw2_temp/providedtests.ml" 242 8754 8765 "hw2_temp/providedtests.ml" 242 8754 8766
 )
-"hw2_temp/providedtests.ml" 242 8753 8769 "hw2_temp/providedtests.ml" 242 8753 8775
+"hw2_temp/providedtests.ml" 242 8754 8770 "hw2_temp/providedtests.ml" 242 8754 8776
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 242 8753 8777 "hw2_temp/providedtests.ml" 242 8753 8781
+"hw2_temp/providedtests.ml" 242 8754 8778 "hw2_temp/providedtests.ml" 242 8754 8782
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 242 8753 8782 "hw2_temp/providedtests.ml" 242 8753 8785
+"hw2_temp/providedtests.ml" 242 8754 8783 "hw2_temp/providedtests.ml" 242 8754 8786
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 242 8753 8777 "hw2_temp/providedtests.ml" 242 8753 8785
+"hw2_temp/providedtests.ml" 242 8754 8778 "hw2_temp/providedtests.ml" 242 8754 8786
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 242 8753 8769 "hw2_temp/providedtests.ml" 242 8753 8786
+"hw2_temp/providedtests.ml" 242 8754 8770 "hw2_temp/providedtests.ml" 242 8754 8787
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 242 8753 8787 "hw2_temp/providedtests.ml" 242 8753 8788
+"hw2_temp/providedtests.ml" 242 8754 8788 "hw2_temp/providedtests.ml" 242 8754 8789
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 242 8753 8789 "hw2_temp/providedtests.ml" 242 8753 8791
+"hw2_temp/providedtests.ml" 242 8754 8790 "hw2_temp/providedtests.ml" 242 8754 8792
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 242 8753 8769 "hw2_temp/providedtests.ml" 242 8753 8791
+"hw2_temp/providedtests.ml" 242 8754 8770 "hw2_temp/providedtests.ml" 242 8754 8792
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 242 8753 8759 "hw2_temp/providedtests.ml" 242 8753 8792
+"hw2_temp/providedtests.ml" 242 8754 8760 "hw2_temp/providedtests.ml" 242 8754 8793
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 241 8678 8701 "hw2_temp/providedtests.ml" 242 8753 8792
+"hw2_temp/providedtests.ml" 241 8679 8702 "hw2_temp/providedtests.ml" 242 8754 8793
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 241 8678 8682 "hw2_temp/providedtests.ml" 242 8753 8793
+"hw2_temp/providedtests.ml" 241 8679 8683 "hw2_temp/providedtests.ml" 242 8754 8794
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 243 8795 8800 "hw2_temp/providedtests.ml" 243 8795 8818
+"hw2_temp/providedtests.ml" 243 8796 8801 "hw2_temp/providedtests.ml" 243 8796 8819
 type(
   string
 )
-"hw2_temp/providedtests.ml" 243 8795 8820 "hw2_temp/providedtests.ml" 243 8795 8844
+"hw2_temp/providedtests.ml" 243 8796 8821 "hw2_temp/providedtests.ml" 243 8796 8845
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6546,155 +6546,155 @@ type(
 ident(
   ext_ref Gradedtests.machine_test
 )
-"hw2_temp/providedtests.ml" 243 8795 8845 "hw2_temp/providedtests.ml" 243 8795 8862
+"hw2_temp/providedtests.ml" 243 8796 8846 "hw2_temp/providedtests.ml" 243 8796 8863
 type(
   string
 )
-"hw2_temp/providedtests.ml" 243 8795 8863 "hw2_temp/providedtests.ml" 243 8795 8864
+"hw2_temp/providedtests.ml" 243 8796 8864 "hw2_temp/providedtests.ml" 243 8796 8865
 type(
   int
 )
-"hw2_temp/providedtests.ml" 243 8795 8865 "hw2_temp/providedtests.ml" 243 8795 8881
+"hw2_temp/providedtests.ml" 243 8796 8866 "hw2_temp/providedtests.ml" 243 8796 8882
 type(
   Simulator.mach
 )
 ident(
   int_ref add_reg_into_reg "hw2_temp/providedtests.ml" 157 5442 5446 "hw2_temp/providedtests.ml" 157 5442 5462
 )
-"hw2_temp/providedtests.ml" 244 8882 8893 "hw2_temp/providedtests.ml" 244 8882 8894
+"hw2_temp/providedtests.ml" 244 8883 8894 "hw2_temp/providedtests.ml" 244 8883 8895
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 244 8882 8898 "hw2_temp/providedtests.ml" 244 8882 8946
+  def m "hw2_temp/providedtests.ml" 244 8883 8899 "hw2_temp/providedtests.ml" 244 8883 8947
 )
-"hw2_temp/providedtests.ml" 244 8882 8898 "hw2_temp/providedtests.ml" 244 8882 8899
+"hw2_temp/providedtests.ml" 244 8883 8899 "hw2_temp/providedtests.ml" 244 8883 8900
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 244 8882 8893 "hw2_temp/providedtests.ml" 244 8882 8894
+  int_ref m "hw2_temp/providedtests.ml" 244 8883 8894 "hw2_temp/providedtests.ml" 244 8883 8895
 )
-"hw2_temp/providedtests.ml" 244 8882 8898 "hw2_temp/providedtests.ml" 244 8882 8904
+"hw2_temp/providedtests.ml" 244 8883 8899 "hw2_temp/providedtests.ml" 244 8883 8905
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 244 8882 8906 "hw2_temp/providedtests.ml" 244 8882 8910
+"hw2_temp/providedtests.ml" 244 8883 8907 "hw2_temp/providedtests.ml" 244 8883 8911
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 244 8882 8911 "hw2_temp/providedtests.ml" 244 8882 8914
+"hw2_temp/providedtests.ml" 244 8883 8912 "hw2_temp/providedtests.ml" 244 8883 8915
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 244 8882 8906 "hw2_temp/providedtests.ml" 244 8882 8914
+"hw2_temp/providedtests.ml" 244 8883 8907 "hw2_temp/providedtests.ml" 244 8883 8915
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 244 8882 8898 "hw2_temp/providedtests.ml" 244 8882 8915
+"hw2_temp/providedtests.ml" 244 8883 8899 "hw2_temp/providedtests.ml" 244 8883 8916
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 244 8882 8916 "hw2_temp/providedtests.ml" 244 8882 8917
+"hw2_temp/providedtests.ml" 244 8883 8917 "hw2_temp/providedtests.ml" 244 8883 8918
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 244 8882 8918 "hw2_temp/providedtests.ml" 244 8882 8920
+"hw2_temp/providedtests.ml" 244 8883 8919 "hw2_temp/providedtests.ml" 244 8883 8921
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 244 8882 8898 "hw2_temp/providedtests.ml" 244 8882 8920
+"hw2_temp/providedtests.ml" 244 8883 8899 "hw2_temp/providedtests.ml" 244 8883 8921
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 244 8882 8921 "hw2_temp/providedtests.ml" 244 8882 8923
+"hw2_temp/providedtests.ml" 244 8883 8922 "hw2_temp/providedtests.ml" 244 8883 8924
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 244 8882 8924 "hw2_temp/providedtests.ml" 244 8882 8925
+"hw2_temp/providedtests.ml" 244 8883 8925 "hw2_temp/providedtests.ml" 244 8883 8926
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 244 8882 8893 "hw2_temp/providedtests.ml" 244 8882 8894
+  int_ref m "hw2_temp/providedtests.ml" 244 8883 8894 "hw2_temp/providedtests.ml" 244 8883 8895
 )
-"hw2_temp/providedtests.ml" 244 8882 8924 "hw2_temp/providedtests.ml" 244 8882 8930
+"hw2_temp/providedtests.ml" 244 8883 8925 "hw2_temp/providedtests.ml" 244 8883 8931
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 244 8882 8932 "hw2_temp/providedtests.ml" 244 8882 8936
+"hw2_temp/providedtests.ml" 244 8883 8933 "hw2_temp/providedtests.ml" 244 8883 8937
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 244 8882 8937 "hw2_temp/providedtests.ml" 244 8882 8940
+"hw2_temp/providedtests.ml" 244 8883 8938 "hw2_temp/providedtests.ml" 244 8883 8941
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 244 8882 8932 "hw2_temp/providedtests.ml" 244 8882 8940
+"hw2_temp/providedtests.ml" 244 8883 8933 "hw2_temp/providedtests.ml" 244 8883 8941
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 244 8882 8924 "hw2_temp/providedtests.ml" 244 8882 8941
+"hw2_temp/providedtests.ml" 244 8883 8925 "hw2_temp/providedtests.ml" 244 8883 8942
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 244 8882 8942 "hw2_temp/providedtests.ml" 244 8882 8943
+"hw2_temp/providedtests.ml" 244 8883 8943 "hw2_temp/providedtests.ml" 244 8883 8944
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 244 8882 8944 "hw2_temp/providedtests.ml" 244 8882 8946
+"hw2_temp/providedtests.ml" 244 8883 8945 "hw2_temp/providedtests.ml" 244 8883 8947
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 244 8882 8924 "hw2_temp/providedtests.ml" 244 8882 8946
+"hw2_temp/providedtests.ml" 244 8883 8925 "hw2_temp/providedtests.ml" 244 8883 8947
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 244 8882 8898 "hw2_temp/providedtests.ml" 244 8882 8946
+"hw2_temp/providedtests.ml" 244 8883 8899 "hw2_temp/providedtests.ml" 244 8883 8947
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 244 8882 8888 "hw2_temp/providedtests.ml" 244 8882 8947
+"hw2_temp/providedtests.ml" 244 8883 8889 "hw2_temp/providedtests.ml" 244 8883 8948
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 243 8795 8820 "hw2_temp/providedtests.ml" 244 8882 8947
+"hw2_temp/providedtests.ml" 243 8796 8821 "hw2_temp/providedtests.ml" 244 8883 8948
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 243 8795 8799 "hw2_temp/providedtests.ml" 244 8882 8948
+"hw2_temp/providedtests.ml" 243 8796 8800 "hw2_temp/providedtests.ml" 244 8883 8949
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 245 8950 8955 "hw2_temp/providedtests.ml" 245 8950 8973
+"hw2_temp/providedtests.ml" 245 8951 8956 "hw2_temp/providedtests.ml" 245 8951 8974
 type(
   string
 )
-"hw2_temp/providedtests.ml" 245 8950 8975 "hw2_temp/providedtests.ml" 245 8950 8999
+"hw2_temp/providedtests.ml" 245 8951 8976 "hw2_temp/providedtests.ml" 245 8951 9000
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6702,164 +6702,164 @@ type(
 ident(
   ext_ref Gradedtests.machine_test
 )
-"hw2_temp/providedtests.ml" 245 8950 9000 "hw2_temp/providedtests.ml" 245 8950 9013
+"hw2_temp/providedtests.ml" 245 8951 9001 "hw2_temp/providedtests.ml" 245 8951 9014
 type(
   string
 )
-"hw2_temp/providedtests.ml" 245 8950 9014 "hw2_temp/providedtests.ml" 245 8950 9015
+"hw2_temp/providedtests.ml" 245 8951 9015 "hw2_temp/providedtests.ml" 245 8951 9016
 type(
   int
 )
-"hw2_temp/providedtests.ml" 245 8950 9016 "hw2_temp/providedtests.ml" 245 8950 9032
+"hw2_temp/providedtests.ml" 245 8951 9017 "hw2_temp/providedtests.ml" 245 8951 9033
 type(
   Simulator.mach
 )
 ident(
   int_ref add_imm_into_mem "hw2_temp/providedtests.ml" 161 5603 5607 "hw2_temp/providedtests.ml" 161 5603 5623
 )
-"hw2_temp/providedtests.ml" 246 9033 9044 "hw2_temp/providedtests.ml" 246 9033 9045
+"hw2_temp/providedtests.ml" 246 9034 9045 "hw2_temp/providedtests.ml" 246 9034 9046
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 246 9033 9049 "hw2_temp/providedtests.ml" 249 9202 9211
+  def m "hw2_temp/providedtests.ml" 246 9034 9050 "hw2_temp/providedtests.ml" 249 9203 9212
 )
-"hw2_temp/providedtests.ml" 246 9033 9061 "hw2_temp/providedtests.ml" 246 9033 9069
+"hw2_temp/providedtests.ml" 246 9034 9062 "hw2_temp/providedtests.ml" 246 9034 9070
 type(
   X86.quad -> int option
 )
 ident(
   ext_ref Simulator.map_addr
 )
-"hw2_temp/providedtests.ml" 246 9033 9070 "hw2_temp/providedtests.ml" 246 9033 9079
+"hw2_temp/providedtests.ml" 246 9034 9071 "hw2_temp/providedtests.ml" 246 9034 9080
 type(
   X86.quad
 )
-"hw2_temp/providedtests.ml" 246 9033 9061 "hw2_temp/providedtests.ml" 246 9033 9079
+"hw2_temp/providedtests.ml" 246 9034 9062 "hw2_temp/providedtests.ml" 246 9034 9080
 call(
   stack
 )
 type(
   int option
 )
-"hw2_temp/providedtests.ml" 247 9085 9095 "hw2_temp/providedtests.ml" 247 9085 9099
+"hw2_temp/providedtests.ml" 247 9086 9096 "hw2_temp/providedtests.ml" 247 9086 9100
 type(
   int option
 )
-"hw2_temp/providedtests.ml" 247 9085 9103 "hw2_temp/providedtests.ml" 247 9085 9111
+"hw2_temp/providedtests.ml" 247 9086 9104 "hw2_temp/providedtests.ml" 247 9086 9112
 type(
   string -> bool
 )
 ident(
   ext_ref Pervasives.failwith
 )
-"hw2_temp/providedtests.ml" 247 9085 9112 "hw2_temp/providedtests.ml" 247 9085 9127
+"hw2_temp/providedtests.ml" 247 9086 9113 "hw2_temp/providedtests.ml" 247 9086 9128
 type(
   string
 )
-"hw2_temp/providedtests.ml" 247 9085 9103 "hw2_temp/providedtests.ml" 247 9085 9127
+"hw2_temp/providedtests.ml" 247 9086 9104 "hw2_temp/providedtests.ml" 247 9086 9128
 call(
   tail
 )
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 248 9128 9143 "hw2_temp/providedtests.ml" 248 9128 9144
+"hw2_temp/providedtests.ml" 248 9129 9144 "hw2_temp/providedtests.ml" 248 9129 9145
 type(
   int
 )
 ident(
-  def v "hw2_temp/providedtests.ml" 248 9128 9148 "hw2_temp/providedtests.ml" 248 9128 9201
+  def v "hw2_temp/providedtests.ml" 248 9129 9149 "hw2_temp/providedtests.ml" 248 9129 9202
 )
-"hw2_temp/providedtests.ml" 248 9128 9138 "hw2_temp/providedtests.ml" 248 9128 9144
+"hw2_temp/providedtests.ml" 248 9129 9139 "hw2_temp/providedtests.ml" 248 9129 9145
 type(
   int option
 )
-"hw2_temp/providedtests.ml" 248 9128 9148 "hw2_temp/providedtests.ml" 248 9128 9163
+"hw2_temp/providedtests.ml" 248 9129 9149 "hw2_temp/providedtests.ml" 248 9129 9164
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 248 9128 9165 "hw2_temp/providedtests.ml" 248 9128 9187
+"hw2_temp/providedtests.ml" 248 9129 9166 "hw2_temp/providedtests.ml" 248 9129 9188
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   ext_ref Gradedtests.sbyte_list
 )
-"hw2_temp/providedtests.ml" 248 9128 9188 "hw2_temp/providedtests.ml" 248 9128 9189
+"hw2_temp/providedtests.ml" 248 9129 9189 "hw2_temp/providedtests.ml" 248 9129 9190
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 246 9033 9044 "hw2_temp/providedtests.ml" 246 9033 9045
+  int_ref m "hw2_temp/providedtests.ml" 246 9034 9045 "hw2_temp/providedtests.ml" 246 9034 9046
 )
-"hw2_temp/providedtests.ml" 248 9128 9188 "hw2_temp/providedtests.ml" 248 9128 9193
+"hw2_temp/providedtests.ml" 248 9129 9189 "hw2_temp/providedtests.ml" 248 9129 9194
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 248 9128 9194 "hw2_temp/providedtests.ml" 248 9128 9195
+"hw2_temp/providedtests.ml" 248 9129 9195 "hw2_temp/providedtests.ml" 248 9129 9196
 type(
   int
 )
 ident(
-  int_ref v "hw2_temp/providedtests.ml" 248 9128 9143 "hw2_temp/providedtests.ml" 248 9128 9144
+  int_ref v "hw2_temp/providedtests.ml" 248 9129 9144 "hw2_temp/providedtests.ml" 248 9129 9145
 )
-"hw2_temp/providedtests.ml" 248 9128 9164 "hw2_temp/providedtests.ml" 248 9128 9196
+"hw2_temp/providedtests.ml" 248 9129 9165 "hw2_temp/providedtests.ml" 248 9129 9197
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 248 9128 9148 "hw2_temp/providedtests.ml" 248 9128 9196
+"hw2_temp/providedtests.ml" 248 9129 9149 "hw2_temp/providedtests.ml" 248 9129 9197
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 248 9128 9197 "hw2_temp/providedtests.ml" 248 9128 9198
+"hw2_temp/providedtests.ml" 248 9129 9198 "hw2_temp/providedtests.ml" 248 9129 9199
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 248 9128 9199 "hw2_temp/providedtests.ml" 248 9128 9201
+"hw2_temp/providedtests.ml" 248 9129 9200 "hw2_temp/providedtests.ml" 248 9129 9202
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 248 9128 9148 "hw2_temp/providedtests.ml" 248 9128 9201
+"hw2_temp/providedtests.ml" 248 9129 9149 "hw2_temp/providedtests.ml" 248 9129 9202
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 246 9033 9049 "hw2_temp/providedtests.ml" 249 9202 9211
+"hw2_temp/providedtests.ml" 246 9034 9050 "hw2_temp/providedtests.ml" 249 9203 9212
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 246 9033 9039 "hw2_temp/providedtests.ml" 249 9202 9212
+"hw2_temp/providedtests.ml" 246 9034 9040 "hw2_temp/providedtests.ml" 249 9203 9213
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 245 8950 8975 "hw2_temp/providedtests.ml" 249 9202 9212
+"hw2_temp/providedtests.ml" 245 8951 8976 "hw2_temp/providedtests.ml" 249 9203 9213
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 245 8950 8954 "hw2_temp/providedtests.ml" 249 9202 9213
+"hw2_temp/providedtests.ml" 245 8951 8955 "hw2_temp/providedtests.ml" 249 9203 9214
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 250 9215 9220 "hw2_temp/providedtests.ml" 250 9215 9238
+"hw2_temp/providedtests.ml" 250 9216 9221 "hw2_temp/providedtests.ml" 250 9216 9239
 type(
   string
 )
-"hw2_temp/providedtests.ml" 250 9215 9240 "hw2_temp/providedtests.ml" 250 9215 9264
+"hw2_temp/providedtests.ml" 250 9216 9241 "hw2_temp/providedtests.ml" 250 9216 9265
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -6867,223 +6867,223 @@ type(
 ident(
   ext_ref Gradedtests.machine_test
 )
-"hw2_temp/providedtests.ml" 250 9215 9265 "hw2_temp/providedtests.ml" 250 9215 9288
+"hw2_temp/providedtests.ml" 250 9216 9266 "hw2_temp/providedtests.ml" 250 9216 9289
 type(
   string
 )
-"hw2_temp/providedtests.ml" 250 9215 9289 "hw2_temp/providedtests.ml" 250 9215 9290
+"hw2_temp/providedtests.ml" 250 9216 9290 "hw2_temp/providedtests.ml" 250 9216 9291
 type(
   int
 )
-"hw2_temp/providedtests.ml" 250 9215 9291 "hw2_temp/providedtests.ml" 250 9215 9307
+"hw2_temp/providedtests.ml" 250 9216 9292 "hw2_temp/providedtests.ml" 250 9216 9308
 type(
   Simulator.mach
 )
 ident(
   int_ref add_reg_into_mem "hw2_temp/providedtests.ml" 164 5722 5726 "hw2_temp/providedtests.ml" 164 5722 5742
 )
-"hw2_temp/providedtests.ml" 251 9308 9319 "hw2_temp/providedtests.ml" 251 9308 9320
+"hw2_temp/providedtests.ml" 251 9309 9320 "hw2_temp/providedtests.ml" 251 9309 9321
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 251 9308 9324 "hw2_temp/providedtests.ml" 255 9516 9525
+  def m "hw2_temp/providedtests.ml" 251 9309 9325 "hw2_temp/providedtests.ml" 255 9517 9526
 )
-"hw2_temp/providedtests.ml" 251 9308 9336 "hw2_temp/providedtests.ml" 251 9308 9344
+"hw2_temp/providedtests.ml" 251 9309 9337 "hw2_temp/providedtests.ml" 251 9309 9345
 type(
   X86.quad -> int option
 )
 ident(
   ext_ref Simulator.map_addr
 )
-"hw2_temp/providedtests.ml" 251 9308 9345 "hw2_temp/providedtests.ml" 251 9308 9354
+"hw2_temp/providedtests.ml" 251 9309 9346 "hw2_temp/providedtests.ml" 251 9309 9355
 type(
   X86.quad
 )
-"hw2_temp/providedtests.ml" 251 9308 9336 "hw2_temp/providedtests.ml" 251 9308 9354
+"hw2_temp/providedtests.ml" 251 9309 9337 "hw2_temp/providedtests.ml" 251 9309 9355
 call(
   stack
 )
 type(
   int option
 )
-"hw2_temp/providedtests.ml" 252 9360 9370 "hw2_temp/providedtests.ml" 252 9360 9374
+"hw2_temp/providedtests.ml" 252 9361 9371 "hw2_temp/providedtests.ml" 252 9361 9375
 type(
   int option
 )
-"hw2_temp/providedtests.ml" 252 9360 9378 "hw2_temp/providedtests.ml" 252 9360 9386
+"hw2_temp/providedtests.ml" 252 9361 9379 "hw2_temp/providedtests.ml" 252 9361 9387
 type(
   string -> bool
 )
 ident(
   ext_ref Pervasives.failwith
 )
-"hw2_temp/providedtests.ml" 252 9360 9387 "hw2_temp/providedtests.ml" 252 9360 9402
+"hw2_temp/providedtests.ml" 252 9361 9388 "hw2_temp/providedtests.ml" 252 9361 9403
 type(
   string
 )
-"hw2_temp/providedtests.ml" 252 9360 9378 "hw2_temp/providedtests.ml" 252 9360 9402
+"hw2_temp/providedtests.ml" 252 9361 9379 "hw2_temp/providedtests.ml" 252 9361 9403
 call(
   tail
 )
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 253 9403 9418 "hw2_temp/providedtests.ml" 253 9403 9419
+"hw2_temp/providedtests.ml" 253 9404 9419 "hw2_temp/providedtests.ml" 253 9404 9420
 type(
   int
 )
 ident(
-  def v "hw2_temp/providedtests.ml" 253 9403 9423 "hw2_temp/providedtests.ml" 254 9450 9515
+  def v "hw2_temp/providedtests.ml" 253 9404 9424 "hw2_temp/providedtests.ml" 254 9451 9516
 )
-"hw2_temp/providedtests.ml" 253 9403 9413 "hw2_temp/providedtests.ml" 253 9403 9419
+"hw2_temp/providedtests.ml" 253 9404 9414 "hw2_temp/providedtests.ml" 253 9404 9420
 type(
   int option
 )
-"hw2_temp/providedtests.ml" 253 9403 9423 "hw2_temp/providedtests.ml" 253 9403 9424
+"hw2_temp/providedtests.ml" 253 9404 9424 "hw2_temp/providedtests.ml" 253 9404 9425
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 251 9308 9319 "hw2_temp/providedtests.ml" 251 9308 9320
+  int_ref m "hw2_temp/providedtests.ml" 251 9309 9320 "hw2_temp/providedtests.ml" 251 9309 9321
 )
-"hw2_temp/providedtests.ml" 253 9403 9423 "hw2_temp/providedtests.ml" 253 9403 9429
+"hw2_temp/providedtests.ml" 253 9404 9424 "hw2_temp/providedtests.ml" 253 9404 9430
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 253 9403 9431 "hw2_temp/providedtests.ml" 253 9403 9435
+"hw2_temp/providedtests.ml" 253 9404 9432 "hw2_temp/providedtests.ml" 253 9404 9436
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 253 9403 9436 "hw2_temp/providedtests.ml" 253 9403 9439
+"hw2_temp/providedtests.ml" 253 9404 9437 "hw2_temp/providedtests.ml" 253 9404 9440
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 253 9403 9431 "hw2_temp/providedtests.ml" 253 9403 9439
+"hw2_temp/providedtests.ml" 253 9404 9432 "hw2_temp/providedtests.ml" 253 9404 9440
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 253 9403 9423 "hw2_temp/providedtests.ml" 253 9403 9440
+"hw2_temp/providedtests.ml" 253 9404 9424 "hw2_temp/providedtests.ml" 253 9404 9441
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 253 9403 9441 "hw2_temp/providedtests.ml" 253 9403 9442
+"hw2_temp/providedtests.ml" 253 9404 9442 "hw2_temp/providedtests.ml" 253 9404 9443
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 253 9403 9443 "hw2_temp/providedtests.ml" 253 9403 9445
+"hw2_temp/providedtests.ml" 253 9404 9444 "hw2_temp/providedtests.ml" 253 9404 9446
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 253 9403 9423 "hw2_temp/providedtests.ml" 253 9403 9445
+"hw2_temp/providedtests.ml" 253 9404 9424 "hw2_temp/providedtests.ml" 253 9404 9446
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 253 9403 9446 "hw2_temp/providedtests.ml" 253 9403 9448
+"hw2_temp/providedtests.ml" 253 9404 9447 "hw2_temp/providedtests.ml" 253 9404 9449
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 254 9450 9462 "hw2_temp/providedtests.ml" 254 9450 9477
+"hw2_temp/providedtests.ml" 254 9451 9463 "hw2_temp/providedtests.ml" 254 9451 9478
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 254 9450 9479 "hw2_temp/providedtests.ml" 254 9450 9501
+"hw2_temp/providedtests.ml" 254 9451 9480 "hw2_temp/providedtests.ml" 254 9451 9502
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   ext_ref Gradedtests.sbyte_list
 )
-"hw2_temp/providedtests.ml" 254 9450 9502 "hw2_temp/providedtests.ml" 254 9450 9503
+"hw2_temp/providedtests.ml" 254 9451 9503 "hw2_temp/providedtests.ml" 254 9451 9504
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 251 9308 9319 "hw2_temp/providedtests.ml" 251 9308 9320
+  int_ref m "hw2_temp/providedtests.ml" 251 9309 9320 "hw2_temp/providedtests.ml" 251 9309 9321
 )
-"hw2_temp/providedtests.ml" 254 9450 9502 "hw2_temp/providedtests.ml" 254 9450 9507
+"hw2_temp/providedtests.ml" 254 9451 9503 "hw2_temp/providedtests.ml" 254 9451 9508
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 254 9450 9508 "hw2_temp/providedtests.ml" 254 9450 9509
+"hw2_temp/providedtests.ml" 254 9451 9509 "hw2_temp/providedtests.ml" 254 9451 9510
 type(
   int
 )
 ident(
-  int_ref v "hw2_temp/providedtests.ml" 253 9403 9418 "hw2_temp/providedtests.ml" 253 9403 9419
+  int_ref v "hw2_temp/providedtests.ml" 253 9404 9419 "hw2_temp/providedtests.ml" 253 9404 9420
 )
-"hw2_temp/providedtests.ml" 254 9450 9478 "hw2_temp/providedtests.ml" 254 9450 9510
+"hw2_temp/providedtests.ml" 254 9451 9479 "hw2_temp/providedtests.ml" 254 9451 9511
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 254 9450 9462 "hw2_temp/providedtests.ml" 254 9450 9510
+"hw2_temp/providedtests.ml" 254 9451 9463 "hw2_temp/providedtests.ml" 254 9451 9511
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 254 9450 9511 "hw2_temp/providedtests.ml" 254 9450 9512
+"hw2_temp/providedtests.ml" 254 9451 9512 "hw2_temp/providedtests.ml" 254 9451 9513
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 254 9450 9513 "hw2_temp/providedtests.ml" 254 9450 9515
+"hw2_temp/providedtests.ml" 254 9451 9514 "hw2_temp/providedtests.ml" 254 9451 9516
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 254 9450 9462 "hw2_temp/providedtests.ml" 254 9450 9515
+"hw2_temp/providedtests.ml" 254 9451 9463 "hw2_temp/providedtests.ml" 254 9451 9516
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 253 9403 9423 "hw2_temp/providedtests.ml" 254 9450 9515
+"hw2_temp/providedtests.ml" 253 9404 9424 "hw2_temp/providedtests.ml" 254 9451 9516
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 251 9308 9324 "hw2_temp/providedtests.ml" 255 9516 9525
+"hw2_temp/providedtests.ml" 251 9309 9325 "hw2_temp/providedtests.ml" 255 9517 9526
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 251 9308 9314 "hw2_temp/providedtests.ml" 255 9516 9526
+"hw2_temp/providedtests.ml" 251 9309 9315 "hw2_temp/providedtests.ml" 255 9517 9527
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 250 9215 9240 "hw2_temp/providedtests.ml" 255 9516 9526
+"hw2_temp/providedtests.ml" 250 9216 9241 "hw2_temp/providedtests.ml" 255 9517 9527
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 250 9215 9219 "hw2_temp/providedtests.ml" 255 9516 9527
+"hw2_temp/providedtests.ml" 250 9216 9220 "hw2_temp/providedtests.ml" 255 9517 9528
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 257 9530 9535 "hw2_temp/providedtests.ml" 257 9530 9551
+"hw2_temp/providedtests.ml" 257 9531 9536 "hw2_temp/providedtests.ml" 257 9531 9552
 type(
   string
 )
-"hw2_temp/providedtests.ml" 257 9530 9553 "hw2_temp/providedtests.ml" 257 9530 9577
+"hw2_temp/providedtests.ml" 257 9531 9554 "hw2_temp/providedtests.ml" 257 9531 9578
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -7091,108 +7091,108 @@ type(
 ident(
   ext_ref Gradedtests.machine_test
 )
-"hw2_temp/providedtests.ml" 257 9530 9578 "hw2_temp/providedtests.ml" 257 9530 9585
+"hw2_temp/providedtests.ml" 257 9531 9579 "hw2_temp/providedtests.ml" 257 9531 9586
 type(
   string
 )
-"hw2_temp/providedtests.ml" 257 9530 9586 "hw2_temp/providedtests.ml" 257 9530 9587
+"hw2_temp/providedtests.ml" 257 9531 9587 "hw2_temp/providedtests.ml" 257 9531 9588
 type(
   int
 )
-"hw2_temp/providedtests.ml" 257 9530 9588 "hw2_temp/providedtests.ml" 257 9530 9601
+"hw2_temp/providedtests.ml" 257 9531 9589 "hw2_temp/providedtests.ml" 257 9531 9602
 type(
   Simulator.mach
 )
 ident(
   int_ref push_then_pop "hw2_temp/providedtests.ml" 168 5898 5902 "hw2_temp/providedtests.ml" 168 5898 5915
 )
-"hw2_temp/providedtests.ml" 258 9602 9613 "hw2_temp/providedtests.ml" 258 9602 9614
+"hw2_temp/providedtests.ml" 258 9603 9614 "hw2_temp/providedtests.ml" 258 9603 9615
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 258 9602 9618 "hw2_temp/providedtests.ml" 258 9602 9640
+  def m "hw2_temp/providedtests.ml" 258 9603 9619 "hw2_temp/providedtests.ml" 258 9603 9641
 )
-"hw2_temp/providedtests.ml" 258 9602 9618 "hw2_temp/providedtests.ml" 258 9602 9619
+"hw2_temp/providedtests.ml" 258 9603 9619 "hw2_temp/providedtests.ml" 258 9603 9620
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 258 9602 9613 "hw2_temp/providedtests.ml" 258 9602 9614
+  int_ref m "hw2_temp/providedtests.ml" 258 9603 9614 "hw2_temp/providedtests.ml" 258 9603 9615
 )
-"hw2_temp/providedtests.ml" 258 9602 9618 "hw2_temp/providedtests.ml" 258 9602 9624
+"hw2_temp/providedtests.ml" 258 9603 9619 "hw2_temp/providedtests.ml" 258 9603 9625
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 258 9602 9626 "hw2_temp/providedtests.ml" 258 9602 9630
+"hw2_temp/providedtests.ml" 258 9603 9627 "hw2_temp/providedtests.ml" 258 9603 9631
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 258 9602 9631 "hw2_temp/providedtests.ml" 258 9602 9634
+"hw2_temp/providedtests.ml" 258 9603 9632 "hw2_temp/providedtests.ml" 258 9603 9635
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 258 9602 9626 "hw2_temp/providedtests.ml" 258 9602 9634
+"hw2_temp/providedtests.ml" 258 9603 9627 "hw2_temp/providedtests.ml" 258 9603 9635
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 258 9602 9618 "hw2_temp/providedtests.ml" 258 9602 9635
+"hw2_temp/providedtests.ml" 258 9603 9619 "hw2_temp/providedtests.ml" 258 9603 9636
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 258 9602 9636 "hw2_temp/providedtests.ml" 258 9602 9637
+"hw2_temp/providedtests.ml" 258 9603 9637 "hw2_temp/providedtests.ml" 258 9603 9638
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 258 9602 9638 "hw2_temp/providedtests.ml" 258 9602 9640
+"hw2_temp/providedtests.ml" 258 9603 9639 "hw2_temp/providedtests.ml" 258 9603 9641
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 258 9602 9618 "hw2_temp/providedtests.ml" 258 9602 9640
+"hw2_temp/providedtests.ml" 258 9603 9619 "hw2_temp/providedtests.ml" 258 9603 9641
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 258 9602 9608 "hw2_temp/providedtests.ml" 258 9602 9641
+"hw2_temp/providedtests.ml" 258 9603 9609 "hw2_temp/providedtests.ml" 258 9603 9642
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 257 9530 9553 "hw2_temp/providedtests.ml" 258 9602 9641
+"hw2_temp/providedtests.ml" 257 9531 9554 "hw2_temp/providedtests.ml" 258 9603 9642
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 257 9530 9534 "hw2_temp/providedtests.ml" 258 9602 9642
+"hw2_temp/providedtests.ml" 257 9531 9535 "hw2_temp/providedtests.ml" 258 9603 9643
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 240 8647 8676 "hw2_temp/providedtests.ml" 259 9644 9647
+"hw2_temp/providedtests.ml" 240 8648 8677 "hw2_temp/providedtests.ml" 259 9645 9648
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/providedtests.ml" 240 8647 8648 "hw2_temp/providedtests.ml" 259 9644 9648
+"hw2_temp/providedtests.ml" 240 8648 8649 "hw2_temp/providedtests.ml" 259 9645 9649
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/providedtests.ml" 261 9652 9659 "hw2_temp/providedtests.ml" 261 9652 9681
+"hw2_temp/providedtests.ml" 261 9653 9660 "hw2_temp/providedtests.ml" 261 9653 9682
 type(
   string
 )
-"hw2_temp/providedtests.ml" 263 9684 9694 "hw2_temp/providedtests.ml" 263 9684 9700
+"hw2_temp/providedtests.ml" 263 9685 9695 "hw2_temp/providedtests.ml" 263 9685 9701
 type(
   string
 )
-"hw2_temp/providedtests.ml" 263 9684 9702 "hw2_temp/providedtests.ml" 263 9684 9714
+"hw2_temp/providedtests.ml" 263 9685 9703 "hw2_temp/providedtests.ml" 263 9685 9715
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -7200,199 +7200,199 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 263 9684 9715 "hw2_temp/providedtests.ml" 263 9684 9722
+"hw2_temp/providedtests.ml" 263 9685 9716 "hw2_temp/providedtests.ml" 263 9685 9723
 type(
   string
 )
-"hw2_temp/providedtests.ml" 263 9684 9723 "hw2_temp/providedtests.ml" 263 9684 9724
+"hw2_temp/providedtests.ml" 263 9685 9724 "hw2_temp/providedtests.ml" 263 9685 9725
 type(
   int
 )
-"hw2_temp/providedtests.ml" 264 9725 9743 "hw2_temp/providedtests.ml" 264 9725 9755
+"hw2_temp/providedtests.ml" 264 9726 9744 "hw2_temp/providedtests.ml" 264 9726 9756
 type(
   Simulator.sbyte list -> Simulator.mach
 )
 ident(
   int_ref test_machine "hw2_temp/providedtests.ml" 70 2407 2411 "hw2_temp/providedtests.ml" 70 2407 2423
 )
-"hw2_temp/providedtests.ml" 265 9756 9780 "hw2_temp/providedtests.ml" 265 9756 9784
+"hw2_temp/providedtests.ml" 265 9757 9781 "hw2_temp/providedtests.ml" 265 9757 9785
 type(
   X86.opcode
 )
-"hw2_temp/providedtests.ml" 265 9756 9787 "hw2_temp/providedtests.ml" 265 9756 9789
+"hw2_temp/providedtests.ml" 265 9757 9788 "hw2_temp/providedtests.ml" 265 9757 9790
 type(
   X86.reg -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~% )
 )
-"hw2_temp/providedtests.ml" 265 9756 9789 "hw2_temp/providedtests.ml" 265 9756 9792
+"hw2_temp/providedtests.ml" 265 9757 9790 "hw2_temp/providedtests.ml" 265 9757 9793
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 265 9756 9787 "hw2_temp/providedtests.ml" 265 9756 9792
+"hw2_temp/providedtests.ml" 265 9757 9788 "hw2_temp/providedtests.ml" 265 9757 9793
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 265 9756 9786 "hw2_temp/providedtests.ml" 265 9756 9793
+"hw2_temp/providedtests.ml" 265 9757 9787 "hw2_temp/providedtests.ml" 265 9757 9794
 type(
   X86.operand list
 )
-"hw2_temp/providedtests.ml" 265 9756 9779 "hw2_temp/providedtests.ml" 265 9756 9794
+"hw2_temp/providedtests.ml" 265 9757 9780 "hw2_temp/providedtests.ml" 265 9757 9795
 type(
   X86.ins
 )
-"hw2_temp/providedtests.ml" 265 9756 9773 "hw2_temp/providedtests.ml" 265 9756 9794
+"hw2_temp/providedtests.ml" 265 9757 9774 "hw2_temp/providedtests.ml" 265 9757 9795
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 265 9756 9795 "hw2_temp/providedtests.ml" 265 9756 9802
+"hw2_temp/providedtests.ml" 265 9757 9796 "hw2_temp/providedtests.ml" 265 9757 9803
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 265 9756 9803 "hw2_temp/providedtests.ml" 265 9756 9810
+"hw2_temp/providedtests.ml" 265 9757 9804 "hw2_temp/providedtests.ml" 265 9757 9811
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 265 9756 9811 "hw2_temp/providedtests.ml" 265 9756 9818
+"hw2_temp/providedtests.ml" 265 9757 9812 "hw2_temp/providedtests.ml" 265 9757 9819
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 266 9820 9844 "hw2_temp/providedtests.ml" 266 9820 9848
+"hw2_temp/providedtests.ml" 266 9821 9845 "hw2_temp/providedtests.ml" 266 9821 9849
 type(
   X86.opcode
 )
-"hw2_temp/providedtests.ml" 266 9820 9851 "hw2_temp/providedtests.ml" 266 9820 9853
+"hw2_temp/providedtests.ml" 266 9821 9852 "hw2_temp/providedtests.ml" 266 9821 9854
 type(
   X86.reg -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~% )
 )
-"hw2_temp/providedtests.ml" 266 9820 9853 "hw2_temp/providedtests.ml" 266 9820 9856
+"hw2_temp/providedtests.ml" 266 9821 9854 "hw2_temp/providedtests.ml" 266 9821 9857
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 266 9820 9851 "hw2_temp/providedtests.ml" 266 9820 9856
+"hw2_temp/providedtests.ml" 266 9821 9852 "hw2_temp/providedtests.ml" 266 9821 9857
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 266 9820 9850 "hw2_temp/providedtests.ml" 266 9820 9857
+"hw2_temp/providedtests.ml" 266 9821 9851 "hw2_temp/providedtests.ml" 266 9821 9858
 type(
   X86.operand list
 )
-"hw2_temp/providedtests.ml" 266 9820 9843 "hw2_temp/providedtests.ml" 266 9820 9858
+"hw2_temp/providedtests.ml" 266 9821 9844 "hw2_temp/providedtests.ml" 266 9821 9859
 type(
   X86.ins
 )
-"hw2_temp/providedtests.ml" 266 9820 9837 "hw2_temp/providedtests.ml" 266 9820 9858
+"hw2_temp/providedtests.ml" 266 9821 9838 "hw2_temp/providedtests.ml" 266 9821 9859
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 266 9820 9859 "hw2_temp/providedtests.ml" 266 9820 9866
+"hw2_temp/providedtests.ml" 266 9821 9860 "hw2_temp/providedtests.ml" 266 9821 9867
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 266 9820 9867 "hw2_temp/providedtests.ml" 266 9820 9874
+"hw2_temp/providedtests.ml" 266 9821 9868 "hw2_temp/providedtests.ml" 266 9821 9875
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 266 9820 9875 "hw2_temp/providedtests.ml" 266 9820 9882
+"hw2_temp/providedtests.ml" 266 9821 9876 "hw2_temp/providedtests.ml" 266 9821 9883
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 265 9756 9772 "hw2_temp/providedtests.ml" 266 9820 9884
+"hw2_temp/providedtests.ml" 265 9757 9773 "hw2_temp/providedtests.ml" 266 9821 9885
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 264 9725 9737 "hw2_temp/providedtests.ml" 266 9820 9888
+"hw2_temp/providedtests.ml" 264 9726 9738 "hw2_temp/providedtests.ml" 266 9821 9889
 call(
   stack
 )
 type(
   Simulator.mach
 )
-"hw2_temp/providedtests.ml" 267 9889 9906 "hw2_temp/providedtests.ml" 267 9889 9907
+"hw2_temp/providedtests.ml" 267 9890 9907 "hw2_temp/providedtests.ml" 267 9890 9908
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 267 9889 9911 "hw2_temp/providedtests.ml" 267 9889 9933
+  def m "hw2_temp/providedtests.ml" 267 9890 9912 "hw2_temp/providedtests.ml" 267 9890 9934
 )
-"hw2_temp/providedtests.ml" 267 9889 9911 "hw2_temp/providedtests.ml" 267 9889 9912
+"hw2_temp/providedtests.ml" 267 9890 9912 "hw2_temp/providedtests.ml" 267 9890 9913
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 267 9889 9906 "hw2_temp/providedtests.ml" 267 9889 9907
+  int_ref m "hw2_temp/providedtests.ml" 267 9890 9907 "hw2_temp/providedtests.ml" 267 9890 9908
 )
-"hw2_temp/providedtests.ml" 267 9889 9911 "hw2_temp/providedtests.ml" 267 9889 9917
+"hw2_temp/providedtests.ml" 267 9890 9912 "hw2_temp/providedtests.ml" 267 9890 9918
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 267 9889 9919 "hw2_temp/providedtests.ml" 267 9889 9923
+"hw2_temp/providedtests.ml" 267 9890 9920 "hw2_temp/providedtests.ml" 267 9890 9924
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 267 9889 9924 "hw2_temp/providedtests.ml" 267 9889 9927
+"hw2_temp/providedtests.ml" 267 9890 9925 "hw2_temp/providedtests.ml" 267 9890 9928
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 267 9889 9919 "hw2_temp/providedtests.ml" 267 9889 9927
+"hw2_temp/providedtests.ml" 267 9890 9920 "hw2_temp/providedtests.ml" 267 9890 9928
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 267 9889 9911 "hw2_temp/providedtests.ml" 267 9889 9928
+"hw2_temp/providedtests.ml" 267 9890 9912 "hw2_temp/providedtests.ml" 267 9890 9929
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 267 9889 9929 "hw2_temp/providedtests.ml" 267 9889 9930
+"hw2_temp/providedtests.ml" 267 9890 9930 "hw2_temp/providedtests.ml" 267 9890 9931
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 267 9889 9931 "hw2_temp/providedtests.ml" 267 9889 9933
+"hw2_temp/providedtests.ml" 267 9890 9932 "hw2_temp/providedtests.ml" 267 9890 9934
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 267 9889 9911 "hw2_temp/providedtests.ml" 267 9889 9933
+"hw2_temp/providedtests.ml" 267 9890 9912 "hw2_temp/providedtests.ml" 267 9890 9934
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 267 9889 9901 "hw2_temp/providedtests.ml" 267 9889 9934
+"hw2_temp/providedtests.ml" 267 9890 9902 "hw2_temp/providedtests.ml" 267 9890 9935
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 263 9684 9702 "hw2_temp/providedtests.ml" 267 9889 9934
+"hw2_temp/providedtests.ml" 263 9685 9703 "hw2_temp/providedtests.ml" 267 9890 9935
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 263 9684 9693 "hw2_temp/providedtests.ml" 268 9935 9945
+"hw2_temp/providedtests.ml" 263 9685 9694 "hw2_temp/providedtests.ml" 268 9936 9946
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 270 9948 9958 "hw2_temp/providedtests.ml" 270 9948 9964
+"hw2_temp/providedtests.ml" 270 9949 9959 "hw2_temp/providedtests.ml" 270 9949 9965
 type(
   string
 )
-"hw2_temp/providedtests.ml" 270 9948 9966 "hw2_temp/providedtests.ml" 270 9948 9978
+"hw2_temp/providedtests.ml" 270 9949 9967 "hw2_temp/providedtests.ml" 270 9949 9979
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -7400,199 +7400,199 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 270 9948 9979 "hw2_temp/providedtests.ml" 270 9948 9987
+"hw2_temp/providedtests.ml" 270 9949 9980 "hw2_temp/providedtests.ml" 270 9949 9988
 type(
   string
 )
-"hw2_temp/providedtests.ml" 270 9948 9988 "hw2_temp/providedtests.ml" 270 9948 9989
+"hw2_temp/providedtests.ml" 270 9949 9989 "hw2_temp/providedtests.ml" 270 9949 9990
 type(
   int
 )
-"hw2_temp/providedtests.ml" 271 9990 10008 "hw2_temp/providedtests.ml" 271 9990 10020
+"hw2_temp/providedtests.ml" 271 9991 10009 "hw2_temp/providedtests.ml" 271 9991 10021
 type(
   Simulator.sbyte list -> Simulator.mach
 )
 ident(
   int_ref test_machine "hw2_temp/providedtests.ml" 70 2407 2411 "hw2_temp/providedtests.ml" 70 2407 2423
 )
-"hw2_temp/providedtests.ml" 272 10021 10045 "hw2_temp/providedtests.ml" 272 10021 10049
+"hw2_temp/providedtests.ml" 272 10022 10046 "hw2_temp/providedtests.ml" 272 10022 10050
 type(
   X86.opcode
 )
-"hw2_temp/providedtests.ml" 272 10021 10052 "hw2_temp/providedtests.ml" 272 10021 10054
+"hw2_temp/providedtests.ml" 272 10022 10053 "hw2_temp/providedtests.ml" 272 10022 10055
 type(
   X86.reg -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~% )
 )
-"hw2_temp/providedtests.ml" 272 10021 10054 "hw2_temp/providedtests.ml" 272 10021 10057
+"hw2_temp/providedtests.ml" 272 10022 10055 "hw2_temp/providedtests.ml" 272 10022 10058
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 272 10021 10052 "hw2_temp/providedtests.ml" 272 10021 10057
+"hw2_temp/providedtests.ml" 272 10022 10053 "hw2_temp/providedtests.ml" 272 10022 10058
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 272 10021 10051 "hw2_temp/providedtests.ml" 272 10021 10058
+"hw2_temp/providedtests.ml" 272 10022 10052 "hw2_temp/providedtests.ml" 272 10022 10059
 type(
   X86.operand list
 )
-"hw2_temp/providedtests.ml" 272 10021 10044 "hw2_temp/providedtests.ml" 272 10021 10059
+"hw2_temp/providedtests.ml" 272 10022 10045 "hw2_temp/providedtests.ml" 272 10022 10060
 type(
   X86.ins
 )
-"hw2_temp/providedtests.ml" 272 10021 10038 "hw2_temp/providedtests.ml" 272 10021 10059
+"hw2_temp/providedtests.ml" 272 10022 10039 "hw2_temp/providedtests.ml" 272 10022 10060
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 272 10021 10060 "hw2_temp/providedtests.ml" 272 10021 10067
+"hw2_temp/providedtests.ml" 272 10022 10061 "hw2_temp/providedtests.ml" 272 10022 10068
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 272 10021 10068 "hw2_temp/providedtests.ml" 272 10021 10075
+"hw2_temp/providedtests.ml" 272 10022 10069 "hw2_temp/providedtests.ml" 272 10022 10076
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 272 10021 10076 "hw2_temp/providedtests.ml" 272 10021 10083
+"hw2_temp/providedtests.ml" 272 10022 10077 "hw2_temp/providedtests.ml" 272 10022 10084
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 273 10085 10109 "hw2_temp/providedtests.ml" 273 10085 10113
+"hw2_temp/providedtests.ml" 273 10086 10110 "hw2_temp/providedtests.ml" 273 10086 10114
 type(
   X86.opcode
 )
-"hw2_temp/providedtests.ml" 273 10085 10116 "hw2_temp/providedtests.ml" 273 10085 10118
+"hw2_temp/providedtests.ml" 273 10086 10117 "hw2_temp/providedtests.ml" 273 10086 10119
 type(
   X86.reg -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~% )
 )
-"hw2_temp/providedtests.ml" 273 10085 10118 "hw2_temp/providedtests.ml" 273 10085 10121
+"hw2_temp/providedtests.ml" 273 10086 10119 "hw2_temp/providedtests.ml" 273 10086 10122
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 273 10085 10116 "hw2_temp/providedtests.ml" 273 10085 10121
+"hw2_temp/providedtests.ml" 273 10086 10117 "hw2_temp/providedtests.ml" 273 10086 10122
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 273 10085 10115 "hw2_temp/providedtests.ml" 273 10085 10122
+"hw2_temp/providedtests.ml" 273 10086 10116 "hw2_temp/providedtests.ml" 273 10086 10123
 type(
   X86.operand list
 )
-"hw2_temp/providedtests.ml" 273 10085 10108 "hw2_temp/providedtests.ml" 273 10085 10123
+"hw2_temp/providedtests.ml" 273 10086 10109 "hw2_temp/providedtests.ml" 273 10086 10124
 type(
   X86.ins
 )
-"hw2_temp/providedtests.ml" 273 10085 10102 "hw2_temp/providedtests.ml" 273 10085 10123
+"hw2_temp/providedtests.ml" 273 10086 10103 "hw2_temp/providedtests.ml" 273 10086 10124
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 273 10085 10124 "hw2_temp/providedtests.ml" 273 10085 10131
+"hw2_temp/providedtests.ml" 273 10086 10125 "hw2_temp/providedtests.ml" 273 10086 10132
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 273 10085 10132 "hw2_temp/providedtests.ml" 273 10085 10139
+"hw2_temp/providedtests.ml" 273 10086 10133 "hw2_temp/providedtests.ml" 273 10086 10140
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 273 10085 10140 "hw2_temp/providedtests.ml" 273 10085 10147
+"hw2_temp/providedtests.ml" 273 10086 10141 "hw2_temp/providedtests.ml" 273 10086 10148
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 272 10021 10037 "hw2_temp/providedtests.ml" 273 10085 10149
+"hw2_temp/providedtests.ml" 272 10022 10038 "hw2_temp/providedtests.ml" 273 10086 10150
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 271 9990 10002 "hw2_temp/providedtests.ml" 273 10085 10153
+"hw2_temp/providedtests.ml" 271 9991 10003 "hw2_temp/providedtests.ml" 273 10086 10154
 call(
   stack
 )
 type(
   Simulator.mach
 )
-"hw2_temp/providedtests.ml" 274 10154 10171 "hw2_temp/providedtests.ml" 274 10154 10172
+"hw2_temp/providedtests.ml" 274 10155 10172 "hw2_temp/providedtests.ml" 274 10155 10173
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 274 10154 10176 "hw2_temp/providedtests.ml" 274 10154 10199
+  def m "hw2_temp/providedtests.ml" 274 10155 10177 "hw2_temp/providedtests.ml" 274 10155 10200
 )
-"hw2_temp/providedtests.ml" 274 10154 10176 "hw2_temp/providedtests.ml" 274 10154 10177
+"hw2_temp/providedtests.ml" 274 10155 10177 "hw2_temp/providedtests.ml" 274 10155 10178
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 274 10154 10171 "hw2_temp/providedtests.ml" 274 10154 10172
+  int_ref m "hw2_temp/providedtests.ml" 274 10155 10172 "hw2_temp/providedtests.ml" 274 10155 10173
 )
-"hw2_temp/providedtests.ml" 274 10154 10176 "hw2_temp/providedtests.ml" 274 10154 10182
+"hw2_temp/providedtests.ml" 274 10155 10177 "hw2_temp/providedtests.ml" 274 10155 10183
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 274 10154 10184 "hw2_temp/providedtests.ml" 274 10154 10188
+"hw2_temp/providedtests.ml" 274 10155 10185 "hw2_temp/providedtests.ml" 274 10155 10189
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 274 10154 10189 "hw2_temp/providedtests.ml" 274 10154 10192
+"hw2_temp/providedtests.ml" 274 10155 10190 "hw2_temp/providedtests.ml" 274 10155 10193
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 274 10154 10184 "hw2_temp/providedtests.ml" 274 10154 10192
+"hw2_temp/providedtests.ml" 274 10155 10185 "hw2_temp/providedtests.ml" 274 10155 10193
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 274 10154 10176 "hw2_temp/providedtests.ml" 274 10154 10193
+"hw2_temp/providedtests.ml" 274 10155 10177 "hw2_temp/providedtests.ml" 274 10155 10194
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 274 10154 10194 "hw2_temp/providedtests.ml" 274 10154 10195
+"hw2_temp/providedtests.ml" 274 10155 10195 "hw2_temp/providedtests.ml" 274 10155 10196
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 274 10154 10196 "hw2_temp/providedtests.ml" 274 10154 10199
+"hw2_temp/providedtests.ml" 274 10155 10197 "hw2_temp/providedtests.ml" 274 10155 10200
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 274 10154 10176 "hw2_temp/providedtests.ml" 274 10154 10199
+"hw2_temp/providedtests.ml" 274 10155 10177 "hw2_temp/providedtests.ml" 274 10155 10200
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 274 10154 10166 "hw2_temp/providedtests.ml" 274 10154 10200
+"hw2_temp/providedtests.ml" 274 10155 10167 "hw2_temp/providedtests.ml" 274 10155 10201
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 270 9948 9966 "hw2_temp/providedtests.ml" 274 10154 10200
+"hw2_temp/providedtests.ml" 270 9949 9967 "hw2_temp/providedtests.ml" 274 10155 10201
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 270 9948 9957 "hw2_temp/providedtests.ml" 275 10201 10211
+"hw2_temp/providedtests.ml" 270 9949 9958 "hw2_temp/providedtests.ml" 275 10202 10212
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 277 10214 10224 "hw2_temp/providedtests.ml" 277 10214 10229
+"hw2_temp/providedtests.ml" 277 10215 10225 "hw2_temp/providedtests.ml" 277 10215 10230
 type(
   string
 )
-"hw2_temp/providedtests.ml" 277 10214 10231 "hw2_temp/providedtests.ml" 277 10214 10243
+"hw2_temp/providedtests.ml" 277 10215 10232 "hw2_temp/providedtests.ml" 277 10215 10244
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -7600,229 +7600,229 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 277 10214 10244 "hw2_temp/providedtests.ml" 277 10214 10251
+"hw2_temp/providedtests.ml" 277 10215 10245 "hw2_temp/providedtests.ml" 277 10215 10252
 type(
   string
 )
-"hw2_temp/providedtests.ml" 277 10214 10252 "hw2_temp/providedtests.ml" 277 10214 10253
+"hw2_temp/providedtests.ml" 277 10215 10253 "hw2_temp/providedtests.ml" 277 10215 10254
 type(
   int
 )
-"hw2_temp/providedtests.ml" 278 10254 10272 "hw2_temp/providedtests.ml" 278 10254 10284
+"hw2_temp/providedtests.ml" 278 10255 10273 "hw2_temp/providedtests.ml" 278 10255 10285
 type(
   Simulator.sbyte list -> Simulator.mach
 )
 ident(
   int_ref test_machine "hw2_temp/providedtests.ml" 70 2407 2411 "hw2_temp/providedtests.ml" 70 2407 2423
 )
-"hw2_temp/providedtests.ml" 279 10286 10310 "hw2_temp/providedtests.ml" 279 10286 10314
+"hw2_temp/providedtests.ml" 279 10287 10311 "hw2_temp/providedtests.ml" 279 10287 10315
 type(
   X86.opcode
 )
-"hw2_temp/providedtests.ml" 279 10286 10317 "hw2_temp/providedtests.ml" 279 10286 10319
+"hw2_temp/providedtests.ml" 279 10287 10318 "hw2_temp/providedtests.ml" 279 10287 10320
 type(
   int -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~$ )
 )
-"hw2_temp/providedtests.ml" 279 10286 10319 "hw2_temp/providedtests.ml" 279 10286 10323
+"hw2_temp/providedtests.ml" 279 10287 10320 "hw2_temp/providedtests.ml" 279 10287 10324
 type(
   int
 )
-"hw2_temp/providedtests.ml" 279 10286 10317 "hw2_temp/providedtests.ml" 279 10286 10323
+"hw2_temp/providedtests.ml" 279 10287 10318 "hw2_temp/providedtests.ml" 279 10287 10324
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 279 10286 10325 "hw2_temp/providedtests.ml" 279 10286 10327
+"hw2_temp/providedtests.ml" 279 10287 10326 "hw2_temp/providedtests.ml" 279 10287 10328
 type(
   X86.reg -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~% )
 )
-"hw2_temp/providedtests.ml" 279 10286 10327 "hw2_temp/providedtests.ml" 279 10286 10330
+"hw2_temp/providedtests.ml" 279 10287 10328 "hw2_temp/providedtests.ml" 279 10287 10331
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 279 10286 10325 "hw2_temp/providedtests.ml" 279 10286 10330
+"hw2_temp/providedtests.ml" 279 10287 10326 "hw2_temp/providedtests.ml" 279 10287 10331
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 279 10286 10316 "hw2_temp/providedtests.ml" 279 10286 10331
+"hw2_temp/providedtests.ml" 279 10287 10317 "hw2_temp/providedtests.ml" 279 10287 10332
 type(
   X86.operand list
 )
-"hw2_temp/providedtests.ml" 279 10286 10309 "hw2_temp/providedtests.ml" 279 10286 10332
+"hw2_temp/providedtests.ml" 279 10287 10310 "hw2_temp/providedtests.ml" 279 10287 10333
 type(
   X86.ins
 )
-"hw2_temp/providedtests.ml" 279 10286 10303 "hw2_temp/providedtests.ml" 279 10286 10332
+"hw2_temp/providedtests.ml" 279 10287 10304 "hw2_temp/providedtests.ml" 279 10287 10333
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 279 10286 10334 "hw2_temp/providedtests.ml" 279 10286 10341
+"hw2_temp/providedtests.ml" 279 10287 10335 "hw2_temp/providedtests.ml" 279 10287 10342
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 279 10286 10342 "hw2_temp/providedtests.ml" 279 10286 10349
+"hw2_temp/providedtests.ml" 279 10287 10343 "hw2_temp/providedtests.ml" 279 10287 10350
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 279 10286 10350 "hw2_temp/providedtests.ml" 279 10286 10357
+"hw2_temp/providedtests.ml" 279 10287 10351 "hw2_temp/providedtests.ml" 279 10287 10358
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 280 10359 10383 "hw2_temp/providedtests.ml" 280 10359 10387
+"hw2_temp/providedtests.ml" 280 10360 10384 "hw2_temp/providedtests.ml" 280 10360 10388
 type(
   X86.opcode
 )
-"hw2_temp/providedtests.ml" 280 10359 10390 "hw2_temp/providedtests.ml" 280 10359 10392
+"hw2_temp/providedtests.ml" 280 10360 10391 "hw2_temp/providedtests.ml" 280 10360 10393
 type(
   X86.reg -> X86.operand
 )
 ident(
   ext_ref X86.Asm.( ~% )
 )
-"hw2_temp/providedtests.ml" 280 10359 10392 "hw2_temp/providedtests.ml" 280 10359 10395
+"hw2_temp/providedtests.ml" 280 10360 10393 "hw2_temp/providedtests.ml" 280 10360 10396
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 280 10359 10390 "hw2_temp/providedtests.ml" 280 10359 10395
+"hw2_temp/providedtests.ml" 280 10360 10391 "hw2_temp/providedtests.ml" 280 10360 10396
 call(
   stack
 )
 type(
   X86.operand
 )
-"hw2_temp/providedtests.ml" 280 10359 10389 "hw2_temp/providedtests.ml" 280 10359 10396
+"hw2_temp/providedtests.ml" 280 10360 10390 "hw2_temp/providedtests.ml" 280 10360 10397
 type(
   X86.operand list
 )
-"hw2_temp/providedtests.ml" 280 10359 10382 "hw2_temp/providedtests.ml" 280 10359 10397
+"hw2_temp/providedtests.ml" 280 10360 10383 "hw2_temp/providedtests.ml" 280 10360 10398
 type(
   X86.ins
 )
-"hw2_temp/providedtests.ml" 280 10359 10376 "hw2_temp/providedtests.ml" 280 10359 10397
+"hw2_temp/providedtests.ml" 280 10360 10377 "hw2_temp/providedtests.ml" 280 10360 10398
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 280 10359 10398 "hw2_temp/providedtests.ml" 280 10359 10405
+"hw2_temp/providedtests.ml" 280 10360 10399 "hw2_temp/providedtests.ml" 280 10360 10406
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 280 10359 10406 "hw2_temp/providedtests.ml" 280 10359 10413
+"hw2_temp/providedtests.ml" 280 10360 10407 "hw2_temp/providedtests.ml" 280 10360 10414
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 280 10359 10414 "hw2_temp/providedtests.ml" 280 10359 10421
+"hw2_temp/providedtests.ml" 280 10360 10415 "hw2_temp/providedtests.ml" 280 10360 10422
 type(
   Simulator.sbyte
 )
-"hw2_temp/providedtests.ml" 279 10286 10302 "hw2_temp/providedtests.ml" 280 10359 10423
+"hw2_temp/providedtests.ml" 279 10287 10303 "hw2_temp/providedtests.ml" 280 10360 10424
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 278 10254 10266 "hw2_temp/providedtests.ml" 280 10359 10427
+"hw2_temp/providedtests.ml" 278 10255 10267 "hw2_temp/providedtests.ml" 280 10360 10428
 call(
   stack
 )
 type(
   Simulator.mach
 )
-"hw2_temp/providedtests.ml" 281 10428 10447 "hw2_temp/providedtests.ml" 281 10428 10448
+"hw2_temp/providedtests.ml" 281 10429 10448 "hw2_temp/providedtests.ml" 281 10429 10449
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 281 10428 10452 "hw2_temp/providedtests.ml" 281 10428 10474
+  def m "hw2_temp/providedtests.ml" 281 10429 10453 "hw2_temp/providedtests.ml" 281 10429 10475
 )
-"hw2_temp/providedtests.ml" 281 10428 10452 "hw2_temp/providedtests.ml" 281 10428 10453
+"hw2_temp/providedtests.ml" 281 10429 10453 "hw2_temp/providedtests.ml" 281 10429 10454
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 281 10428 10447 "hw2_temp/providedtests.ml" 281 10428 10448
+  int_ref m "hw2_temp/providedtests.ml" 281 10429 10448 "hw2_temp/providedtests.ml" 281 10429 10449
 )
-"hw2_temp/providedtests.ml" 281 10428 10452 "hw2_temp/providedtests.ml" 281 10428 10458
+"hw2_temp/providedtests.ml" 281 10429 10453 "hw2_temp/providedtests.ml" 281 10429 10459
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 281 10428 10460 "hw2_temp/providedtests.ml" 281 10428 10464
+"hw2_temp/providedtests.ml" 281 10429 10461 "hw2_temp/providedtests.ml" 281 10429 10465
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 281 10428 10465 "hw2_temp/providedtests.ml" 281 10428 10468
+"hw2_temp/providedtests.ml" 281 10429 10466 "hw2_temp/providedtests.ml" 281 10429 10469
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 281 10428 10460 "hw2_temp/providedtests.ml" 281 10428 10468
+"hw2_temp/providedtests.ml" 281 10429 10461 "hw2_temp/providedtests.ml" 281 10429 10469
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 281 10428 10452 "hw2_temp/providedtests.ml" 281 10428 10469
+"hw2_temp/providedtests.ml" 281 10429 10453 "hw2_temp/providedtests.ml" 281 10429 10470
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 281 10428 10470 "hw2_temp/providedtests.ml" 281 10428 10471
+"hw2_temp/providedtests.ml" 281 10429 10471 "hw2_temp/providedtests.ml" 281 10429 10472
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 281 10428 10472 "hw2_temp/providedtests.ml" 281 10428 10474
+"hw2_temp/providedtests.ml" 281 10429 10473 "hw2_temp/providedtests.ml" 281 10429 10475
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 281 10428 10452 "hw2_temp/providedtests.ml" 281 10428 10474
+"hw2_temp/providedtests.ml" 281 10429 10453 "hw2_temp/providedtests.ml" 281 10429 10475
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 281 10428 10442 "hw2_temp/providedtests.ml" 281 10428 10475
+"hw2_temp/providedtests.ml" 281 10429 10443 "hw2_temp/providedtests.ml" 281 10429 10476
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 277 10214 10231 "hw2_temp/providedtests.ml" 281 10428 10475
+"hw2_temp/providedtests.ml" 277 10215 10232 "hw2_temp/providedtests.ml" 281 10429 10476
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 277 10214 10223 "hw2_temp/providedtests.ml" 282 10476 10486
+"hw2_temp/providedtests.ml" 277 10215 10224 "hw2_temp/providedtests.ml" 282 10477 10487
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 263 9684 9692 "hw2_temp/providedtests.ml" 282 10476 10487
+"hw2_temp/providedtests.ml" 263 9685 9693 "hw2_temp/providedtests.ml" 282 10477 10488
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/providedtests.ml" 261 9652 9653 "hw2_temp/providedtests.ml" 283 10488 10496
+"hw2_temp/providedtests.ml" 261 9653 9654 "hw2_temp/providedtests.ml" 283 10489 10497
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/providedtests.ml" 287 10507 10515 "hw2_temp/providedtests.ml" 287 10507 10543
+"hw2_temp/providedtests.ml" 287 10508 10516 "hw2_temp/providedtests.ml" 287 10508 10544
 type(
   string
 )
-"hw2_temp/providedtests.ml" 288 10546 10551 "hw2_temp/providedtests.ml" 288 10546 10570
+"hw2_temp/providedtests.ml" 288 10547 10552 "hw2_temp/providedtests.ml" 288 10547 10571
 type(
   string
 )
-"hw2_temp/providedtests.ml" 288 10546 10572 "hw2_temp/providedtests.ml" 288 10546 10584
+"hw2_temp/providedtests.ml" 288 10547 10573 "hw2_temp/providedtests.ml" 288 10547 10585
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -7830,96 +7830,96 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 288 10546 10585 "hw2_temp/providedtests.ml" 288 10546 10594
+"hw2_temp/providedtests.ml" 288 10547 10586 "hw2_temp/providedtests.ml" 288 10547 10595
 type(
   string
 )
-"hw2_temp/providedtests.ml" 288 10546 10595 "hw2_temp/providedtests.ml" 288 10546 10596
+"hw2_temp/providedtests.ml" 288 10547 10596 "hw2_temp/providedtests.ml" 288 10547 10597
 type(
   int
 )
-"hw2_temp/providedtests.ml" 288 10546 10597 "hw2_temp/providedtests.ml" 288 10546 10601
+"hw2_temp/providedtests.ml" 288 10547 10598 "hw2_temp/providedtests.ml" 288 10547 10602
 type(
   Simulator.mach
 )
 ident(
   int_ref leaq "hw2_temp/providedtests.ml" 86 2914 2918 "hw2_temp/providedtests.ml" 86 2914 2922
 )
-"hw2_temp/providedtests.ml" 289 10602 10613 "hw2_temp/providedtests.ml" 289 10602 10614
+"hw2_temp/providedtests.ml" 289 10603 10614 "hw2_temp/providedtests.ml" 289 10603 10615
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 289 10602 10618 "hw2_temp/providedtests.ml" 289 10602 10647
+  def m "hw2_temp/providedtests.ml" 289 10603 10619 "hw2_temp/providedtests.ml" 289 10603 10648
 )
-"hw2_temp/providedtests.ml" 289 10602 10618 "hw2_temp/providedtests.ml" 289 10602 10619
+"hw2_temp/providedtests.ml" 289 10603 10619 "hw2_temp/providedtests.ml" 289 10603 10620
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 289 10602 10613 "hw2_temp/providedtests.ml" 289 10602 10614
+  int_ref m "hw2_temp/providedtests.ml" 289 10603 10614 "hw2_temp/providedtests.ml" 289 10603 10615
 )
-"hw2_temp/providedtests.ml" 289 10602 10618 "hw2_temp/providedtests.ml" 289 10602 10624
+"hw2_temp/providedtests.ml" 289 10603 10619 "hw2_temp/providedtests.ml" 289 10603 10625
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 289 10602 10626 "hw2_temp/providedtests.ml" 289 10602 10630
+"hw2_temp/providedtests.ml" 289 10603 10627 "hw2_temp/providedtests.ml" 289 10603 10631
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 289 10602 10631 "hw2_temp/providedtests.ml" 289 10602 10634
+"hw2_temp/providedtests.ml" 289 10603 10632 "hw2_temp/providedtests.ml" 289 10603 10635
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 289 10602 10626 "hw2_temp/providedtests.ml" 289 10602 10634
+"hw2_temp/providedtests.ml" 289 10603 10627 "hw2_temp/providedtests.ml" 289 10603 10635
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 289 10602 10618 "hw2_temp/providedtests.ml" 289 10602 10635
+"hw2_temp/providedtests.ml" 289 10603 10619 "hw2_temp/providedtests.ml" 289 10603 10636
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 289 10602 10636 "hw2_temp/providedtests.ml" 289 10602 10637
+"hw2_temp/providedtests.ml" 289 10603 10637 "hw2_temp/providedtests.ml" 289 10603 10638
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 289 10602 10638 "hw2_temp/providedtests.ml" 289 10602 10647
+"hw2_temp/providedtests.ml" 289 10603 10639 "hw2_temp/providedtests.ml" 289 10603 10648
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 289 10602 10618 "hw2_temp/providedtests.ml" 289 10602 10647
+"hw2_temp/providedtests.ml" 289 10603 10619 "hw2_temp/providedtests.ml" 289 10603 10648
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 289 10602 10608 "hw2_temp/providedtests.ml" 289 10602 10648
+"hw2_temp/providedtests.ml" 289 10603 10609 "hw2_temp/providedtests.ml" 289 10603 10649
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 288 10546 10572 "hw2_temp/providedtests.ml" 289 10602 10648
+"hw2_temp/providedtests.ml" 288 10547 10573 "hw2_temp/providedtests.ml" 289 10603 10649
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 288 10546 10550 "hw2_temp/providedtests.ml" 290 10649 10656
+"hw2_temp/providedtests.ml" 288 10547 10551 "hw2_temp/providedtests.ml" 290 10650 10657
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 291 10658 10663 "hw2_temp/providedtests.ml" 291 10658 10682
+"hw2_temp/providedtests.ml" 291 10659 10664 "hw2_temp/providedtests.ml" 291 10659 10683
 type(
   string
 )
-"hw2_temp/providedtests.ml" 291 10658 10684 "hw2_temp/providedtests.ml" 291 10658 10696
+"hw2_temp/providedtests.ml" 291 10659 10685 "hw2_temp/providedtests.ml" 291 10659 10697
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -7927,96 +7927,96 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 291 10658 10697 "hw2_temp/providedtests.ml" 291 10658 10706
+"hw2_temp/providedtests.ml" 291 10659 10698 "hw2_temp/providedtests.ml" 291 10659 10707
 type(
   string
 )
-"hw2_temp/providedtests.ml" 291 10658 10707 "hw2_temp/providedtests.ml" 291 10658 10708
+"hw2_temp/providedtests.ml" 291 10659 10708 "hw2_temp/providedtests.ml" 291 10659 10709
 type(
   int
 )
-"hw2_temp/providedtests.ml" 291 10658 10709 "hw2_temp/providedtests.ml" 291 10658 10713
+"hw2_temp/providedtests.ml" 291 10659 10710 "hw2_temp/providedtests.ml" 291 10659 10714
 type(
   Simulator.mach
 )
 ident(
   int_ref incq "hw2_temp/providedtests.ml" 90 3009 3013 "hw2_temp/providedtests.ml" 90 3009 3017
 )
-"hw2_temp/providedtests.ml" 292 10714 10725 "hw2_temp/providedtests.ml" 292 10714 10726
+"hw2_temp/providedtests.ml" 292 10715 10726 "hw2_temp/providedtests.ml" 292 10715 10727
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 292 10714 10730 "hw2_temp/providedtests.ml" 292 10714 10752
+  def m "hw2_temp/providedtests.ml" 292 10715 10731 "hw2_temp/providedtests.ml" 292 10715 10753
 )
-"hw2_temp/providedtests.ml" 292 10714 10730 "hw2_temp/providedtests.ml" 292 10714 10731
+"hw2_temp/providedtests.ml" 292 10715 10731 "hw2_temp/providedtests.ml" 292 10715 10732
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 292 10714 10725 "hw2_temp/providedtests.ml" 292 10714 10726
+  int_ref m "hw2_temp/providedtests.ml" 292 10715 10726 "hw2_temp/providedtests.ml" 292 10715 10727
 )
-"hw2_temp/providedtests.ml" 292 10714 10730 "hw2_temp/providedtests.ml" 292 10714 10736
+"hw2_temp/providedtests.ml" 292 10715 10731 "hw2_temp/providedtests.ml" 292 10715 10737
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 292 10714 10738 "hw2_temp/providedtests.ml" 292 10714 10742
+"hw2_temp/providedtests.ml" 292 10715 10739 "hw2_temp/providedtests.ml" 292 10715 10743
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 292 10714 10743 "hw2_temp/providedtests.ml" 292 10714 10746
+"hw2_temp/providedtests.ml" 292 10715 10744 "hw2_temp/providedtests.ml" 292 10715 10747
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 292 10714 10738 "hw2_temp/providedtests.ml" 292 10714 10746
+"hw2_temp/providedtests.ml" 292 10715 10739 "hw2_temp/providedtests.ml" 292 10715 10747
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 292 10714 10730 "hw2_temp/providedtests.ml" 292 10714 10747
+"hw2_temp/providedtests.ml" 292 10715 10731 "hw2_temp/providedtests.ml" 292 10715 10748
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 292 10714 10748 "hw2_temp/providedtests.ml" 292 10714 10749
+"hw2_temp/providedtests.ml" 292 10715 10749 "hw2_temp/providedtests.ml" 292 10715 10750
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 292 10714 10750 "hw2_temp/providedtests.ml" 292 10714 10752
+"hw2_temp/providedtests.ml" 292 10715 10751 "hw2_temp/providedtests.ml" 292 10715 10753
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 292 10714 10730 "hw2_temp/providedtests.ml" 292 10714 10752
+"hw2_temp/providedtests.ml" 292 10715 10731 "hw2_temp/providedtests.ml" 292 10715 10753
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 292 10714 10720 "hw2_temp/providedtests.ml" 292 10714 10753
+"hw2_temp/providedtests.ml" 292 10715 10721 "hw2_temp/providedtests.ml" 292 10715 10754
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 291 10658 10684 "hw2_temp/providedtests.ml" 292 10714 10753
+"hw2_temp/providedtests.ml" 291 10659 10685 "hw2_temp/providedtests.ml" 292 10715 10754
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 291 10658 10662 "hw2_temp/providedtests.ml" 293 10754 10761
+"hw2_temp/providedtests.ml" 291 10659 10663 "hw2_temp/providedtests.ml" 293 10755 10762
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 294 10763 10768 "hw2_temp/providedtests.ml" 294 10763 10787
+"hw2_temp/providedtests.ml" 294 10764 10769 "hw2_temp/providedtests.ml" 294 10764 10788
 type(
   string
 )
-"hw2_temp/providedtests.ml" 294 10763 10789 "hw2_temp/providedtests.ml" 294 10763 10801
+"hw2_temp/providedtests.ml" 294 10764 10790 "hw2_temp/providedtests.ml" 294 10764 10802
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -8024,96 +8024,96 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 294 10763 10802 "hw2_temp/providedtests.ml" 294 10763 10811
+"hw2_temp/providedtests.ml" 294 10764 10803 "hw2_temp/providedtests.ml" 294 10764 10812
 type(
   string
 )
-"hw2_temp/providedtests.ml" 294 10763 10812 "hw2_temp/providedtests.ml" 294 10763 10813
+"hw2_temp/providedtests.ml" 294 10764 10813 "hw2_temp/providedtests.ml" 294 10764 10814
 type(
   int
 )
-"hw2_temp/providedtests.ml" 294 10763 10814 "hw2_temp/providedtests.ml" 294 10763 10818
+"hw2_temp/providedtests.ml" 294 10764 10815 "hw2_temp/providedtests.ml" 294 10764 10819
 type(
   Simulator.mach
 )
 ident(
   int_ref decq "hw2_temp/providedtests.ml" 95 3142 3146 "hw2_temp/providedtests.ml" 95 3142 3150
 )
-"hw2_temp/providedtests.ml" 295 10819 10830 "hw2_temp/providedtests.ml" 295 10819 10831
+"hw2_temp/providedtests.ml" 295 10820 10831 "hw2_temp/providedtests.ml" 295 10820 10832
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 295 10819 10835 "hw2_temp/providedtests.ml" 295 10819 10857
+  def m "hw2_temp/providedtests.ml" 295 10820 10836 "hw2_temp/providedtests.ml" 295 10820 10858
 )
-"hw2_temp/providedtests.ml" 295 10819 10835 "hw2_temp/providedtests.ml" 295 10819 10836
+"hw2_temp/providedtests.ml" 295 10820 10836 "hw2_temp/providedtests.ml" 295 10820 10837
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 295 10819 10830 "hw2_temp/providedtests.ml" 295 10819 10831
+  int_ref m "hw2_temp/providedtests.ml" 295 10820 10831 "hw2_temp/providedtests.ml" 295 10820 10832
 )
-"hw2_temp/providedtests.ml" 295 10819 10835 "hw2_temp/providedtests.ml" 295 10819 10841
+"hw2_temp/providedtests.ml" 295 10820 10836 "hw2_temp/providedtests.ml" 295 10820 10842
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 295 10819 10843 "hw2_temp/providedtests.ml" 295 10819 10847
+"hw2_temp/providedtests.ml" 295 10820 10844 "hw2_temp/providedtests.ml" 295 10820 10848
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 295 10819 10848 "hw2_temp/providedtests.ml" 295 10819 10851
+"hw2_temp/providedtests.ml" 295 10820 10849 "hw2_temp/providedtests.ml" 295 10820 10852
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 295 10819 10843 "hw2_temp/providedtests.ml" 295 10819 10851
+"hw2_temp/providedtests.ml" 295 10820 10844 "hw2_temp/providedtests.ml" 295 10820 10852
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 295 10819 10835 "hw2_temp/providedtests.ml" 295 10819 10852
+"hw2_temp/providedtests.ml" 295 10820 10836 "hw2_temp/providedtests.ml" 295 10820 10853
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 295 10819 10853 "hw2_temp/providedtests.ml" 295 10819 10854
+"hw2_temp/providedtests.ml" 295 10820 10854 "hw2_temp/providedtests.ml" 295 10820 10855
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 295 10819 10855 "hw2_temp/providedtests.ml" 295 10819 10857
+"hw2_temp/providedtests.ml" 295 10820 10856 "hw2_temp/providedtests.ml" 295 10820 10858
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 295 10819 10835 "hw2_temp/providedtests.ml" 295 10819 10857
+"hw2_temp/providedtests.ml" 295 10820 10836 "hw2_temp/providedtests.ml" 295 10820 10858
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 295 10819 10825 "hw2_temp/providedtests.ml" 295 10819 10858
+"hw2_temp/providedtests.ml" 295 10820 10826 "hw2_temp/providedtests.ml" 295 10820 10859
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 294 10763 10789 "hw2_temp/providedtests.ml" 295 10819 10858
+"hw2_temp/providedtests.ml" 294 10764 10790 "hw2_temp/providedtests.ml" 295 10820 10859
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 294 10763 10767 "hw2_temp/providedtests.ml" 296 10859 10866
+"hw2_temp/providedtests.ml" 294 10764 10768 "hw2_temp/providedtests.ml" 296 10860 10867
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 297 10868 10873 "hw2_temp/providedtests.ml" 297 10868 10895
+"hw2_temp/providedtests.ml" 297 10869 10874 "hw2_temp/providedtests.ml" 297 10869 10896
 type(
   string
 )
-"hw2_temp/providedtests.ml" 297 10868 10897 "hw2_temp/providedtests.ml" 297 10868 10909
+"hw2_temp/providedtests.ml" 297 10869 10898 "hw2_temp/providedtests.ml" 297 10869 10910
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -8121,211 +8121,211 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 297 10868 10910 "hw2_temp/providedtests.ml" 297 10868 10926
+"hw2_temp/providedtests.ml" 297 10869 10911 "hw2_temp/providedtests.ml" 297 10869 10927
 type(
   string
 )
-"hw2_temp/providedtests.ml" 297 10868 10927 "hw2_temp/providedtests.ml" 297 10868 10928
+"hw2_temp/providedtests.ml" 297 10869 10928 "hw2_temp/providedtests.ml" 297 10869 10929
 type(
   int
 )
-"hw2_temp/providedtests.ml" 297 10868 10929 "hw2_temp/providedtests.ml" 297 10868 10933
+"hw2_temp/providedtests.ml" 297 10869 10930 "hw2_temp/providedtests.ml" 297 10869 10934
 type(
   Simulator.mach
 )
 ident(
   int_ref notq "hw2_temp/providedtests.ml" 100 3275 3279 "hw2_temp/providedtests.ml" 100 3275 3283
 )
-"hw2_temp/providedtests.ml" 298 10934 10945 "hw2_temp/providedtests.ml" 298 10934 10946
+"hw2_temp/providedtests.ml" 298 10935 10946 "hw2_temp/providedtests.ml" 298 10935 10947
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 298 10934 10950 "hw2_temp/providedtests.ml" 300 11057 11091
+  def m "hw2_temp/providedtests.ml" 298 10935 10951 "hw2_temp/providedtests.ml" 300 11058 11092
 )
-"hw2_temp/providedtests.ml" 298 10934 10950 "hw2_temp/providedtests.ml" 298 10934 10951
+"hw2_temp/providedtests.ml" 298 10935 10951 "hw2_temp/providedtests.ml" 298 10935 10952
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 298 10934 10945 "hw2_temp/providedtests.ml" 298 10934 10946
+  int_ref m "hw2_temp/providedtests.ml" 298 10935 10946 "hw2_temp/providedtests.ml" 298 10935 10947
 )
-"hw2_temp/providedtests.ml" 298 10934 10950 "hw2_temp/providedtests.ml" 298 10934 10956
+"hw2_temp/providedtests.ml" 298 10935 10951 "hw2_temp/providedtests.ml" 298 10935 10957
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 298 10934 10958 "hw2_temp/providedtests.ml" 298 10934 10962
+"hw2_temp/providedtests.ml" 298 10935 10959 "hw2_temp/providedtests.ml" 298 10935 10963
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 298 10934 10963 "hw2_temp/providedtests.ml" 298 10934 10966
+"hw2_temp/providedtests.ml" 298 10935 10964 "hw2_temp/providedtests.ml" 298 10935 10967
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 298 10934 10958 "hw2_temp/providedtests.ml" 298 10934 10966
+"hw2_temp/providedtests.ml" 298 10935 10959 "hw2_temp/providedtests.ml" 298 10935 10967
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 298 10934 10950 "hw2_temp/providedtests.ml" 298 10934 10967
+"hw2_temp/providedtests.ml" 298 10935 10951 "hw2_temp/providedtests.ml" 298 10935 10968
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 298 10934 10968 "hw2_temp/providedtests.ml" 298 10934 10969
+"hw2_temp/providedtests.ml" 298 10935 10969 "hw2_temp/providedtests.ml" 298 10935 10970
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 298 10934 10970 "hw2_temp/providedtests.ml" 298 10934 10982
+"hw2_temp/providedtests.ml" 298 10935 10971 "hw2_temp/providedtests.ml" 298 10935 10983
 type(
   int64 -> int64
 )
 ident(
   ext_ref Int64.lognot
 )
-"hw2_temp/providedtests.ml" 298 10934 10983 "hw2_temp/providedtests.ml" 298 10934 10985
+"hw2_temp/providedtests.ml" 298 10935 10984 "hw2_temp/providedtests.ml" 298 10935 10986
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 298 10934 10970 "hw2_temp/providedtests.ml" 298 10934 10985
+"hw2_temp/providedtests.ml" 298 10935 10971 "hw2_temp/providedtests.ml" 298 10935 10986
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 298 10934 10950 "hw2_temp/providedtests.ml" 298 10934 10985
+"hw2_temp/providedtests.ml" 298 10935 10951 "hw2_temp/providedtests.ml" 298 10935 10986
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 299 10986 11002 "hw2_temp/providedtests.ml" 299 10986 11004
+"hw2_temp/providedtests.ml" 299 10987 11003 "hw2_temp/providedtests.ml" 299 10987 11005
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 299 10986 11005 "hw2_temp/providedtests.ml" 299 10986 11020
+"hw2_temp/providedtests.ml" 299 10987 11006 "hw2_temp/providedtests.ml" 299 10987 11021
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 299 10986 11022 "hw2_temp/providedtests.ml" 299 10986 11032
+"hw2_temp/providedtests.ml" 299 10987 11023 "hw2_temp/providedtests.ml" 299 10987 11033
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   int_ref sbyte_list "hw2_temp/providedtests.ml" 83 2814 2819 "hw2_temp/providedtests.ml" 83 2814 2829
 )
-"hw2_temp/providedtests.ml" 299 10986 11033 "hw2_temp/providedtests.ml" 299 10986 11034
+"hw2_temp/providedtests.ml" 299 10987 11034 "hw2_temp/providedtests.ml" 299 10987 11035
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 298 10934 10945 "hw2_temp/providedtests.ml" 298 10934 10946
+  int_ref m "hw2_temp/providedtests.ml" 298 10935 10946 "hw2_temp/providedtests.ml" 298 10935 10947
 )
-"hw2_temp/providedtests.ml" 299 10986 11033 "hw2_temp/providedtests.ml" 299 10986 11038
+"hw2_temp/providedtests.ml" 299 10987 11034 "hw2_temp/providedtests.ml" 299 10987 11039
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 299 10986 11040 "hw2_temp/providedtests.ml" 299 10986 11048
+"hw2_temp/providedtests.ml" 299 10987 11041 "hw2_temp/providedtests.ml" 299 10987 11049
 type(
   int
 )
 ident(
   ext_ref Simulator.mem_size
 )
-"hw2_temp/providedtests.ml" 299 10986 11048 "hw2_temp/providedtests.ml" 299 10986 11049
+"hw2_temp/providedtests.ml" 299 10987 11049 "hw2_temp/providedtests.ml" 299 10987 11050
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"hw2_temp/providedtests.ml" 299 10986 11049 "hw2_temp/providedtests.ml" 299 10986 11051
+"hw2_temp/providedtests.ml" 299 10987 11050 "hw2_temp/providedtests.ml" 299 10987 11052
 type(
   int
 )
-"hw2_temp/providedtests.ml" 299 10986 11039 "hw2_temp/providedtests.ml" 299 10986 11052
+"hw2_temp/providedtests.ml" 299 10987 11040 "hw2_temp/providedtests.ml" 299 10987 11053
 type(
   int
 )
-"hw2_temp/providedtests.ml" 299 10986 11021 "hw2_temp/providedtests.ml" 299 10986 11053
+"hw2_temp/providedtests.ml" 299 10987 11022 "hw2_temp/providedtests.ml" 299 10987 11054
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 299 10986 11005 "hw2_temp/providedtests.ml" 299 10986 11053
+"hw2_temp/providedtests.ml" 299 10987 11006 "hw2_temp/providedtests.ml" 299 10987 11054
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 299 10986 11054 "hw2_temp/providedtests.ml" 299 10986 11055
+"hw2_temp/providedtests.ml" 299 10987 11055 "hw2_temp/providedtests.ml" 299 10987 11056
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 300 11057 11076 "hw2_temp/providedtests.ml" 300 11057 11088
+"hw2_temp/providedtests.ml" 300 11058 11077 "hw2_temp/providedtests.ml" 300 11058 11089
 type(
   int64 -> int64
 )
 ident(
   ext_ref Int64.lognot
 )
-"hw2_temp/providedtests.ml" 300 11057 11089 "hw2_temp/providedtests.ml" 300 11057 11091
+"hw2_temp/providedtests.ml" 300 11058 11090 "hw2_temp/providedtests.ml" 300 11058 11092
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 300 11057 11076 "hw2_temp/providedtests.ml" 300 11057 11091
+"hw2_temp/providedtests.ml" 300 11058 11077 "hw2_temp/providedtests.ml" 300 11058 11092
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 299 10986 11005 "hw2_temp/providedtests.ml" 300 11057 11091
+"hw2_temp/providedtests.ml" 299 10987 11006 "hw2_temp/providedtests.ml" 300 11058 11092
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 298 10934 10950 "hw2_temp/providedtests.ml" 300 11057 11091
+"hw2_temp/providedtests.ml" 298 10935 10951 "hw2_temp/providedtests.ml" 300 11058 11092
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 298 10934 10940 "hw2_temp/providedtests.ml" 300 11057 11092
+"hw2_temp/providedtests.ml" 298 10935 10941 "hw2_temp/providedtests.ml" 300 11058 11093
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 297 10868 10897 "hw2_temp/providedtests.ml" 300 11057 11092
+"hw2_temp/providedtests.ml" 297 10869 10898 "hw2_temp/providedtests.ml" 300 11058 11093
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 297 10868 10872 "hw2_temp/providedtests.ml" 301 11093 11100
+"hw2_temp/providedtests.ml" 297 10869 10873 "hw2_temp/providedtests.ml" 301 11094 11101
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 302 11102 11107 "hw2_temp/providedtests.ml" 302 11102 11129
+"hw2_temp/providedtests.ml" 302 11103 11108 "hw2_temp/providedtests.ml" 302 11103 11130
 type(
   string
 )
-"hw2_temp/providedtests.ml" 302 11102 11131 "hw2_temp/providedtests.ml" 302 11102 11143
+"hw2_temp/providedtests.ml" 302 11103 11132 "hw2_temp/providedtests.ml" 302 11103 11144
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -8333,183 +8333,183 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 302 11102 11144 "hw2_temp/providedtests.ml" 302 11102 11164
+"hw2_temp/providedtests.ml" 302 11103 11145 "hw2_temp/providedtests.ml" 302 11103 11165
 type(
   string
 )
-"hw2_temp/providedtests.ml" 302 11102 11165 "hw2_temp/providedtests.ml" 302 11102 11166
+"hw2_temp/providedtests.ml" 302 11103 11166 "hw2_temp/providedtests.ml" 302 11103 11167
 type(
   int
 )
-"hw2_temp/providedtests.ml" 302 11102 11167 "hw2_temp/providedtests.ml" 302 11102 11171
+"hw2_temp/providedtests.ml" 302 11103 11168 "hw2_temp/providedtests.ml" 302 11103 11172
 type(
   Simulator.mach
 )
 ident(
   int_ref xorq "hw2_temp/providedtests.ml" 106 3460 3464 "hw2_temp/providedtests.ml" 106 3460 3468
 )
-"hw2_temp/providedtests.ml" 303 11172 11183 "hw2_temp/providedtests.ml" 303 11172 11184
+"hw2_temp/providedtests.ml" 303 11173 11184 "hw2_temp/providedtests.ml" 303 11173 11185
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 303 11172 11188 "hw2_temp/providedtests.ml" 304 11211 11283
+  def m "hw2_temp/providedtests.ml" 303 11173 11189 "hw2_temp/providedtests.ml" 304 11212 11284
 )
-"hw2_temp/providedtests.ml" 303 11172 11188 "hw2_temp/providedtests.ml" 303 11172 11189
+"hw2_temp/providedtests.ml" 303 11173 11189 "hw2_temp/providedtests.ml" 303 11173 11190
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 303 11172 11183 "hw2_temp/providedtests.ml" 303 11172 11184
+  int_ref m "hw2_temp/providedtests.ml" 303 11173 11184 "hw2_temp/providedtests.ml" 303 11173 11185
 )
-"hw2_temp/providedtests.ml" 303 11172 11188 "hw2_temp/providedtests.ml" 303 11172 11194
+"hw2_temp/providedtests.ml" 303 11173 11189 "hw2_temp/providedtests.ml" 303 11173 11195
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 303 11172 11196 "hw2_temp/providedtests.ml" 303 11172 11200
+"hw2_temp/providedtests.ml" 303 11173 11197 "hw2_temp/providedtests.ml" 303 11173 11201
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 303 11172 11201 "hw2_temp/providedtests.ml" 303 11172 11204
+"hw2_temp/providedtests.ml" 303 11173 11202 "hw2_temp/providedtests.ml" 303 11173 11205
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 303 11172 11196 "hw2_temp/providedtests.ml" 303 11172 11204
+"hw2_temp/providedtests.ml" 303 11173 11197 "hw2_temp/providedtests.ml" 303 11173 11205
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 303 11172 11188 "hw2_temp/providedtests.ml" 303 11172 11205
+"hw2_temp/providedtests.ml" 303 11173 11189 "hw2_temp/providedtests.ml" 303 11173 11206
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 303 11172 11206 "hw2_temp/providedtests.ml" 303 11172 11207
+"hw2_temp/providedtests.ml" 303 11173 11207 "hw2_temp/providedtests.ml" 303 11173 11208
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 303 11172 11208 "hw2_temp/providedtests.ml" 303 11172 11210
+"hw2_temp/providedtests.ml" 303 11173 11209 "hw2_temp/providedtests.ml" 303 11173 11211
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 303 11172 11188 "hw2_temp/providedtests.ml" 303 11172 11210
+"hw2_temp/providedtests.ml" 303 11173 11189 "hw2_temp/providedtests.ml" 303 11173 11211
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 304 11211 11227 "hw2_temp/providedtests.ml" 304 11211 11229
+"hw2_temp/providedtests.ml" 304 11212 11228 "hw2_temp/providedtests.ml" 304 11212 11230
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 304 11211 11230 "hw2_temp/providedtests.ml" 304 11211 11245
+"hw2_temp/providedtests.ml" 304 11212 11231 "hw2_temp/providedtests.ml" 304 11212 11246
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 304 11211 11247 "hw2_temp/providedtests.ml" 304 11211 11257
+"hw2_temp/providedtests.ml" 304 11212 11248 "hw2_temp/providedtests.ml" 304 11212 11258
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   int_ref sbyte_list "hw2_temp/providedtests.ml" 83 2814 2819 "hw2_temp/providedtests.ml" 83 2814 2829
 )
-"hw2_temp/providedtests.ml" 304 11211 11258 "hw2_temp/providedtests.ml" 304 11211 11259
+"hw2_temp/providedtests.ml" 304 11212 11259 "hw2_temp/providedtests.ml" 304 11212 11260
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 303 11172 11183 "hw2_temp/providedtests.ml" 303 11172 11184
+  int_ref m "hw2_temp/providedtests.ml" 303 11173 11184 "hw2_temp/providedtests.ml" 303 11173 11185
 )
-"hw2_temp/providedtests.ml" 304 11211 11258 "hw2_temp/providedtests.ml" 304 11211 11263
+"hw2_temp/providedtests.ml" 304 11212 11259 "hw2_temp/providedtests.ml" 304 11212 11264
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 304 11211 11265 "hw2_temp/providedtests.ml" 304 11211 11273
+"hw2_temp/providedtests.ml" 304 11212 11266 "hw2_temp/providedtests.ml" 304 11212 11274
 type(
   int
 )
 ident(
   ext_ref Simulator.mem_size
 )
-"hw2_temp/providedtests.ml" 304 11211 11273 "hw2_temp/providedtests.ml" 304 11211 11274
+"hw2_temp/providedtests.ml" 304 11212 11274 "hw2_temp/providedtests.ml" 304 11212 11275
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"hw2_temp/providedtests.ml" 304 11211 11274 "hw2_temp/providedtests.ml" 304 11211 11276
+"hw2_temp/providedtests.ml" 304 11212 11275 "hw2_temp/providedtests.ml" 304 11212 11277
 type(
   int
 )
-"hw2_temp/providedtests.ml" 304 11211 11264 "hw2_temp/providedtests.ml" 304 11211 11277
+"hw2_temp/providedtests.ml" 304 11212 11265 "hw2_temp/providedtests.ml" 304 11212 11278
 type(
   int
 )
-"hw2_temp/providedtests.ml" 304 11211 11246 "hw2_temp/providedtests.ml" 304 11211 11278
+"hw2_temp/providedtests.ml" 304 11212 11247 "hw2_temp/providedtests.ml" 304 11212 11279
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 304 11211 11230 "hw2_temp/providedtests.ml" 304 11211 11278
+"hw2_temp/providedtests.ml" 304 11212 11231 "hw2_temp/providedtests.ml" 304 11212 11279
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 304 11211 11279 "hw2_temp/providedtests.ml" 304 11211 11280
+"hw2_temp/providedtests.ml" 304 11212 11280 "hw2_temp/providedtests.ml" 304 11212 11281
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 304 11211 11281 "hw2_temp/providedtests.ml" 304 11211 11283
+"hw2_temp/providedtests.ml" 304 11212 11282 "hw2_temp/providedtests.ml" 304 11212 11284
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 304 11211 11230 "hw2_temp/providedtests.ml" 304 11211 11283
+"hw2_temp/providedtests.ml" 304 11212 11231 "hw2_temp/providedtests.ml" 304 11212 11284
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 303 11172 11188 "hw2_temp/providedtests.ml" 304 11211 11283
+"hw2_temp/providedtests.ml" 303 11173 11189 "hw2_temp/providedtests.ml" 304 11212 11284
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 303 11172 11178 "hw2_temp/providedtests.ml" 304 11211 11284
+"hw2_temp/providedtests.ml" 303 11173 11179 "hw2_temp/providedtests.ml" 304 11212 11285
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 302 11102 11131 "hw2_temp/providedtests.ml" 304 11211 11284
+"hw2_temp/providedtests.ml" 302 11103 11132 "hw2_temp/providedtests.ml" 304 11212 11285
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 302 11102 11106 "hw2_temp/providedtests.ml" 305 11285 11292
+"hw2_temp/providedtests.ml" 302 11103 11107 "hw2_temp/providedtests.ml" 305 11286 11293
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 306 11294 11299 "hw2_temp/providedtests.ml" 306 11294 11320
+"hw2_temp/providedtests.ml" 306 11295 11300 "hw2_temp/providedtests.ml" 306 11295 11321
 type(
   string
 )
-"hw2_temp/providedtests.ml" 306 11294 11322 "hw2_temp/providedtests.ml" 306 11294 11334
+"hw2_temp/providedtests.ml" 306 11295 11323 "hw2_temp/providedtests.ml" 306 11295 11335
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -8517,183 +8517,183 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 306 11294 11335 "hw2_temp/providedtests.ml" 306 11294 11349
+"hw2_temp/providedtests.ml" 306 11295 11336 "hw2_temp/providedtests.ml" 306 11295 11350
 type(
   string
 )
-"hw2_temp/providedtests.ml" 306 11294 11350 "hw2_temp/providedtests.ml" 306 11294 11351
+"hw2_temp/providedtests.ml" 306 11295 11351 "hw2_temp/providedtests.ml" 306 11295 11352
 type(
   int
 )
-"hw2_temp/providedtests.ml" 306 11294 11352 "hw2_temp/providedtests.ml" 306 11294 11355
+"hw2_temp/providedtests.ml" 306 11295 11353 "hw2_temp/providedtests.ml" 306 11295 11356
 type(
   Simulator.mach
 )
 ident(
   int_ref orq "hw2_temp/providedtests.ml" 113 3716 3720 "hw2_temp/providedtests.ml" 113 3716 3723
 )
-"hw2_temp/providedtests.ml" 307 11356 11367 "hw2_temp/providedtests.ml" 307 11356 11368
+"hw2_temp/providedtests.ml" 307 11357 11368 "hw2_temp/providedtests.ml" 307 11357 11369
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 307 11356 11372 "hw2_temp/providedtests.ml" 308 11395 11467
+  def m "hw2_temp/providedtests.ml" 307 11357 11373 "hw2_temp/providedtests.ml" 308 11396 11468
 )
-"hw2_temp/providedtests.ml" 307 11356 11372 "hw2_temp/providedtests.ml" 307 11356 11373
+"hw2_temp/providedtests.ml" 307 11357 11373 "hw2_temp/providedtests.ml" 307 11357 11374
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 307 11356 11367 "hw2_temp/providedtests.ml" 307 11356 11368
+  int_ref m "hw2_temp/providedtests.ml" 307 11357 11368 "hw2_temp/providedtests.ml" 307 11357 11369
 )
-"hw2_temp/providedtests.ml" 307 11356 11372 "hw2_temp/providedtests.ml" 307 11356 11378
+"hw2_temp/providedtests.ml" 307 11357 11373 "hw2_temp/providedtests.ml" 307 11357 11379
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 307 11356 11380 "hw2_temp/providedtests.ml" 307 11356 11384
+"hw2_temp/providedtests.ml" 307 11357 11381 "hw2_temp/providedtests.ml" 307 11357 11385
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 307 11356 11385 "hw2_temp/providedtests.ml" 307 11356 11388
+"hw2_temp/providedtests.ml" 307 11357 11386 "hw2_temp/providedtests.ml" 307 11357 11389
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 307 11356 11380 "hw2_temp/providedtests.ml" 307 11356 11388
+"hw2_temp/providedtests.ml" 307 11357 11381 "hw2_temp/providedtests.ml" 307 11357 11389
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 307 11356 11372 "hw2_temp/providedtests.ml" 307 11356 11389
+"hw2_temp/providedtests.ml" 307 11357 11373 "hw2_temp/providedtests.ml" 307 11357 11390
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 307 11356 11390 "hw2_temp/providedtests.ml" 307 11356 11391
+"hw2_temp/providedtests.ml" 307 11357 11391 "hw2_temp/providedtests.ml" 307 11357 11392
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 307 11356 11392 "hw2_temp/providedtests.ml" 307 11356 11394
+"hw2_temp/providedtests.ml" 307 11357 11393 "hw2_temp/providedtests.ml" 307 11357 11395
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 307 11356 11372 "hw2_temp/providedtests.ml" 307 11356 11394
+"hw2_temp/providedtests.ml" 307 11357 11373 "hw2_temp/providedtests.ml" 307 11357 11395
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 308 11395 11411 "hw2_temp/providedtests.ml" 308 11395 11413
+"hw2_temp/providedtests.ml" 308 11396 11412 "hw2_temp/providedtests.ml" 308 11396 11414
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 308 11395 11414 "hw2_temp/providedtests.ml" 308 11395 11429
+"hw2_temp/providedtests.ml" 308 11396 11415 "hw2_temp/providedtests.ml" 308 11396 11430
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 308 11395 11431 "hw2_temp/providedtests.ml" 308 11395 11441
+"hw2_temp/providedtests.ml" 308 11396 11432 "hw2_temp/providedtests.ml" 308 11396 11442
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   int_ref sbyte_list "hw2_temp/providedtests.ml" 83 2814 2819 "hw2_temp/providedtests.ml" 83 2814 2829
 )
-"hw2_temp/providedtests.ml" 308 11395 11442 "hw2_temp/providedtests.ml" 308 11395 11443
+"hw2_temp/providedtests.ml" 308 11396 11443 "hw2_temp/providedtests.ml" 308 11396 11444
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 307 11356 11367 "hw2_temp/providedtests.ml" 307 11356 11368
+  int_ref m "hw2_temp/providedtests.ml" 307 11357 11368 "hw2_temp/providedtests.ml" 307 11357 11369
 )
-"hw2_temp/providedtests.ml" 308 11395 11442 "hw2_temp/providedtests.ml" 308 11395 11447
+"hw2_temp/providedtests.ml" 308 11396 11443 "hw2_temp/providedtests.ml" 308 11396 11448
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 308 11395 11449 "hw2_temp/providedtests.ml" 308 11395 11457
+"hw2_temp/providedtests.ml" 308 11396 11450 "hw2_temp/providedtests.ml" 308 11396 11458
 type(
   int
 )
 ident(
   ext_ref Simulator.mem_size
 )
-"hw2_temp/providedtests.ml" 308 11395 11457 "hw2_temp/providedtests.ml" 308 11395 11458
+"hw2_temp/providedtests.ml" 308 11396 11458 "hw2_temp/providedtests.ml" 308 11396 11459
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"hw2_temp/providedtests.ml" 308 11395 11458 "hw2_temp/providedtests.ml" 308 11395 11460
+"hw2_temp/providedtests.ml" 308 11396 11459 "hw2_temp/providedtests.ml" 308 11396 11461
 type(
   int
 )
-"hw2_temp/providedtests.ml" 308 11395 11448 "hw2_temp/providedtests.ml" 308 11395 11461
+"hw2_temp/providedtests.ml" 308 11396 11449 "hw2_temp/providedtests.ml" 308 11396 11462
 type(
   int
 )
-"hw2_temp/providedtests.ml" 308 11395 11430 "hw2_temp/providedtests.ml" 308 11395 11462
+"hw2_temp/providedtests.ml" 308 11396 11431 "hw2_temp/providedtests.ml" 308 11396 11463
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 308 11395 11414 "hw2_temp/providedtests.ml" 308 11395 11462
+"hw2_temp/providedtests.ml" 308 11396 11415 "hw2_temp/providedtests.ml" 308 11396 11463
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 308 11395 11463 "hw2_temp/providedtests.ml" 308 11395 11464
+"hw2_temp/providedtests.ml" 308 11396 11464 "hw2_temp/providedtests.ml" 308 11396 11465
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 308 11395 11465 "hw2_temp/providedtests.ml" 308 11395 11467
+"hw2_temp/providedtests.ml" 308 11396 11466 "hw2_temp/providedtests.ml" 308 11396 11468
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 308 11395 11414 "hw2_temp/providedtests.ml" 308 11395 11467
+"hw2_temp/providedtests.ml" 308 11396 11415 "hw2_temp/providedtests.ml" 308 11396 11468
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 307 11356 11372 "hw2_temp/providedtests.ml" 308 11395 11467
+"hw2_temp/providedtests.ml" 307 11357 11373 "hw2_temp/providedtests.ml" 308 11396 11468
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 307 11356 11362 "hw2_temp/providedtests.ml" 308 11395 11468
+"hw2_temp/providedtests.ml" 307 11357 11363 "hw2_temp/providedtests.ml" 308 11396 11469
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 306 11294 11322 "hw2_temp/providedtests.ml" 308 11395 11468
+"hw2_temp/providedtests.ml" 306 11295 11323 "hw2_temp/providedtests.ml" 308 11396 11469
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 306 11294 11298 "hw2_temp/providedtests.ml" 309 11469 11476
+"hw2_temp/providedtests.ml" 306 11295 11299 "hw2_temp/providedtests.ml" 309 11470 11477
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 310 11478 11483 "hw2_temp/providedtests.ml" 310 11478 11505
+"hw2_temp/providedtests.ml" 310 11479 11484 "hw2_temp/providedtests.ml" 310 11479 11506
 type(
   string
 )
-"hw2_temp/providedtests.ml" 310 11478 11507 "hw2_temp/providedtests.ml" 310 11478 11519
+"hw2_temp/providedtests.ml" 310 11479 11508 "hw2_temp/providedtests.ml" 310 11479 11520
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -8701,253 +8701,253 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 310 11478 11520 "hw2_temp/providedtests.ml" 310 11478 11526
+"hw2_temp/providedtests.ml" 310 11479 11521 "hw2_temp/providedtests.ml" 310 11479 11527
 type(
   string
 )
-"hw2_temp/providedtests.ml" 310 11478 11527 "hw2_temp/providedtests.ml" 310 11478 11528
+"hw2_temp/providedtests.ml" 310 11479 11528 "hw2_temp/providedtests.ml" 310 11479 11529
 type(
   int
 )
-"hw2_temp/providedtests.ml" 310 11478 11529 "hw2_temp/providedtests.ml" 310 11478 11533
+"hw2_temp/providedtests.ml" 310 11479 11530 "hw2_temp/providedtests.ml" 310 11479 11534
 type(
   Simulator.mach
 )
 ident(
   int_ref sarq "hw2_temp/providedtests.ml" 137 4595 4599 "hw2_temp/providedtests.ml" 137 4595 4603
 )
-"hw2_temp/providedtests.ml" 311 11534 11545 "hw2_temp/providedtests.ml" 311 11534 11546
+"hw2_temp/providedtests.ml" 311 11535 11546 "hw2_temp/providedtests.ml" 311 11535 11547
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 311 11534 11550 "hw2_temp/providedtests.ml" 314 11685 11713
+  def m "hw2_temp/providedtests.ml" 311 11535 11551 "hw2_temp/providedtests.ml" 314 11686 11714
 )
-"hw2_temp/providedtests.ml" 311 11534 11550 "hw2_temp/providedtests.ml" 311 11534 11551
+"hw2_temp/providedtests.ml" 311 11535 11551 "hw2_temp/providedtests.ml" 311 11535 11552
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 311 11534 11545 "hw2_temp/providedtests.ml" 311 11534 11546
+  int_ref m "hw2_temp/providedtests.ml" 311 11535 11546 "hw2_temp/providedtests.ml" 311 11535 11547
 )
-"hw2_temp/providedtests.ml" 311 11534 11550 "hw2_temp/providedtests.ml" 311 11534 11556
+"hw2_temp/providedtests.ml" 311 11535 11551 "hw2_temp/providedtests.ml" 311 11535 11557
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 311 11534 11558 "hw2_temp/providedtests.ml" 311 11534 11562
+"hw2_temp/providedtests.ml" 311 11535 11559 "hw2_temp/providedtests.ml" 311 11535 11563
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 311 11534 11563 "hw2_temp/providedtests.ml" 311 11534 11566
+"hw2_temp/providedtests.ml" 311 11535 11564 "hw2_temp/providedtests.ml" 311 11535 11567
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 311 11534 11558 "hw2_temp/providedtests.ml" 311 11534 11566
+"hw2_temp/providedtests.ml" 311 11535 11559 "hw2_temp/providedtests.ml" 311 11535 11567
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 311 11534 11550 "hw2_temp/providedtests.ml" 311 11534 11567
+"hw2_temp/providedtests.ml" 311 11535 11551 "hw2_temp/providedtests.ml" 311 11535 11568
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 311 11534 11568 "hw2_temp/providedtests.ml" 311 11534 11569
+"hw2_temp/providedtests.ml" 311 11535 11569 "hw2_temp/providedtests.ml" 311 11535 11570
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 311 11534 11570 "hw2_temp/providedtests.ml" 311 11534 11572
+"hw2_temp/providedtests.ml" 311 11535 11571 "hw2_temp/providedtests.ml" 311 11535 11573
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 311 11534 11550 "hw2_temp/providedtests.ml" 311 11534 11572
+"hw2_temp/providedtests.ml" 311 11535 11551 "hw2_temp/providedtests.ml" 311 11535 11573
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 312 11573 11589 "hw2_temp/providedtests.ml" 312 11573 11591
+"hw2_temp/providedtests.ml" 312 11574 11590 "hw2_temp/providedtests.ml" 312 11574 11592
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 312 11573 11592 "hw2_temp/providedtests.ml" 312 11573 11593
+"hw2_temp/providedtests.ml" 312 11574 11593 "hw2_temp/providedtests.ml" 312 11574 11594
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 311 11534 11545 "hw2_temp/providedtests.ml" 311 11534 11546
+  int_ref m "hw2_temp/providedtests.ml" 311 11535 11546 "hw2_temp/providedtests.ml" 311 11535 11547
 )
-"hw2_temp/providedtests.ml" 312 11573 11592 "hw2_temp/providedtests.ml" 312 11573 11598
+"hw2_temp/providedtests.ml" 312 11574 11593 "hw2_temp/providedtests.ml" 312 11574 11599
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 312 11573 11600 "hw2_temp/providedtests.ml" 312 11573 11604
+"hw2_temp/providedtests.ml" 312 11574 11601 "hw2_temp/providedtests.ml" 312 11574 11605
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 312 11573 11605 "hw2_temp/providedtests.ml" 312 11573 11608
+"hw2_temp/providedtests.ml" 312 11574 11606 "hw2_temp/providedtests.ml" 312 11574 11609
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 312 11573 11600 "hw2_temp/providedtests.ml" 312 11573 11608
+"hw2_temp/providedtests.ml" 312 11574 11601 "hw2_temp/providedtests.ml" 312 11574 11609
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 312 11573 11592 "hw2_temp/providedtests.ml" 312 11573 11609
+"hw2_temp/providedtests.ml" 312 11574 11593 "hw2_temp/providedtests.ml" 312 11574 11610
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 312 11573 11610 "hw2_temp/providedtests.ml" 312 11573 11611
+"hw2_temp/providedtests.ml" 312 11574 11611 "hw2_temp/providedtests.ml" 312 11574 11612
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 312 11573 11612 "hw2_temp/providedtests.ml" 312 11573 11614
+"hw2_temp/providedtests.ml" 312 11574 11613 "hw2_temp/providedtests.ml" 312 11574 11615
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 312 11573 11592 "hw2_temp/providedtests.ml" 312 11573 11614
+"hw2_temp/providedtests.ml" 312 11574 11593 "hw2_temp/providedtests.ml" 312 11574 11615
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 313 11615 11631 "hw2_temp/providedtests.ml" 313 11615 11633
+"hw2_temp/providedtests.ml" 313 11616 11632 "hw2_temp/providedtests.ml" 313 11616 11634
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 313 11615 11634 "hw2_temp/providedtests.ml" 313 11615 11649
+"hw2_temp/providedtests.ml" 313 11616 11635 "hw2_temp/providedtests.ml" 313 11616 11650
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 313 11615 11651 "hw2_temp/providedtests.ml" 313 11615 11661
+"hw2_temp/providedtests.ml" 313 11616 11652 "hw2_temp/providedtests.ml" 313 11616 11662
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   int_ref sbyte_list "hw2_temp/providedtests.ml" 83 2814 2819 "hw2_temp/providedtests.ml" 83 2814 2829
 )
-"hw2_temp/providedtests.ml" 313 11615 11662 "hw2_temp/providedtests.ml" 313 11615 11663
+"hw2_temp/providedtests.ml" 313 11616 11663 "hw2_temp/providedtests.ml" 313 11616 11664
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 311 11534 11545 "hw2_temp/providedtests.ml" 311 11534 11546
+  int_ref m "hw2_temp/providedtests.ml" 311 11535 11546 "hw2_temp/providedtests.ml" 311 11535 11547
 )
-"hw2_temp/providedtests.ml" 313 11615 11662 "hw2_temp/providedtests.ml" 313 11615 11667
+"hw2_temp/providedtests.ml" 313 11616 11663 "hw2_temp/providedtests.ml" 313 11616 11668
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 313 11615 11669 "hw2_temp/providedtests.ml" 313 11615 11677
+"hw2_temp/providedtests.ml" 313 11616 11670 "hw2_temp/providedtests.ml" 313 11616 11678
 type(
   int
 )
 ident(
   ext_ref Simulator.mem_size
 )
-"hw2_temp/providedtests.ml" 313 11615 11677 "hw2_temp/providedtests.ml" 313 11615 11678
+"hw2_temp/providedtests.ml" 313 11616 11678 "hw2_temp/providedtests.ml" 313 11616 11679
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"hw2_temp/providedtests.ml" 313 11615 11678 "hw2_temp/providedtests.ml" 313 11615 11679
+"hw2_temp/providedtests.ml" 313 11616 11679 "hw2_temp/providedtests.ml" 313 11616 11680
 type(
   int
 )
-"hw2_temp/providedtests.ml" 313 11615 11668 "hw2_temp/providedtests.ml" 313 11615 11680
+"hw2_temp/providedtests.ml" 313 11616 11669 "hw2_temp/providedtests.ml" 313 11616 11681
 type(
   int
 )
-"hw2_temp/providedtests.ml" 313 11615 11650 "hw2_temp/providedtests.ml" 313 11615 11681
+"hw2_temp/providedtests.ml" 313 11616 11651 "hw2_temp/providedtests.ml" 313 11616 11682
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 313 11615 11634 "hw2_temp/providedtests.ml" 313 11615 11681
+"hw2_temp/providedtests.ml" 313 11616 11635 "hw2_temp/providedtests.ml" 313 11616 11682
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 313 11615 11682 "hw2_temp/providedtests.ml" 313 11615 11683
+"hw2_temp/providedtests.ml" 313 11616 11683 "hw2_temp/providedtests.ml" 313 11616 11684
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 314 11685 11701 "hw2_temp/providedtests.ml" 314 11685 11710
+"hw2_temp/providedtests.ml" 314 11686 11702 "hw2_temp/providedtests.ml" 314 11686 11711
 type(
   int64 -> int64
 )
 ident(
   ext_ref Int64.neg
 )
-"hw2_temp/providedtests.ml" 314 11685 11711 "hw2_temp/providedtests.ml" 314 11685 11713
+"hw2_temp/providedtests.ml" 314 11686 11712 "hw2_temp/providedtests.ml" 314 11686 11714
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 314 11685 11701 "hw2_temp/providedtests.ml" 314 11685 11713
+"hw2_temp/providedtests.ml" 314 11686 11702 "hw2_temp/providedtests.ml" 314 11686 11714
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 313 11615 11634 "hw2_temp/providedtests.ml" 314 11685 11713
+"hw2_temp/providedtests.ml" 313 11616 11635 "hw2_temp/providedtests.ml" 314 11686 11714
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 312 11573 11592 "hw2_temp/providedtests.ml" 314 11685 11713
+"hw2_temp/providedtests.ml" 312 11574 11593 "hw2_temp/providedtests.ml" 314 11686 11714
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 311 11534 11550 "hw2_temp/providedtests.ml" 314 11685 11713
+"hw2_temp/providedtests.ml" 311 11535 11551 "hw2_temp/providedtests.ml" 314 11686 11714
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 311 11534 11540 "hw2_temp/providedtests.ml" 314 11685 11714
+"hw2_temp/providedtests.ml" 311 11535 11541 "hw2_temp/providedtests.ml" 314 11686 11715
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 310 11478 11507 "hw2_temp/providedtests.ml" 314 11685 11714
+"hw2_temp/providedtests.ml" 310 11479 11508 "hw2_temp/providedtests.ml" 314 11686 11715
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 310 11478 11482 "hw2_temp/providedtests.ml" 315 11715 11722
+"hw2_temp/providedtests.ml" 310 11479 11483 "hw2_temp/providedtests.ml" 315 11716 11723
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 316 11724 11729 "hw2_temp/providedtests.ml" 316 11724 11751
+"hw2_temp/providedtests.ml" 316 11725 11730 "hw2_temp/providedtests.ml" 316 11725 11752
 type(
   string
 )
-"hw2_temp/providedtests.ml" 316 11724 11753 "hw2_temp/providedtests.ml" 316 11724 11765
+"hw2_temp/providedtests.ml" 316 11725 11754 "hw2_temp/providedtests.ml" 316 11725 11766
 type(
   string ->
   int -> Simulator.mach -> (Simulator.mach -> bool) -> Assert.assertion
@@ -8955,246 +8955,246 @@ type(
 ident(
   int_ref machine_test "hw2_temp/providedtests.ml" 178 6227 6232 "hw2_temp/providedtests.ml" 178 6227 6244
 )
-"hw2_temp/providedtests.ml" 316 11724 11766 "hw2_temp/providedtests.ml" 316 11724 11772
+"hw2_temp/providedtests.ml" 316 11725 11767 "hw2_temp/providedtests.ml" 316 11725 11773
 type(
   string
 )
-"hw2_temp/providedtests.ml" 316 11724 11773 "hw2_temp/providedtests.ml" 316 11724 11774
+"hw2_temp/providedtests.ml" 316 11725 11774 "hw2_temp/providedtests.ml" 316 11725 11775
 type(
   int
 )
-"hw2_temp/providedtests.ml" 316 11724 11775 "hw2_temp/providedtests.ml" 316 11724 11779
+"hw2_temp/providedtests.ml" 316 11725 11776 "hw2_temp/providedtests.ml" 316 11725 11780
 type(
   Simulator.mach
 )
 ident(
   int_ref shrq "hw2_temp/providedtests.ml" 145 4966 4970 "hw2_temp/providedtests.ml" 145 4966 4974
 )
-"hw2_temp/providedtests.ml" 317 11780 11791 "hw2_temp/providedtests.ml" 317 11780 11792
+"hw2_temp/providedtests.ml" 317 11781 11792 "hw2_temp/providedtests.ml" 317 11781 11793
 type(
   Simulator.mach
 )
 ident(
-  def m "hw2_temp/providedtests.ml" 317 11780 11796 "hw2_temp/providedtests.ml" 320 11931 11967
+  def m "hw2_temp/providedtests.ml" 317 11781 11797 "hw2_temp/providedtests.ml" 320 11932 11968
 )
-"hw2_temp/providedtests.ml" 317 11780 11796 "hw2_temp/providedtests.ml" 317 11780 11797
+"hw2_temp/providedtests.ml" 317 11781 11797 "hw2_temp/providedtests.ml" 317 11781 11798
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 317 11780 11791 "hw2_temp/providedtests.ml" 317 11780 11792
+  int_ref m "hw2_temp/providedtests.ml" 317 11781 11792 "hw2_temp/providedtests.ml" 317 11781 11793
 )
-"hw2_temp/providedtests.ml" 317 11780 11796 "hw2_temp/providedtests.ml" 317 11780 11802
+"hw2_temp/providedtests.ml" 317 11781 11797 "hw2_temp/providedtests.ml" 317 11781 11803
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 317 11780 11804 "hw2_temp/providedtests.ml" 317 11780 11808
+"hw2_temp/providedtests.ml" 317 11781 11805 "hw2_temp/providedtests.ml" 317 11781 11809
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 317 11780 11809 "hw2_temp/providedtests.ml" 317 11780 11812
+"hw2_temp/providedtests.ml" 317 11781 11810 "hw2_temp/providedtests.ml" 317 11781 11813
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 317 11780 11804 "hw2_temp/providedtests.ml" 317 11780 11812
+"hw2_temp/providedtests.ml" 317 11781 11805 "hw2_temp/providedtests.ml" 317 11781 11813
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 317 11780 11796 "hw2_temp/providedtests.ml" 317 11780 11813
+"hw2_temp/providedtests.ml" 317 11781 11797 "hw2_temp/providedtests.ml" 317 11781 11814
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 317 11780 11814 "hw2_temp/providedtests.ml" 317 11780 11815
+"hw2_temp/providedtests.ml" 317 11781 11815 "hw2_temp/providedtests.ml" 317 11781 11816
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 317 11780 11816 "hw2_temp/providedtests.ml" 317 11780 11818
+"hw2_temp/providedtests.ml" 317 11781 11817 "hw2_temp/providedtests.ml" 317 11781 11819
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 317 11780 11796 "hw2_temp/providedtests.ml" 317 11780 11818
+"hw2_temp/providedtests.ml" 317 11781 11797 "hw2_temp/providedtests.ml" 317 11781 11819
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 318 11819 11835 "hw2_temp/providedtests.ml" 318 11819 11837
+"hw2_temp/providedtests.ml" 318 11820 11836 "hw2_temp/providedtests.ml" 318 11820 11838
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 318 11819 11838 "hw2_temp/providedtests.ml" 318 11819 11839
+"hw2_temp/providedtests.ml" 318 11820 11839 "hw2_temp/providedtests.ml" 318 11820 11840
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 317 11780 11791 "hw2_temp/providedtests.ml" 317 11780 11792
+  int_ref m "hw2_temp/providedtests.ml" 317 11781 11792 "hw2_temp/providedtests.ml" 317 11781 11793
 )
-"hw2_temp/providedtests.ml" 318 11819 11838 "hw2_temp/providedtests.ml" 318 11819 11844
+"hw2_temp/providedtests.ml" 318 11820 11839 "hw2_temp/providedtests.ml" 318 11820 11845
 type(
   Simulator.regs
 )
-"hw2_temp/providedtests.ml" 318 11819 11846 "hw2_temp/providedtests.ml" 318 11819 11850
+"hw2_temp/providedtests.ml" 318 11820 11847 "hw2_temp/providedtests.ml" 318 11820 11851
 type(
   X86.reg -> int
 )
 ident(
   ext_ref Simulator.rind
 )
-"hw2_temp/providedtests.ml" 318 11819 11851 "hw2_temp/providedtests.ml" 318 11819 11854
+"hw2_temp/providedtests.ml" 318 11820 11852 "hw2_temp/providedtests.ml" 318 11820 11855
 type(
   X86.reg
 )
-"hw2_temp/providedtests.ml" 318 11819 11846 "hw2_temp/providedtests.ml" 318 11819 11854
+"hw2_temp/providedtests.ml" 318 11820 11847 "hw2_temp/providedtests.ml" 318 11820 11855
 call(
   stack
 )
 type(
   int
 )
-"hw2_temp/providedtests.ml" 318 11819 11838 "hw2_temp/providedtests.ml" 318 11819 11855
+"hw2_temp/providedtests.ml" 318 11820 11839 "hw2_temp/providedtests.ml" 318 11820 11856
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 318 11819 11856 "hw2_temp/providedtests.ml" 318 11819 11857
+"hw2_temp/providedtests.ml" 318 11820 11857 "hw2_temp/providedtests.ml" 318 11820 11858
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 318 11819 11858 "hw2_temp/providedtests.ml" 318 11819 11860
+"hw2_temp/providedtests.ml" 318 11820 11859 "hw2_temp/providedtests.ml" 318 11820 11861
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 318 11819 11838 "hw2_temp/providedtests.ml" 318 11819 11860
+"hw2_temp/providedtests.ml" 318 11820 11839 "hw2_temp/providedtests.ml" 318 11820 11861
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 319 11861 11877 "hw2_temp/providedtests.ml" 319 11861 11879
+"hw2_temp/providedtests.ml" 319 11862 11878 "hw2_temp/providedtests.ml" 319 11862 11880
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"hw2_temp/providedtests.ml" 319 11861 11880 "hw2_temp/providedtests.ml" 319 11861 11895
+"hw2_temp/providedtests.ml" 319 11862 11881 "hw2_temp/providedtests.ml" 319 11862 11896
 type(
   Simulator.sbyte list -> int64
 )
 ident(
   ext_ref Simulator.int64_of_sbytes
 )
-"hw2_temp/providedtests.ml" 319 11861 11897 "hw2_temp/providedtests.ml" 319 11861 11907
+"hw2_temp/providedtests.ml" 319 11862 11898 "hw2_temp/providedtests.ml" 319 11862 11908
 type(
   Simulator.mem -> int -> Simulator.sbyte list
 )
 ident(
   int_ref sbyte_list "hw2_temp/providedtests.ml" 83 2814 2819 "hw2_temp/providedtests.ml" 83 2814 2829
 )
-"hw2_temp/providedtests.ml" 319 11861 11908 "hw2_temp/providedtests.ml" 319 11861 11909
+"hw2_temp/providedtests.ml" 319 11862 11909 "hw2_temp/providedtests.ml" 319 11862 11910
 type(
   Simulator.mach
 )
 ident(
-  int_ref m "hw2_temp/providedtests.ml" 317 11780 11791 "hw2_temp/providedtests.ml" 317 11780 11792
+  int_ref m "hw2_temp/providedtests.ml" 317 11781 11792 "hw2_temp/providedtests.ml" 317 11781 11793
 )
-"hw2_temp/providedtests.ml" 319 11861 11908 "hw2_temp/providedtests.ml" 319 11861 11913
+"hw2_temp/providedtests.ml" 319 11862 11909 "hw2_temp/providedtests.ml" 319 11862 11914
 type(
   Simulator.mem
 )
-"hw2_temp/providedtests.ml" 319 11861 11915 "hw2_temp/providedtests.ml" 319 11861 11923
+"hw2_temp/providedtests.ml" 319 11862 11916 "hw2_temp/providedtests.ml" 319 11862 11924
 type(
   int
 )
 ident(
   ext_ref Simulator.mem_size
 )
-"hw2_temp/providedtests.ml" 319 11861 11923 "hw2_temp/providedtests.ml" 319 11861 11924
+"hw2_temp/providedtests.ml" 319 11862 11924 "hw2_temp/providedtests.ml" 319 11862 11925
 type(
   int -> int -> int
 )
 ident(
   ext_ref Pervasives.( - )
 )
-"hw2_temp/providedtests.ml" 319 11861 11924 "hw2_temp/providedtests.ml" 319 11861 11925
+"hw2_temp/providedtests.ml" 319 11862 11925 "hw2_temp/providedtests.ml" 319 11862 11926
 type(
   int
 )
-"hw2_temp/providedtests.ml" 319 11861 11914 "hw2_temp/providedtests.ml" 319 11861 11926
+"hw2_temp/providedtests.ml" 319 11862 11915 "hw2_temp/providedtests.ml" 319 11862 11927
 type(
   int
 )
-"hw2_temp/providedtests.ml" 319 11861 11896 "hw2_temp/providedtests.ml" 319 11861 11927
+"hw2_temp/providedtests.ml" 319 11862 11897 "hw2_temp/providedtests.ml" 319 11862 11928
 call(
   stack
 )
 type(
   Simulator.sbyte list
 )
-"hw2_temp/providedtests.ml" 319 11861 11880 "hw2_temp/providedtests.ml" 319 11861 11927
+"hw2_temp/providedtests.ml" 319 11862 11881 "hw2_temp/providedtests.ml" 319 11862 11928
 call(
   stack
 )
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 319 11861 11928 "hw2_temp/providedtests.ml" 319 11861 11929
+"hw2_temp/providedtests.ml" 319 11862 11929 "hw2_temp/providedtests.ml" 319 11862 11930
 type(
   int64 -> int64 -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"hw2_temp/providedtests.ml" 320 11931 11947 "hw2_temp/providedtests.ml" 320 11931 11967
+"hw2_temp/providedtests.ml" 320 11932 11948 "hw2_temp/providedtests.ml" 320 11932 11968
 type(
   int64
 )
-"hw2_temp/providedtests.ml" 319 11861 11880 "hw2_temp/providedtests.ml" 320 11931 11967
+"hw2_temp/providedtests.ml" 319 11862 11881 "hw2_temp/providedtests.ml" 320 11932 11968
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 318 11819 11838 "hw2_temp/providedtests.ml" 320 11931 11967
+"hw2_temp/providedtests.ml" 318 11820 11839 "hw2_temp/providedtests.ml" 320 11932 11968
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 317 11780 11796 "hw2_temp/providedtests.ml" 320 11931 11967
+"hw2_temp/providedtests.ml" 317 11781 11797 "hw2_temp/providedtests.ml" 320 11932 11968
 type(
   bool
 )
-"hw2_temp/providedtests.ml" 317 11780 11786 "hw2_temp/providedtests.ml" 320 11931 11968
+"hw2_temp/providedtests.ml" 317 11781 11787 "hw2_temp/providedtests.ml" 320 11932 11969
 type(
   Simulator.mach -> bool
 )
-"hw2_temp/providedtests.ml" 316 11724 11753 "hw2_temp/providedtests.ml" 320 11931 11968
+"hw2_temp/providedtests.ml" 316 11725 11754 "hw2_temp/providedtests.ml" 320 11932 11969
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/providedtests.ml" 316 11724 11728 "hw2_temp/providedtests.ml" 321 11969 11976
+"hw2_temp/providedtests.ml" 316 11725 11729 "hw2_temp/providedtests.ml" 321 11970 11977
 type(
   string * Assert.assertion
 )
-"hw2_temp/providedtests.ml" 287 10507 10544 "hw2_temp/providedtests.ml" 322 11978 11981
+"hw2_temp/providedtests.ml" 287 10508 10545 "hw2_temp/providedtests.ml" 322 11979 11982
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/providedtests.ml" 287 10507 10509 "hw2_temp/providedtests.ml" 322 11978 11982
+"hw2_temp/providedtests.ml" 287 10508 10510 "hw2_temp/providedtests.ml" 322 11979 11983
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/providedtests.ml" 182 6380 6409 "hw2_temp/providedtests.ml" 323 11984 11985
+"hw2_temp/providedtests.ml" 182 6380 6409 "hw2_temp/providedtests.ml" 323 11985 11986
 type(
   Assert.suite
 )

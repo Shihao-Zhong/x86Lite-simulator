@@ -13853,7 +13853,7 @@ type(
   Assert.suite
 )
 ident(
-  def hard_tests "hw2_temp/gradedtests.ml" 507 17086 17086 "hw2_temp/gradedtests.ml" 1 0 -1
+  def hard_tests "hw2_temp/gradedtests.ml" 507 17085 17085 "hw2_temp/gradedtests.ml" 1 0 -1
 )
 "hw2_temp/gradedtests.ml" 501 16939 16953 "hw2_temp/gradedtests.ml" 501 16939 16964
 type(
@@ -13874,68 +13874,68 @@ type(
 ident(
   int_ref program_test "hw2_temp/gradedtests.ml" 169 5875 5879 "hw2_temp/gradedtests.ml" 169 5875 5891
 )
-"hw2_temp/gradedtests.ml" 502 16972 17000 "hw2_temp/gradedtests.ml" 502 16972 17014
+"hw2_temp/gradedtests.ml" 502 16972 17000 "hw2_temp/gradedtests.ml" 502 16972 17013
 type(
   int -> X86.prog
 )
 ident(
-  int_ref factorial_iter "hw2_temp/gradedtests.ml" 31 888 892 "hw2_temp/gradedtests.ml" 31 888 906
+  int_ref factorial_rec "hw2_temp/gradedtests.ml" 47 1579 1583 "hw2_temp/gradedtests.ml" 47 1579 1596
 )
-"hw2_temp/gradedtests.ml" 502 16972 17015 "hw2_temp/gradedtests.ml" 502 16972 17016
+"hw2_temp/gradedtests.ml" 502 16972 17014 "hw2_temp/gradedtests.ml" 502 16972 17015
 type(
   int
 )
-"hw2_temp/gradedtests.ml" 502 16972 16999 "hw2_temp/gradedtests.ml" 502 16972 17017
+"hw2_temp/gradedtests.ml" 502 16972 16999 "hw2_temp/gradedtests.ml" 502 16972 17016
 call(
   stack
 )
 type(
   X86.prog
 )
-"hw2_temp/gradedtests.ml" 502 16972 17018 "hw2_temp/gradedtests.ml" 502 16972 17022
+"hw2_temp/gradedtests.ml" 502 16972 17017 "hw2_temp/gradedtests.ml" 502 16972 17021
 type(
   int64
 )
-"hw2_temp/gradedtests.ml" 502 16972 16986 "hw2_temp/gradedtests.ml" 502 16972 17022
+"hw2_temp/gradedtests.ml" 502 16972 16986 "hw2_temp/gradedtests.ml" 502 16972 17021
 call(
   stack
 )
 type(
   Assert.assertion
 )
-"hw2_temp/gradedtests.ml" 502 16972 16976 "hw2_temp/gradedtests.ml" 502 16972 17023
+"hw2_temp/gradedtests.ml" 502 16972 16976 "hw2_temp/gradedtests.ml" 502 16972 17022
 type(
   string * Assert.assertion
 )
-"hw2_temp/gradedtests.ml" 501 16939 16970 "hw2_temp/gradedtests.ml" 503 17025 17028
+"hw2_temp/gradedtests.ml" 501 16939 16970 "hw2_temp/gradedtests.ml" 503 17024 17027
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/gradedtests.ml" 501 16939 16941 "hw2_temp/gradedtests.ml" 503 17025 17029
+"hw2_temp/gradedtests.ml" 501 16939 16941 "hw2_temp/gradedtests.ml" 503 17024 17028
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/gradedtests.ml" 504 17031 17045 "hw2_temp/gradedtests.ml" 504 17031 17051
+"hw2_temp/gradedtests.ml" 504 17030 17044 "hw2_temp/gradedtests.ml" 504 17030 17050
 type(
   string
 )
-"hw2_temp/gradedtests.ml" 504 17031 17053 "hw2_temp/gradedtests.ml" 504 17031 17055
+"hw2_temp/gradedtests.ml" 504 17030 17052 "hw2_temp/gradedtests.ml" 504 17030 17054
 type(
   int
 )
-"hw2_temp/gradedtests.ml" 504 17031 17057 "hw2_temp/gradedtests.ml" 504 17031 17059
+"hw2_temp/gradedtests.ml" 504 17030 17056 "hw2_temp/gradedtests.ml" 504 17030 17058
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/gradedtests.ml" 504 17031 17033 "hw2_temp/gradedtests.ml" 504 17031 17060
+"hw2_temp/gradedtests.ml" 504 17030 17032 "hw2_temp/gradedtests.ml" 504 17030 17059
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/gradedtests.ml" 500 16912 16937 "hw2_temp/gradedtests.ml" 505 17062 17063
+"hw2_temp/gradedtests.ml" 500 16912 16937 "hw2_temp/gradedtests.ml" 505 17061 17062
 type(
   Assert.assertion Assert.test list
 )
-"hw2_temp/gradedtests.ml" 505 17062 17064 "hw2_temp/gradedtests.ml" 505 17062 17065
+"hw2_temp/gradedtests.ml" 505 17061 17063 "hw2_temp/gradedtests.ml" 505 17061 17064
 type(
   Assert.assertion Assert.test list ->
   Assert.assertion Assert.test list -> Assert.suite
@@ -13943,18 +13943,18 @@ type(
 ident(
   ext_ref Pervasives.( @ )
 )
-"hw2_temp/gradedtests.ml" 505 17062 17067 "hw2_temp/gradedtests.ml" 505 17062 17083
+"hw2_temp/gradedtests.ml" 505 17061 17066 "hw2_temp/gradedtests.ml" 505 17061 17082
 type(
   Assert.assertion Assert.test
 )
 ident(
   int_ref other_team_tests "hw2_temp/gradedtests.ml" 496 16836 16840 "hw2_temp/gradedtests.ml" 496 16836 16856
 )
-"hw2_temp/gradedtests.ml" 505 17062 17066 "hw2_temp/gradedtests.ml" 505 17062 17084
+"hw2_temp/gradedtests.ml" 505 17061 17065 "hw2_temp/gradedtests.ml" 505 17061 17083
 type(
   Assert.assertion Assert.test list
 )
-"hw2_temp/gradedtests.ml" 500 16912 16937 "hw2_temp/gradedtests.ml" 505 17062 17084
+"hw2_temp/gradedtests.ml" 500 16912 16937 "hw2_temp/gradedtests.ml" 505 17061 17083
 call(
   stack
 )
@@ -13964,81 +13964,81 @@ type(
 type(
   Assert.suite
 )
-"hw2_temp/gradedtests.ml" 507 17086 17090 "hw2_temp/gradedtests.ml" 507 17086 17102
+"hw2_temp/gradedtests.ml" 507 17085 17089 "hw2_temp/gradedtests.ml" 507 17085 17101
 type(
   Assert.suite
 )
 ident(
-  def manual_tests "hw2_temp/gradedtests.ml" 516 17221 17221 "hw2_temp/gradedtests.ml" 1 0 -1
+  def manual_tests "hw2_temp/gradedtests.ml" 516 17220 17220 "hw2_temp/gradedtests.ml" 1 0 -1
 )
-"hw2_temp/gradedtests.ml" 508 17115 17129 "hw2_temp/gradedtests.ml" 508 17115 17155
+"hw2_temp/gradedtests.ml" 508 17114 17128 "hw2_temp/gradedtests.ml" 508 17114 17154
 type(
   string
 )
-"hw2_temp/gradedtests.ml" 508 17115 17157 "hw2_temp/gradedtests.ml" 508 17115 17159
+"hw2_temp/gradedtests.ml" 508 17114 17156 "hw2_temp/gradedtests.ml" 508 17114 17158
 type(
   int
 )
-"hw2_temp/gradedtests.ml" 508 17115 17161 "hw2_temp/gradedtests.ml" 510 17166 17169
+"hw2_temp/gradedtests.ml" 508 17114 17160 "hw2_temp/gradedtests.ml" 510 17165 17168
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/gradedtests.ml" 508 17115 17117 "hw2_temp/gradedtests.ml" 510 17166 17170
+"hw2_temp/gradedtests.ml" 508 17114 17116 "hw2_temp/gradedtests.ml" 510 17165 17169
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/gradedtests.ml" 511 17172 17186 "hw2_temp/gradedtests.ml" 511 17172 17202
+"hw2_temp/gradedtests.ml" 511 17171 17185 "hw2_temp/gradedtests.ml" 511 17171 17201
 type(
   string
 )
-"hw2_temp/gradedtests.ml" 511 17172 17204 "hw2_temp/gradedtests.ml" 511 17172 17205
+"hw2_temp/gradedtests.ml" 511 17171 17203 "hw2_temp/gradedtests.ml" 511 17171 17204
 type(
   int
 )
-"hw2_temp/gradedtests.ml" 511 17172 17207 "hw2_temp/gradedtests.ml" 513 17212 17215
+"hw2_temp/gradedtests.ml" 511 17171 17206 "hw2_temp/gradedtests.ml" 513 17211 17214
 type(
   (string * Assert.assertion) list
 )
-"hw2_temp/gradedtests.ml" 511 17172 17174 "hw2_temp/gradedtests.ml" 513 17212 17216
+"hw2_temp/gradedtests.ml" 511 17171 17173 "hw2_temp/gradedtests.ml" 513 17211 17215
 type(
   Assert.assertion Assert.test
 )
-"hw2_temp/gradedtests.ml" 507 17086 17113 "hw2_temp/gradedtests.ml" 514 17218 17219
+"hw2_temp/gradedtests.ml" 507 17085 17112 "hw2_temp/gradedtests.ml" 514 17217 17218
 type(
   Assert.suite
 )
 type(
   Assert.suite
 )
-"hw2_temp/gradedtests.ml" 516 17221 17225 "hw2_temp/gradedtests.ml" 516 17221 17237
+"hw2_temp/gradedtests.ml" 516 17220 17224 "hw2_temp/gradedtests.ml" 516 17220 17236
 type(
   Assert.suite
 )
 ident(
-  def graded_tests "hw2_temp/gradedtests.ml" 522 17318 17329 "hw2_temp/gradedtests.ml" 1 0 -1
+  def graded_tests "hw2_temp/gradedtests.ml" 522 17317 17328 "hw2_temp/gradedtests.ml" 1 0 -1
 )
-"hw2_temp/gradedtests.ml" 519 17269 17271 "hw2_temp/gradedtests.ml" 519 17269 17281
+"hw2_temp/gradedtests.ml" 519 17268 17270 "hw2_temp/gradedtests.ml" 519 17268 17280
 type(
   Assert.suite
 )
 ident(
   int_ref easy_tests "hw2_temp/gradedtests.ml" 461 15456 15460 "hw2_temp/gradedtests.ml" 461 15456 15470
 )
-"hw2_temp/gradedtests.ml" 519 17269 17282 "hw2_temp/gradedtests.ml" 519 17269 17283
+"hw2_temp/gradedtests.ml" 519 17268 17281 "hw2_temp/gradedtests.ml" 519 17268 17282
 type(
   Assert.suite -> Assert.assertion Assert.test list -> Assert.suite
 )
 ident(
   ext_ref Pervasives.( @ )
 )
-"hw2_temp/gradedtests.ml" 520 17284 17286 "hw2_temp/gradedtests.ml" 520 17284 17298
+"hw2_temp/gradedtests.ml" 520 17283 17285 "hw2_temp/gradedtests.ml" 520 17283 17297
 type(
   Assert.suite
 )
 ident(
   int_ref medium_tests "hw2_temp/gradedtests.ml" 479 16210 16214 "hw2_temp/gradedtests.ml" 479 16210 16226
 )
-"hw2_temp/gradedtests.ml" 520 17284 17299 "hw2_temp/gradedtests.ml" 520 17284 17300
+"hw2_temp/gradedtests.ml" 520 17283 17298 "hw2_temp/gradedtests.ml" 520 17283 17299
 type(
   Assert.suite ->
   Assert.assertion Assert.test list -> Assert.assertion Assert.test list
@@ -14046,42 +14046,42 @@ type(
 ident(
   ext_ref Pervasives.( @ )
 )
-"hw2_temp/gradedtests.ml" 521 17301 17303 "hw2_temp/gradedtests.ml" 521 17301 17315
+"hw2_temp/gradedtests.ml" 521 17300 17302 "hw2_temp/gradedtests.ml" 521 17300 17314
 type(
   Assert.suite
 )
 ident(
-  int_ref manual_tests "hw2_temp/gradedtests.ml" 507 17086 17090 "hw2_temp/gradedtests.ml" 507 17086 17102
+  int_ref manual_tests "hw2_temp/gradedtests.ml" 507 17085 17089 "hw2_temp/gradedtests.ml" 507 17085 17101
 )
-"hw2_temp/gradedtests.ml" 521 17301 17316 "hw2_temp/gradedtests.ml" 521 17301 17317
+"hw2_temp/gradedtests.ml" 521 17300 17315 "hw2_temp/gradedtests.ml" 521 17300 17316
 type(
   Assert.suite -> Assert.suite -> Assert.assertion Assert.test list
 )
 ident(
   ext_ref Pervasives.( @ )
 )
-"hw2_temp/gradedtests.ml" 522 17318 17319 "hw2_temp/gradedtests.ml" 522 17318 17329
+"hw2_temp/gradedtests.ml" 522 17317 17318 "hw2_temp/gradedtests.ml" 522 17317 17328
 type(
   Assert.suite
 )
 ident(
   int_ref hard_tests "hw2_temp/gradedtests.ml" 500 16912 16916 "hw2_temp/gradedtests.ml" 500 16912 16926
 )
-"hw2_temp/gradedtests.ml" 521 17301 17303 "hw2_temp/gradedtests.ml" 522 17318 17329
+"hw2_temp/gradedtests.ml" 521 17300 17302 "hw2_temp/gradedtests.ml" 522 17317 17328
 call(
   stack
 )
 type(
   Assert.assertion Assert.test list
 )
-"hw2_temp/gradedtests.ml" 520 17284 17286 "hw2_temp/gradedtests.ml" 522 17318 17329
+"hw2_temp/gradedtests.ml" 520 17283 17285 "hw2_temp/gradedtests.ml" 522 17317 17328
 call(
   stack
 )
 type(
   Assert.assertion Assert.test list
 )
-"hw2_temp/gradedtests.ml" 519 17269 17271 "hw2_temp/gradedtests.ml" 522 17318 17329
+"hw2_temp/gradedtests.ml" 519 17268 17270 "hw2_temp/gradedtests.ml" 522 17317 17328
 call(
   stack
 )

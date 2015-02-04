@@ -266,7 +266,9 @@ let store_byte (ol : operand list) (ind : int) (m : mach) (data : int64) :
   
 let condition_flags (res : int64) (m : mach) : unit =
   (m.flags.fs <- (Int64.shift_right_logical res 63) = Int64.one;
-   m.flags.fz <- res = Int64.zero)
+   m.flags.fz <- res = Int64.zero);
+  print_endline ("Cnd");
+  print_endline (string_of_bool m.flags.fz)
   
 let set_condition_flags (res : Int64_overflow.t) (m : mach) : unit =
   (m.flags.fo <- res.Int64_overflow.overflow;
@@ -292,23 +294,33 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
       let dest = decode_val ol 1 m in
       let res = Int64_overflow.sub dest src
       in
+      print_endline ("cmpq");
+      print_endline (Int64.to_string (src));
+      print_endline (Int64.to_string (dest));
+      print_endline (Int64.to_string (res.Int64_overflow.value));
+
       set_condition_flags res m;
       if src = Int64.min_int then m.flags.fo <- true
   | Subq ->
       let src = decode_val ol 0 m in
       let dest = decode_val ol 1 m in
-      let res = Int64_overflow.sub dest src
+      let res = Int64_overflow.sub dest src      
       in
+      print_endline ("subq");
+      print_endline (Int64.to_string (src));
+      print_endline (Int64.to_string (dest));
+      print_endline (Int64.to_string (res.Int64_overflow.value));
         (store_data ol 1 m res.Int64_overflow.value;
          set_condition_flags res m;
-         if src = Int64.min_int then m.flags.fo <- true);
+         if src = Int64.min_int then m.flags.fo <- true)
   | Imulq ->
       let src = decode_val ol 0 m in
       let reg = decode_val ol 1 m in
       let res = Int64_overflow.mul reg src
       in
         (store_data ol 1 m res.Int64_overflow.value;
-         set_condition_flags res m)
+         set_condition_flags res m);
+        print_endline("imulq")
   | Incq ->
       let src = decode_val ol 0 m in
       let res = Int64_overflow.succ src
@@ -321,7 +333,9 @@ let arith (op : opcode) (ol : operand list) (m : mach) : unit =
       in
         (store_data ol 0 m res.Int64_overflow.value;
          set_condition_flags res m;
-         if src = Int64.min_int then m.flags.fo <- true)
+         if src = Int64.min_int then m.flags.fo <- true);
+        
+        print_endline("Decq")
   | _ -> ()
   
 let logic (op : opcode) (ol : operand list) (m : mach) : unit =
@@ -401,7 +415,8 @@ let pop (ol : operand list) (m : mach) : unit =
 let dmove (op : opcode) (ol : operand list) (m : mach) : unit =
   match op with
   | Leaq -> let maddr = calculate_ind ol 0 m in store_data ol 1 m maddr
-  | Movq -> let src = decode_val ol 0 m in store_data ol 1 m src
+  | Movq -> let src = decode_val ol 0 m in store_data ol 1 m src;
+    print_endline("Movq");
   | Pushq -> push ol m
   | Popq -> pop ol m
   | _ -> ()
@@ -410,16 +425,24 @@ let flow (op : opcode) (ol : operand list) (m : mach) : unit =
   begin match op with
   | Jmp -> let src = decode_val ol 0 m in m.regs.(rind Rip) <- src
   | Callq ->
+      m.regs.(rind Rip) <- Int64.add m.regs.(rind Rip) 4L;
       let ripl = [ Reg Rip ] in
       push ripl m;
+      print_endline("callq");
+      print_endline(Int64.to_string m.regs.(rind Rip));
       let src = decode_val ol 0 m in
-      m.regs.(rind Rip) <- src
-  | Retq -> let ripl = [Reg Rip] in pop ripl m
+      m.regs.(rind Rip) <- src;
+      print_endline(Int64.to_string m.regs.(rind Rip))
+  | Retq -> let ripl = [Reg Rip] in pop ripl m;
+    print_endline("retq");
+    print_endline(Int64.to_string m.regs.(rind Rip))
   | J cc ->
-      let src = decode_val ol 0 m in
-      if interp_cnd { fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
-      then m.regs.(rind Rip) <- src
-      else m.regs.(rind Rip) <- (Int64.add m.regs.(rind Rip) 4L) 
+      if interp_cnd {fo = m.flags.fo; fs = m.flags.fs; fz = m.flags.fz} cc
+      then (m.regs.(rind Rip) <- decode_val ol 0 m;       
+      print_endline("J true"))
+      else (m.regs.(rind Rip) <- 
+      Int64.add m.regs.(rind Rip) 4L;       
+      print_endline("J false"))
   | _ -> ()
   end
   
