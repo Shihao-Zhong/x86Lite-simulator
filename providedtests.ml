@@ -14,57 +14,49 @@ open Asm
  *)
 
 let gcd a b = [ text "main"
-                                  [ Movq,  [~$0; ~%Rax]
-                                  ; Movq,  [~$a; ~%Rdi]
-																	; Movq,  [~$b; ~%Rsi]
-																	; Cmpq,  [~$0; ~%Rdi]
-                                  ; J Lt,  [~$$"fix_Rdi"]
-																	; Cmpq,  [~$0; ~%Rsi]
-                                  ; J Lt,  [~$$"fix_Rsi"]
-                                  ]
-																	
-                           ; text "loop"
-                                  [ Cmpq,  [~$0; ~%Rdi]
-                                  ; J Eq,  [~$$"exit"]
-																	; Cmpq,  [~$0; ~%Rsi]
-                                  ; J Eq,  [~$$"exit"]
-																	; Cmpq,  [~%Rsi; ~%Rdi]
-                                  ; J Eq,  [~$$"done"]
-																	; J Lt,  [~$$"lesser"]
-																	; J Gt,  [~$$"greater"]
-																	]
-																															
-													; text "fix_Rdi"
-                                  [ Negq, [~%Rdi] 
-																	; Cmpq,  [~$0; ~%Rsi]
-                                  ; J Lt,  [~$$"fix_Rsi"]
-                                  ]
-																			
-													; text "fix_Rsi"
-													
-                                  [ Negq, [~%Rsi]
-																	;	Jmp,   [~$$"loop"]
-                                  ]				
-																							
-													; text "greater"
-                                  [ Subq, [~%Rsi; ~%Rdi] 
-																	;	Jmp,   [~$$"loop"]
-                                  ]
-																	
-													; text "lesser"
-                                  [ Subq, [~%Rdi; ~%Rsi]
-																	;	Jmp,   [~$$"loop"]
-                                  ]
-																	
-													 ; text "done"
-																		[ Movq,  [~%Rsi; ~%Rax]
-									                  ; Jmp, [~$$"exit"]
-																	  ]
-													
-                           ; text "exit"
-                                  [ Retq,  [] 
-                                  ]
-																]
+                     [ Movq,  [~$0; ~%Rax]
+                     ; Movq,  [~$a; ~%Rdi]
+					 ; Movq,  [~$b; ~%Rsi]
+					 ; Cmpq,  [~$0; ~%Rdi]
+                     ; J Lt,  [~$$"fix_Rdi"]
+					 ; Cmpq,  [~$0; ~%Rsi]
+                     ; J Lt,  [~$$"fix_Rsi"]
+                     ]			  
+              ; text "loop"
+                     [ Cmpq,  [~$0; ~%Rdi]
+                     ; J Eq,  [~$$"exit"]
+					 ; Cmpq,  [~$0; ~%Rsi]
+                     ; J Eq,  [~$$"exit"]
+					 ; Cmpq,  [~%Rsi; ~%Rdi]
+                     ; J Eq,  [~$$"done"]
+					 ; J Lt,  [~$$"lesser"]
+					 ; J Gt,  [~$$"greater"]
+					 ]
+			  ; text "fix_Rdi"
+                     [ Negq, [~%Rdi] 
+					 ; Cmpq,  [~$0; ~%Rsi]
+                     ; J Lt,  [~$$"fix_Rsi"]
+                     ]
+			  ; text "fix_Rsi"
+                     [ Negq, [~%Rsi]
+					  ;	Jmp,   [~$$"loop"]
+                     ]
+			  ; text "greater"
+                     [ Subq, [~%Rsi; ~%Rdi] 
+					  ;	Jmp,   [~$$"loop"]
+                     ]
+			  ; text "lesser"
+                     [ Subq, [~%Rdi; ~%Rsi]
+					  ;	Jmp,   [~$$"loop"]
+                     ]
+			  ; text "done"
+					 [ Movq,  [~%Rsi; ~%Rax]
+					 ; Jmp, [~$$"exit"]
+					 ]
+              ; text "exit"
+                     [ Retq,  [] 
+                     ]
+			  ]
 
 																
 let test_machine (bs: sbyte list): mach =
@@ -175,7 +167,7 @@ let program_test (p:prog) (ans:int64) () =
   then failwith (Printf.sprintf("Expected %Ld but got %Ld") ans res)
   else ()
 	
-	let machine_test (s:string) (n: int) (m: mach) (f:mach -> bool) () =
+let machine_test (s:string) (n: int) (m: mach) (f:mach -> bool) () =
   for i=1 to n do step m done;
   if (f m) then () else failwith ("expected " ^ s)
 
