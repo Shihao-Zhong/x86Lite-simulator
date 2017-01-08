@@ -1,5 +1,5 @@
-# X86 Lite Interpreter #
-This project was the second homework for the compilers class at Penn. I worked with a partner to implement a interpreter for a subset of X86 in Ocaml. Details about the X86Lite instruction set available [here](http://www.cis.upenn.edu/~cis341/15sp/hw/hw2/).
+# x86 Lite Interpreter #
+This project was the second homework for the compilers class at Penn. I worked with a partner to implement a interpreter for a subset of x86 in Ocaml. Details about the x86Lite instruction set available [here](http://www.cis.upenn.edu/~cis341/15sp/hw/hw2/).
 
 ## Setup ##
 
@@ -39,7 +39,7 @@ Then, run your program `p`:
     
 `res` is the `int64` value that is the result of your computation.
 
-For an example of an X86Lite assembly program that can be run by the interpreter, see the gcd function below. When you call this function on two integers, it returns an X86Lite program implementing Euler's algorithm.
+For an example of an x86Lite assembly program that can be run by the interpreter, see the gcd function below. When you call this function on two integers, it returns an x86Lite program implementing Euler's algorithm.
 
     let gcd a b = [ text "main"
                      [ Movq,  [~$0; ~%Rax]
